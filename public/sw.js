@@ -1,10 +1,9 @@
-const CACHE_NAME = 'swim-gym-tracker-v1';
+const CACHE_NAME = 'swim-gym-tracker-v2';
 const BASE_PATH = '/GymApp/';
+const STATIC_ASSETS = [BASE_PATH, `${BASE_PATH}manifest.webmanifest`, `${BASE_PATH}icon.svg`];
 
 self.addEventListener('install', (event) => {
-  event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => cache.addAll([BASE_PATH, `${BASE_PATH}manifest.webmanifest`, `${BASE_PATH}icon.svg`]))
-  );
+  event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(STATIC_ASSETS)));
   self.skipWaiting();
 });
 
@@ -22,6 +21,30 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
+  const requestUrl = new URL(event.request.url);
+  const isSameOrigin = requestUrl.origin === self.location.origin;
+  const isPageRequest = event.request.mode === 'navigate' || event.request.headers.get('accept')?.includes('text/html');
+
+  if (isPageRequest) {
+    event.respondWith(
+      fetch(event.request)
+        .then((response) => {
+          if (response.ok) {
+            const copy = response.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(BASE_PATH, copy));
+          }
+
+          return response;
+        })
+        .catch(() => caches.match(BASE_PATH)),
+    );
+    return;
+  }
+
+  if (!isSameOrigin) {
+    return;
+  }
+
   event.respondWith(
     caches.match(event.request).then((cached) => {
       if (cached) {
@@ -30,8 +53,11 @@ self.addEventListener('fetch', (event) => {
 
       return fetch(event.request)
         .then((response) => {
-          const copy = response.clone();
-          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
+          if (response.ok) {
+            const copy = response.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
+          }
+
           return response;
         })
         .catch(() => caches.match(BASE_PATH));
