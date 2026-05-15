@@ -19,6 +19,7 @@ const enrichPrograms = (programs: Program[]): Program[] =>
         ...exercise,
         guideCues: exercise.guideCues && exercise.guideCues.length > 0 ? exercise.guideCues : defaults?.guideCues,
         videoUrl: exercise.videoUrl || defaults?.videoUrl,
+        swimDescription: exercise.swimDescription || defaults?.swimDescription,
       };
     }),
   }));
@@ -60,6 +61,7 @@ const hasValidProgramShape = (programs: unknown): programs is Program[] =>
           CATEGORIES.has(exercise.category) &&
           (exercise.imageUrl === undefined || typeof exercise.imageUrl === 'string') &&
           (exercise.videoUrl === undefined || typeof exercise.videoUrl === 'string') &&
+          (exercise.swimDescription === undefined || typeof exercise.swimDescription === 'string') &&
           (exercise.guideCues === undefined ||
             (Array.isArray(exercise.guideCues) && exercise.guideCues.every((cue) => typeof cue === 'string'))),
       ),

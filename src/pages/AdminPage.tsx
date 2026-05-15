@@ -19,6 +19,7 @@ const emptyExercise = (): Exercise => ({
   category: 'pull',
   imageUrl: '',
   videoUrl: '',
+  swimDescription: '',
   guideCues: ['Set up safely', 'Move with control', 'Stop before form breaks'],
 });
 
@@ -204,6 +205,15 @@ export function AdminPage({ programs, onProgramsChanged, onBack }: AdminPageProp
                 value={exercise.videoUrl ?? ''}
                 placeholder="Optional YouTube video or search URL"
                 onChange={(event) => updateExercise(selectedProgram.id, exercise.id, { videoUrl: event.target.value })}
+              />
+            </label>
+            <label>
+              Swimming benefit
+              <textarea
+                rows={3}
+                value={exercise.swimDescription ?? ''}
+                placeholder="How this helps swimming and which stroke it supports"
+                onChange={(event) => updateExercise(selectedProgram.id, exercise.id, { swimDescription: event.target.value })}
               />
             </label>
             <label>

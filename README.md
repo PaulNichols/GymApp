@@ -94,6 +94,8 @@ Important limitation: clearing Safari website data, switching phones, or using a
 
 Each exercise shows the most recent saved value, for example `Last time: 35 kg`. If there is no history, it shows `No previous entry`.
 
+Each default exercise also includes a short swimming transfer note explaining how it helps and which stroke it supports.
+
 ## Edit Programs
 
 Open **Admin / Edit Programs** to:
@@ -102,6 +104,7 @@ Open **Admin / Edit Programs** to:
 - Add exercises
 - Edit exercise name, equipment, unit, category, and image URL
 - Edit YouTube URL and visual cue text
+- Edit the swimming transfer description
 - Delete exercises
 - Move exercises up or down
 - Reset back to the default programs

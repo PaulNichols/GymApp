@@ -100,6 +100,12 @@ export function ProgramPage({ program, onBack, onComplete }: ProgramPageProps) {
         <ExerciseImage exercise={exercise} />
         <p className="equipment">{exercise.equipment}</p>
         <h1>{exercise.name}</h1>
+        {exercise.swimDescription && (
+          <section className="swim-description" aria-label="Swimming benefit">
+            <strong>Swimming transfer</strong>
+            <p>{exercise.swimDescription}</p>
+          </section>
+        )}
         <p className="last-time">
           {latestEntry && latestEntry.value ? `Last time: ${latestEntry.value} ${latestEntry.unit}` : 'No previous entry'}
         </p>

@@ -11,6 +11,7 @@ export interface Exercise {
   imageUrl?: string;
   videoUrl?: string;
   guideCues?: string[];
+  swimDescription?: string;
 }
 
 export interface Program {
