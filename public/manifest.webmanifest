@@ -1,7 +1,7 @@
 {
-  "name": "Swim Land Training",
-  "short_name": "Land Training",
-  "description": "A simple localStorage land training tracker for gym, mobility, and flexibility programs.",
+  "name": "Food Log",
+  "short_name": "Food Log",
+  "description": "A private mobile-first daily food tracker.",
   "start_url": "/GymApp/",
   "scope": "/GymApp/",
   "display": "standalone",

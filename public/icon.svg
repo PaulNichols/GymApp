@@ -1,6 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Swim Land Training icon">
-  <rect width="512" height="512" rx="96" fill="#0f766e"/>
-  <path d="M120 280h272" stroke="#fff" stroke-width="44" stroke-linecap="round"/>
-  <path d="M96 220v120M416 220v120M160 236v88M352 236v88" stroke="#ccfbf1" stroke-width="36" stroke-linecap="round"/>
-  <path d="M150 160c48 32 88 32 136 0s88-32 136 0" fill="none" stroke="#99f6e4" stroke-width="28" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Food Log icon">
+  <rect width="512" height="512" rx="88" fill="#0f766e"/>
+  <path d="M150 132h212c22 0 40 18 40 40v210c0 22-18 40-40 40H150c-22 0-40-18-40-40V172c0-22 18-40 40-40Z" fill="#fffefa"/>
+  <path d="M160 206h118M160 274h190M160 342h150" stroke="#0f766e" stroke-width="28" stroke-linecap="round"/>
+  <path d="M328 198c22 0 40 18 40 40s-18 40-40 40-40-18-40-40 18-40 40-40Z" fill="#a7f3d0"/>
+  <path d="M333 213c-16 12-23 28-20 49 18-4 32-14 42-31" fill="none" stroke="#047857" stroke-width="14" stroke-linecap="round"/>
 </svg>

@@ -1,17 +1,14 @@
-# Swim Land Training
+# Food Log
 
-A super simple mobile-first land training tracker for gym, mobility, and flexibility work. It is a static React + Vite + TypeScript app designed to run for free on GitHub Pages with all version 1 data stored in browser `localStorage`.
+A private mobile-first daily food tracker built with React, Vite, and TypeScript for GitHub Pages.
 
-## Tech Stack
+The default day is optimised for a routine of morning supplements, Man Shake + WPI breakfast, Paul's lunch shake, Man Shake + WPI evening meal, optional snacks, and daily notes.
 
-- React
-- Vite
-- TypeScript
-- Plain CSS
-- Browser `localStorage`
-- GitHub Pages and GitHub Actions
+## Privacy Warning
 
-No backend API, database, server-side hosting, or paid service is required.
+Food photos, diet notes, supplement notes, training hunger notes, and health-related observations are personal data. Treat exported zip files and committed `/data` and `/photos` files as sensitive.
+
+This app does not include analytics, CDN scripts, or a backend. It does not bundle a GitHub token and does not contain any hardcoded token.
 
 ## Run Locally
 
@@ -20,149 +17,109 @@ npm install
 npm run dev
 ```
 
-Vite will print the local URL, usually `http://localhost:5173/`.
+Vite prints the local URL, usually `http://localhost:5173/`.
 
-## Build
+## Build Locally
 
 ```bash
 npm run build
 ```
 
-The static site is generated in `dist/`.
+The static site is generated in `dist/`. The build output should not include repository `/data` or `/photos` folders for v1.
 
 ## Deploy to GitHub Pages
 
-This repository includes `.github/workflows/deploy-pages.yml`.
+This repository includes `.github/workflows/deploy.yml`.
 
-1. Push the app to the `main` branch.
-2. In GitHub, open the repository settings.
-3. Go to **Pages**.
-4. Set **Build and deployment** to **GitHub Actions**.
-5. Push to `main` or run the workflow manually.
+1. In GitHub, open repository **Settings**.
+2. Go to **Pages**.
+3. Set **Build and deployment** source to **GitHub Actions**.
+4. Push to `main` or run the workflow manually.
 
-The workflow installs dependencies, runs `npm run build`, uploads `dist`, and deploys it to GitHub Pages.
+The workflow runs `npm ci`, `npm run build`, uploads `dist`, and deploys using the official GitHub Pages actions.
 
 ## Vite Base Path
 
-The current repository is `GymApp`, so `vite.config.ts` uses:
+`vite.config.ts` infers the repository name from `GITHUB_REPOSITORY` during GitHub Actions builds. For local builds it falls back to `/GymApp/`, matching the current repository URL shape:
 
-```ts
-base: '/GymApp/'
+```text
+https://OWNER.github.io/GymApp/
 ```
 
-If the repository name changes, update this value to match the new GitHub Pages path:
+If this app is moved to a different repository, update the local fallback and manifest paths as needed.
 
-```ts
-base: '/NEW_REPOSITORY_NAME/'
+## Storage Modes
+
+### Local Only
+
+Local-only mode is the default. It stores daily JSON and compressed photos in IndexedDB on the current device. It works offline after the app has loaded, but clearing browser website data can remove local logs and photos.
+
+Use **Export day zip** or **Export week zip** to back up local data.
+
+### GitHub Repo
+
+GitHub repo mode uses the GitHub REST API from the browser only when you manually enter your own fine-grained personal access token in Settings.
+
+Token rules:
+
+- No token is hardcoded in the app, workflow, source, README examples, or environment files.
+- The token is optional.
+- The token is stored in `sessionStorage` by default, not `localStorage`.
+- The token is never logged.
+- Use **Forget token** to remove it from the browser session.
+
+Create a fine-grained GitHub token scoped to this single repository only with minimum **Contents: Read and write** permission. Do not grant broad account or organization permissions.
+
+When saving in GitHub mode, the app saves locally first, then commits:
+
+- `data/yyyy/mm/yyyy-mm-dd.json`
+- `photos/yyyy/mm/yyyy-mm-dd/*.webp`
+
+Existing files are updated by fetching the current file SHA first.
+
+## Exporting
+
+The Today page includes:
+
+- **Export day zip**
+- **Export week zip**
+
+Zip structure:
+
+```text
+data/yyyy/mm/yyyy-mm-dd.json
+photos/yyyy/mm/yyyy-mm-dd/*.webp
 ```
 
-Also update these files if the repo path changes:
+Exports work without GitHub storage because they read from the browser's local IndexedDB data.
 
-- `public/manifest.webmanifest`
-- `public/sw.js`
+## Daily JSON
 
-For a custom domain at the web root, use:
+One JSON file is stored per day:
 
-```ts
-base: '/'
+```text
+data/yyyy/mm/yyyy-mm-dd.json
 ```
 
-## How Data Works
+The JSON includes supplements, default meals, replacement meal notes/photos, snacks, daily notes, and Brisbane timestamps.
 
-All data is stored in the browser on the device using `localStorage`.
+## Weekly Codex Analysis
 
-The app stores:
+A later Codex job can read repository files directly from:
 
-- Program definitions, including Program A, Program B, and Flexibility
-- Exercise definitions
-- Workout history
-- Most recent value per exercise
+- `/data`
+- `/photos`
 
-The storage code lives in `src/services/storageService.ts` so localStorage access is not scattered through the app.
+Useful weekly analysis targets:
 
-Important limitation: clearing Safari website data, switching phones, or using a different browser can remove or hide this local data. Use export/import for backups.
-
-## Use the App
-
-1. Open the app on your phone.
-2. Choose **Program A**, **Program B**, or **Flexibility**.
-3. Work through one exercise at a time.
-4. Check the visual cue card or tap **Watch form videos** for YouTube form search results.
-5. Enter today’s value and optional notes.
-6. Tap **Save and Next**.
-7. Tap **Finish Program** on the final exercise.
-
-Each exercise shows the most recent saved value, for example `Last time: 35 kg`. If there is no history, it shows `No previous entry`.
-
-Each default exercise also includes a short swimming transfer note explaining how it helps and which stroke it supports.
-
-## Edit Programs
-
-Open **Admin / Edit Programs** to:
-
-- View Program A or Program B
-- Add exercises
-- Edit exercise name, equipment, unit, category, and image URL
-- Edit YouTube URL and visual cue text
-- Edit the swimming transfer description
-- Delete exercises
-- Move exercises up or down
-- Reset back to the default programs
-
-Program edits are stored in `localStorage`.
-
-## Export Data
-
-Open **Export / Import Data** and tap **Export Data**.
-
-The app downloads a JSON file containing:
-
-- App version
-- Export date/time
-- Program definitions
-- Workout history
-
-Keep this file somewhere safe if your phone browser data matters.
-
-## Import Data
-
-Open **Export / Import Data**, tap **Import Data**, and choose a previous JSON export.
-
-The app validates the basic shape of the file and asks for confirmation before replacing your current programs and history.
-
-## Default Programs
-
-Program A is Pull, legs, core.
-
-Program B is Swim power, back, hips, shoulders.
-
-Flexibility is a 10-15 minute land mobility routine for evenings, after a walk, or after a shower. It includes cat-camel, child's pose, lower-back rotations, hip flexor, glute, hamstring, calf, forward fold, and thoracic rotation work.
-
-The included default exercises match the first version requirements and use sensible default units such as `kg` and `seconds`.
-
-Each default exercise also includes three short form cues and a YouTube search link. The app does not bundle copyrighted exercise photos or videos.
-
-## PWA Support
-
-The app includes a web app manifest, placeholder icon, theme colour, and a small service worker for basic offline caching after the production site has loaded once.
-
-On iPhone, open the deployed GitHub Pages site in Safari and use **Add to Home Screen**.
-
-## Future Improvements
-
-- Cloud sync
-- User login
-- Charts
-- Personal bests
-- Exercise images
-- Rest timer
-- Apple Health integration
-- Multiple users
-- Supabase backend option
-- Firebase backend option
-- Azure Static Web Apps option
-- Azure Functions and Table Storage backend option for later cloud storage
-- Ability to track reps and sets properly
-- Ability to record perceived effort
-- Ability to record bodyweight
-- Ability to export CSV
+- default meal consistency
+- supplement consistency
+- creatine consistency
+- AgeMate consistency
+- collagen peptides consistency
+- evening meal replacements
+- snack frequency
+- photos of replacement meals
+- whether under-eating after swimming or training appears likely
+- whether dinners or snacks are the main issue
+- simple improvements for the next week

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'swim-gym-tracker-v2';
+const CACHE_NAME = 'food-log-v1';
 const BASE_PATH = '/GymApp/';
 const STATIC_ASSETS = [BASE_PATH, `${BASE_PATH}manifest.webmanifest`, `${BASE_PATH}icon.svg`];
 
