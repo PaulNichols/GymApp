@@ -16,6 +16,8 @@ const owner = 'PaulNichols';
 const repo = 'GymApp';
 const branch = 'main';
 const tokenKey = 'swimGymTracker.githubToken';
+const maxGitHubWriteAttempts = 3;
+const retryDelayMs = 700;
 
 export const syncCurrentLandTrainingDataToGitHub = async (): Promise<string> => {
   const data = storageService.exportData();
@@ -88,24 +90,35 @@ const saveGitHubToken = (token: string): void => {
 };
 
 const putContentFile = async (token: string, request: PutContentRequest): Promise<void> => {
-  const existingSha = await getExistingSha(token, request.path);
-  const payload: Record<string, unknown> = {
-    message: request.message,
-    content: toBase64(request.content),
-    branch,
-  };
+  const content = toBase64(request.content);
 
-  if (existingSha) {
-    payload.sha = existingSha;
-  }
+  for (let attempt = 1; attempt <= maxGitHubWriteAttempts; attempt += 1) {
+    const existingSha = await getExistingSha(token, request.path);
+    const payload: Record<string, unknown> = {
+      message: request.message,
+      content,
+      branch,
+    };
 
-  const response = await fetch(apiUrl(request.path), {
-    method: 'PUT',
-    headers: githubHeaders(token),
-    body: JSON.stringify(payload),
-  });
+    if (existingSha) {
+      payload.sha = existingSha;
+    }
 
-  if (!response.ok) {
+    const response = await fetch(apiUrl(request.path), {
+      method: 'PUT',
+      headers: githubHeaders(token),
+      body: JSON.stringify(payload),
+    });
+
+    if (response.ok) {
+      return;
+    }
+
+    if (response.status === 409 && attempt < maxGitHubWriteAttempts) {
+      await waitForRetry(attempt);
+      continue;
+    }
+
     throw createGitHubError(response.status);
   }
 };
@@ -152,8 +165,17 @@ const createGitHubError = (status: number): Error => {
     return new Error('GitHub repository, branch, or data path was not found, or the token cannot access it.');
   }
 
+  if (status === 409) {
+    return new Error('GitHub is still processing a recent sync. Wait a few seconds and tap Sync again.');
+  }
+
   return new Error(`GitHub sync failed with status ${status}.`);
 };
+
+const waitForRetry = (attempt: number): Promise<void> =>
+  new Promise((resolve) => {
+    window.setTimeout(resolve, retryDelayMs * attempt);
+  });
 
 const toBase64 = (value: string): string => {
   const bytes = new TextEncoder().encode(value);
