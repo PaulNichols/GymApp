@@ -1,6 +1,6 @@
 {
   "appVersion": "0.1.0",
-  "exportedAt": "2026-06-28T03:43:24.312Z",
+  "exportedAt": "2026-06-28T05:52:34.158Z",
   "programs": [
     {
       "id": "program-a",
@@ -13,13 +13,13 @@
           "equipment": "assisted chin-up machine",
           "unit": "kg",
           "category": "pull",
+          "swimDescription": "Builds the vertical pulling strength used in freestyle and butterfly catches, especially when you need to hold water through the front of the pull.",
           "guideCues": [
             "Start from a long-arm hang",
             "Pull elbows down toward ribs",
             "Lower slowly under control"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Assisted%20chin-up%20assisted%20chin-up%20machine%20proper%20form",
-          "swimDescription": "Builds the vertical pulling strength used in freestyle and butterfly catches, especially when you need to hold water through the front of the pull."
+          "videoUrl": "https://www.youtube.com/results?search_query=Assisted%20chin-up%20assisted%20chin-up%20machine%20proper%20form"
         },
         {
           "id": "chest-supported-row",
@@ -27,13 +27,13 @@
           "equipment": "seated row machine",
           "unit": "kg",
           "category": "row",
+          "swimDescription": "Strengthens mid-back retraction for freestyle and backstroke, helping you finish the pull without shrugging or overusing the neck.",
           "guideCues": [
             "Chest stays planted on pad",
             "Pull handles toward lower ribs",
             "Pause before returning forward"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Chest-supported%20row%20seated%20row%20machine%20proper%20form",
-          "swimDescription": "Strengthens mid-back retraction for freestyle and backstroke, helping you finish the pull without shrugging or overusing the neck."
+          "videoUrl": "https://www.youtube.com/results?search_query=Chest-supported%20row%20seated%20row%20machine%20proper%20form"
         },
         {
           "id": "straight-arm-pulldown",
@@ -41,13 +41,13 @@
           "equipment": "cable machine",
           "unit": "kg",
           "category": "pull",
+          "swimDescription": "Closely matches the freestyle and butterfly catch-to-press motion, teaching the lats to press water back while the core stays still.",
           "guideCues": [
             "Soft elbows, arms mostly straight",
             "Sweep bar to thighs",
             "Keep ribs down and torso still"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Straight-arm%20pulldown%20cable%20machine%20proper%20form",
-          "swimDescription": "Closely matches the freestyle and butterfly catch-to-press motion, teaching the lats to press water back while the core stays still."
+          "videoUrl": "https://www.youtube.com/results?search_query=Straight-arm%20pulldown%20cable%20machine%20proper%20form"
         },
         {
           "id": "rear-delt-fly",
@@ -55,13 +55,13 @@
           "equipment": "rear delt / fly machine",
           "unit": "kg",
           "category": "shoulders",
+          "swimDescription": "Supports shoulder balance for freestyle and backstroke recovery so the front of the shoulder is not doing all the work.",
           "guideCues": [
             "Lead with elbows, not hands",
             "Open wide to shoulder height",
             "Control the return"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Rear%20delt%20fly%20rear%20delt%20%2F%20fly%20machine%20proper%20form",
-          "swimDescription": "Supports shoulder balance for freestyle and backstroke recovery so the front of the shoulder is not doing all the work."
+          "videoUrl": "https://www.youtube.com/results?search_query=Rear%20delt%20fly%20rear%20delt%20%2F%20fly%20machine%20proper%20form"
         },
         {
           "id": "leg-press",
@@ -69,13 +69,13 @@
           "equipment": "leg press machine",
           "unit": "kg",
           "category": "legs",
+          "swimDescription": "Builds leg drive for starts, turns, and push-offs across every stroke, with the biggest transfer to wall speed and streamline distance.",
           "guideCues": [
             "Feet about shoulder width",
             "Lower until knees bend comfortably",
             "Drive through mid-foot, no knee lockout"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Leg%20press%20leg%20press%20machine%20proper%20form",
-          "swimDescription": "Builds leg drive for starts, turns, and push-offs across every stroke, with the biggest transfer to wall speed and streamline distance."
+          "videoUrl": "https://www.youtube.com/results?search_query=Leg%20press%20leg%20press%20machine%20proper%20form"
         },
         {
           "id": "dumbbell-romanian-deadlift",
@@ -83,13 +83,13 @@
           "equipment": "dumbbells",
           "unit": "kg",
           "category": "legs",
+          "swimDescription": "Strengthens hamstrings and glutes for dolphin kick and freestyle kick rhythm, while also protecting the lower back during starts and turns.",
           "guideCues": [
             "Push hips back first",
             "Dumbbells track close to legs",
             "Stand tall by squeezing glutes"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Dumbbell%20Romanian%20deadlift%20dumbbells%20proper%20form",
-          "swimDescription": "Strengthens hamstrings and glutes for dolphin kick and freestyle kick rhythm, while also protecting the lower back during starts and turns."
+          "videoUrl": "https://www.youtube.com/results?search_query=Dumbbell%20Romanian%20deadlift%20dumbbells%20proper%20form"
         },
         {
           "id": "dumbbell-external-rotation",
@@ -97,13 +97,13 @@
           "equipment": "dumbbell",
           "unit": "kg",
           "category": "shoulders",
+          "swimDescription": "Builds rotator cuff control for freestyle and butterfly recovery, helping keep the shoulder centred through repeated overhead strokes.",
           "guideCues": [
             "Elbow stays fixed by side",
             "Rotate forearm outward slowly",
             "Use light load and strict control"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Dumbbell%20external%20rotation%20dumbbell%20proper%20form",
-          "swimDescription": "Builds rotator cuff control for freestyle and butterfly recovery, helping keep the shoulder centred through repeated overhead strokes."
+          "videoUrl": "https://www.youtube.com/results?search_query=Dumbbell%20external%20rotation%20dumbbell%20proper%20form"
         },
         {
           "id": "weighted-dead-bug-hollow-hold",
@@ -111,13 +111,13 @@
           "equipment": "dumbbell or bodyweight",
           "unit": "seconds",
           "category": "core",
+          "swimDescription": "Improves body-line control for streamline, freestyle rotation, and butterfly undulation without the hips or ribs leaking position.",
           "guideCues": [
             "Low back stays pressed down",
             "Reach long through arms and legs",
             "Stop before form breaks"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Weighted%20dead%20bug%20%2F%20hollow%20hold%20dumbbell%20or%20bodyweight%20proper%20form",
-          "swimDescription": "Improves body-line control for streamline, freestyle rotation, and butterfly undulation without the hips or ribs leaking position."
+          "videoUrl": "https://www.youtube.com/results?search_query=Weighted%20dead%20bug%20%2F%20hollow%20hold%20dumbbell%20or%20bodyweight%20proper%20form"
         },
         {
           "id": "farmers-carry",
@@ -125,22 +125,13 @@
           "equipment": "dumbbells or kettlebells",
           "unit": "seconds",
           "category": "power",
+          "swimDescription": "Builds grip, trunk stiffness, and shoulder packing that carry over to freestyle and backstroke pull stability late in a set.",
           "guideCues": [
             "Stand tall with shoulders packed",
             "Walk slowly without leaning",
             "Keep grip tight and ribs down"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Farmer's%20carry%20dumbbells%20or%20kettlebells%20proper%20form",
-          "swimDescription": "Builds grip, trunk stiffness, and shoulder packing that carry over to freestyle and backstroke pull stability late in a set."
-        },
-        {
-          "id": "exercise-c5d12f3f-8b4b-48bf-b31b-11da5df0f23e",
-          "name": "Calf raises",
-          "equipment": "",
-          "unit": "kg",
-          "category": "legs",
-          "imageUrl": "",
-          "swimDescription": "None. Just helps my Achilles"
+          "videoUrl": "https://www.youtube.com/results?search_query=Farmer's%20carry%20dumbbells%20or%20kettlebells%20proper%20form"
         }
       ]
     },
@@ -155,13 +146,13 @@
           "equipment": "lat pulldown machine",
           "unit": "kg",
           "category": "pull",
+          "swimDescription": "Builds the main pulling muscles for freestyle and butterfly, especially the strong early catch and acceleration under the body.",
           "guideCues": [
             "Grip just outside shoulders",
             "Pull bar toward upper chest",
             "Keep shoulders down away from ears"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Lat%20pulldown%20lat%20pulldown%20machine%20proper%20form",
-          "swimDescription": "Builds the main pulling muscles for freestyle and butterfly, especially the strong early catch and acceleration under the body."
+          "videoUrl": "https://www.youtube.com/results?search_query=Lat%20pulldown%20lat%20pulldown%20machine%20proper%20form"
         },
         {
           "id": "single-arm-dumbbell-row",
@@ -169,13 +160,13 @@
           "equipment": "dumbbell",
           "unit": "kg",
           "category": "row",
+          "swimDescription": "Trains one-side pulling strength and trunk control for freestyle rotation, helping each arm connect to the lat without twisting loose.",
           "guideCues": [
             "Brace with flat back",
             "Pull elbow toward hip",
             "Lower until shoulder blade reaches forward"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Single-arm%20dumbbell%20row%20dumbbell%20proper%20form",
-          "swimDescription": "Trains one-side pulling strength and trunk control for freestyle rotation, helping each arm connect to the lat without twisting loose."
+          "videoUrl": "https://www.youtube.com/results?search_query=Single-arm%20dumbbell%20row%20dumbbell%20proper%20form"
         },
         {
           "id": "dumbbell-pullover",
@@ -183,13 +174,13 @@
           "equipment": "dumbbell",
           "unit": "kg",
           "category": "pull",
+          "swimDescription": "Works shoulder extension and lat length for freestyle and butterfly, useful for feeling a long catch without collapsing the ribs.",
           "guideCues": [
             "Ribs stay down on bench",
             "Move dumbbell in a smooth arc",
             "Stop when shoulders feel stretched"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Dumbbell%20pullover%20dumbbell%20proper%20form",
-          "swimDescription": "Works shoulder extension and lat length for freestyle and butterfly, useful for feeling a long catch without collapsing the ribs."
+          "videoUrl": "https://www.youtube.com/results?search_query=Dumbbell%20pullover%20dumbbell%20proper%20form"
         },
         {
           "id": "face-pull",
@@ -197,13 +188,13 @@
           "equipment": "cable machine with rope",
           "unit": "kg",
           "category": "shoulders",
+          "swimDescription": "Keeps the upper back and external rotators strong for freestyle, backstroke, and butterfly recovery positions.",
           "guideCues": [
             "Pull rope toward eye level",
             "Elbows high and wide",
             "Finish with hands beside ears"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Face%20pull%20cable%20machine%20with%20rope%20proper%20form",
-          "swimDescription": "Keeps the upper back and external rotators strong for freestyle, backstroke, and butterfly recovery positions."
+          "videoUrl": "https://www.youtube.com/results?search_query=Face%20pull%20cable%20machine%20with%20rope%20proper%20form"
         },
         {
           "id": "triceps-pressdown",
@@ -211,13 +202,13 @@
           "equipment": "cable machine",
           "unit": "kg",
           "category": "arms",
+          "swimDescription": "Strengthens the final push phase of freestyle and butterfly, helping finish each stroke past the hip instead of slipping early.",
           "guideCues": [
             "Elbows pinned by sides",
             "Press rope or bar to thighs",
             "Control back to bent elbows"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Triceps%20pressdown%20cable%20machine%20proper%20form",
-          "swimDescription": "Strengthens the final push phase of freestyle and butterfly, helping finish each stroke past the hip instead of slipping early."
+          "videoUrl": "https://www.youtube.com/results?search_query=Triceps%20pressdown%20cable%20machine%20proper%20form"
         },
         {
           "id": "goblet-squat",
@@ -225,13 +216,13 @@
           "equipment": "kettlebell or dumbbell",
           "unit": "kg",
           "category": "legs",
+          "swimDescription": "Builds leg strength and hip mobility for breaststroke kick, starts, and turns while keeping the torso upright and controlled.",
           "guideCues": [
             "Hold weight close to chest",
             "Sit between knees",
             "Stand tall through whole foot"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Goblet%20squat%20kettlebell%20or%20dumbbell%20proper%20form",
-          "swimDescription": "Builds leg strength and hip mobility for breaststroke kick, starts, and turns while keeping the torso upright and controlled."
+          "videoUrl": "https://www.youtube.com/results?search_query=Goblet%20squat%20kettlebell%20or%20dumbbell%20proper%20form"
         },
         {
           "id": "hamstring-curl",
@@ -239,13 +230,13 @@
           "equipment": "hamstring curl machine",
           "unit": "kg",
           "category": "legs",
+          "swimDescription": "Targets knee flexion for breaststroke recovery and supports hamstring durability for starts, turns, and dolphin kick.",
           "guideCues": [
             "Hips stay heavy on pad",
             "Curl heels toward glutes",
             "Lower slowly to full control"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Hamstring%20curl%20hamstring%20curl%20machine%20proper%20form",
-          "swimDescription": "Targets knee flexion for breaststroke recovery and supports hamstring durability for starts, turns, and dolphin kick."
+          "videoUrl": "https://www.youtube.com/results?search_query=Hamstring%20curl%20hamstring%20curl%20machine%20proper%20form"
         },
         {
           "id": "kettlebell-swing",
@@ -253,13 +244,13 @@
           "equipment": "kettlebell",
           "unit": "kg",
           "category": "power",
+          "swimDescription": "Develops hip snap for starts, turns, and butterfly dolphin kick power, with the strongest transfer to explosive wall push-offs.",
           "guideCues": [
             "Hinge, do not squat",
             "Snap hips forward",
             "Let arms guide, not lift"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Kettlebell%20swing%20kettlebell%20proper%20form",
-          "swimDescription": "Develops hip snap for starts, turns, and butterfly dolphin kick power, with the strongest transfer to explosive wall push-offs."
+          "videoUrl": "https://www.youtube.com/results?search_query=Kettlebell%20swing%20kettlebell%20proper%20form"
         },
         {
           "id": "medicine-ball-slam",
@@ -267,13 +258,13 @@
           "equipment": "medicine ball",
           "unit": "kg",
           "category": "power",
+          "swimDescription": "Builds whole-body power for butterfly and freestyle sprinting, linking the overhead position to a fast core-driven pull down.",
           "guideCues": [
             "Reach tall overhead",
             "Brace and slam through the floor",
             "Reset before the next rep"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Medicine%20ball%20slam%20medicine%20ball%20proper%20form",
-          "swimDescription": "Builds whole-body power for butterfly and freestyle sprinting, linking the overhead position to a fast core-driven pull down."
+          "videoUrl": "https://www.youtube.com/results?search_query=Medicine%20ball%20slam%20medicine%20ball%20proper%20form"
         },
         {
           "id": "low-twist-high-twist",
@@ -281,21 +272,13 @@
           "equipment": "cable machine",
           "unit": "kg",
           "category": "core",
+          "swimDescription": "Trains rotation for freestyle and backstroke so the hips, ribs, and pull connect instead of the arm working alone.",
           "guideCues": [
             "Stand tall with cable to one side",
             "Rotate through trunk and hips",
             "Control back to start position"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Low%20twist%20or%20high%20twist%20cable%20machine%20proper%20form",
-          "swimDescription": "Trains rotation for freestyle and backstroke so the hips, ribs, and pull connect instead of the arm working alone."
-        },
-        {
-          "id": "exercise-6b4922e0-ec6d-4e88-9bf7-363a065ef574",
-          "name": "Dumbbell bench press",
-          "equipment": "",
-          "unit": "kg",
-          "category": "arms",
-          "imageUrl": ""
+          "videoUrl": "https://www.youtube.com/results?search_query=Low%20twist%20or%20high%20twist%20cable%20machine%20proper%20form"
         }
       ]
     },
