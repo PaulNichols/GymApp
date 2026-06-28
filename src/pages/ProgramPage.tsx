@@ -35,6 +35,7 @@ export function ProgramPage({ program, onBack, onComplete }: ProgramPageProps) {
   }
 
   const latestEntry = storageService.getLatestEntryForExercise(exercise.id);
+  const latestNote = latestEntry?.notes?.trim();
   const draft = drafts[exercise.id] ?? { value: '', unit: exercise.unit, notes: '' };
   const progressText = `Exercise ${index + 1} of ${program.exercises.length}`;
 
@@ -110,9 +111,14 @@ export function ProgramPage({ program, onBack, onComplete }: ProgramPageProps) {
           </section>
         )}
         <ExerciseImage exercise={exercise} />
-        <p className="last-time">
-          {latestEntry && latestEntry.value ? `Last time: ${latestEntry.value} ${latestEntry.unit}` : 'No previous entry'}
-        </p>
+        <section className="last-entry" aria-label="Previous entry">
+          <strong>{latestEntry && latestEntry.value ? `Last time: ${latestEntry.value} ${latestEntry.unit}` : 'No previous entry'}</strong>
+          {latestNote && (
+            <p>
+              <span>Previous note:</span> {latestNote}
+            </p>
+          )}
+        </section>
 
         <label>
           Today

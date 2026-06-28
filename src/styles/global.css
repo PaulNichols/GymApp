@@ -244,12 +244,28 @@ progress::-moz-progress-bar {
   line-height: 1.38;
 }
 
-.last-time {
+.last-entry {
+  display: grid;
+  gap: 6px;
   margin: 0;
   padding: 12px;
   border-radius: 8px;
   color: #10201d;
   background: #e7f4f1;
+}
+
+.last-entry strong {
+  font-weight: 900;
+}
+
+.last-entry p {
+  margin: 0;
+  color: #334155;
+  line-height: 1.35;
+}
+
+.last-entry span {
+  color: #0f766e;
   font-weight: 900;
 }
 
