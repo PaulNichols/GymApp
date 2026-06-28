@@ -1,10 +1,11 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { AdminPage } from './pages/AdminPage';
 import { DataPage } from './pages/DataPage';
 import { HistoryPage } from './pages/HistoryPage';
 import { HomePage } from './pages/HomePage';
 import { ProgramPage } from './pages/ProgramPage';
 import { WorkoutCompletePage } from './pages/WorkoutCompletePage';
+import { restoreWorkoutDataFromRepository } from './services/repositoryRestoreService';
 import { storageService } from './services/storageService';
 import type { Page, Program, WorkoutEntry } from './types';
 
@@ -15,6 +16,24 @@ export function App() {
   const [completedEntries, setCompletedEntries] = useState<WorkoutEntry[]>([]);
 
   const selectedProgram = selectedProgramId ? programs.find((program) => program.id === selectedProgramId) : undefined;
+
+  useEffect(() => {
+    let isMounted = true;
+
+    restoreWorkoutDataFromRepository()
+      .then(() => {
+        if (isMounted) {
+          setPrograms(storageService.getPrograms());
+        }
+      })
+      .catch((error) => {
+        console.warn(error);
+      });
+
+    return () => {
+      isMounted = false;
+    };
+  }, []);
 
   const refreshPrograms = () => {
     setPrograms(storageService.getPrograms());

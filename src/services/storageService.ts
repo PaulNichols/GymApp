@@ -46,6 +46,9 @@ const writeJson = <T,>(key: string, value: T): void => {
   localStorage.setItem(key, JSON.stringify(value));
 };
 
+const sortHistory = (history: WorkoutEntry[]): WorkoutEntry[] =>
+  [...history].sort((a, b) => new Date(a.completedAt).getTime() - new Date(b.completedAt).getTime());
+
 const hasValidProgramShape = (programs: unknown): programs is Program[] =>
   Array.isArray(programs) &&
   programs.every(
@@ -190,5 +193,50 @@ export const storageService = {
     writeJson(PROGRAMS_KEY, (data as ExportData).programs);
     writeJson(HISTORY_KEY, (data as ExportData).workoutHistory);
     return true;
+  },
+
+  restoreFromExportData(data: unknown): { historyAdded: number; historyTotal: number; programsChanged: boolean } | null {
+    if (
+      typeof data !== 'object' ||
+      data === null ||
+      !('programs' in data) ||
+      !('workoutHistory' in data) ||
+      !hasValidProgramShape((data as ExportData).programs) ||
+      !hasValidHistoryShape((data as ExportData).workoutHistory)
+    ) {
+      return null;
+    }
+
+    const imported = data as ExportData;
+    const existingProgramRaw = localStorage.getItem(PROGRAMS_KEY);
+    let programsChanged = false;
+
+    if (!existingProgramRaw) {
+      writeJson(PROGRAMS_KEY, appendMissingDefaultPrograms(enrichPrograms(imported.programs)));
+      programsChanged = true;
+    } else {
+      const existingPrograms = this.getPrograms();
+      const existingProgramIds = new Set(existingPrograms.map((program) => program.id));
+      const missingPrograms = imported.programs.filter((program) => !existingProgramIds.has(program.id));
+
+      if (missingPrograms.length > 0) {
+        writeJson(PROGRAMS_KEY, appendMissingDefaultPrograms(enrichPrograms([...existingPrograms, ...missingPrograms])));
+        programsChanged = true;
+      }
+    }
+
+    const existingHistory = this.getWorkoutHistory();
+    const existingEntryIds = new Set(existingHistory.map((entry) => entry.id));
+    const missingHistory = imported.workoutHistory.filter((entry) => !existingEntryIds.has(entry.id));
+
+    if (missingHistory.length > 0) {
+      writeJson(HISTORY_KEY, sortHistory([...existingHistory, ...missingHistory]));
+    }
+
+    return {
+      historyAdded: missingHistory.length,
+      historyTotal: existingHistory.length + missingHistory.length,
+      programsChanged,
+    };
   },
 };

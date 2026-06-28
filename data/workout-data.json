@@ -1,6 +1,6 @@
 {
   "appVersion": "0.1.0",
-  "exportedAt": "2026-06-28T05:43:52.298Z",
+  "exportedAt": "2026-06-28T03:43:24.312Z",
   "programs": [
     {
       "id": "program-a",
@@ -13,13 +13,13 @@
           "equipment": "assisted chin-up machine",
           "unit": "kg",
           "category": "pull",
-          "swimDescription": "Builds the vertical pulling strength used in freestyle and butterfly catches, especially when you need to hold water through the front of the pull.",
           "guideCues": [
             "Start from a long-arm hang",
             "Pull elbows down toward ribs",
             "Lower slowly under control"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Assisted%20chin-up%20assisted%20chin-up%20machine%20proper%20form"
+          "videoUrl": "https://www.youtube.com/results?search_query=Assisted%20chin-up%20assisted%20chin-up%20machine%20proper%20form",
+          "swimDescription": "Builds the vertical pulling strength used in freestyle and butterfly catches, especially when you need to hold water through the front of the pull."
         },
         {
           "id": "chest-supported-row",
@@ -27,13 +27,13 @@
           "equipment": "seated row machine",
           "unit": "kg",
           "category": "row",
-          "swimDescription": "Strengthens mid-back retraction for freestyle and backstroke, helping you finish the pull without shrugging or overusing the neck.",
           "guideCues": [
             "Chest stays planted on pad",
             "Pull handles toward lower ribs",
             "Pause before returning forward"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Chest-supported%20row%20seated%20row%20machine%20proper%20form"
+          "videoUrl": "https://www.youtube.com/results?search_query=Chest-supported%20row%20seated%20row%20machine%20proper%20form",
+          "swimDescription": "Strengthens mid-back retraction for freestyle and backstroke, helping you finish the pull without shrugging or overusing the neck."
         },
         {
           "id": "straight-arm-pulldown",
@@ -41,13 +41,13 @@
           "equipment": "cable machine",
           "unit": "kg",
           "category": "pull",
-          "swimDescription": "Closely matches the freestyle and butterfly catch-to-press motion, teaching the lats to press water back while the core stays still.",
           "guideCues": [
             "Soft elbows, arms mostly straight",
             "Sweep bar to thighs",
             "Keep ribs down and torso still"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Straight-arm%20pulldown%20cable%20machine%20proper%20form"
+          "videoUrl": "https://www.youtube.com/results?search_query=Straight-arm%20pulldown%20cable%20machine%20proper%20form",
+          "swimDescription": "Closely matches the freestyle and butterfly catch-to-press motion, teaching the lats to press water back while the core stays still."
         },
         {
           "id": "rear-delt-fly",
@@ -55,13 +55,13 @@
           "equipment": "rear delt / fly machine",
           "unit": "kg",
           "category": "shoulders",
-          "swimDescription": "Supports shoulder balance for freestyle and backstroke recovery so the front of the shoulder is not doing all the work.",
           "guideCues": [
             "Lead with elbows, not hands",
             "Open wide to shoulder height",
             "Control the return"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Rear%20delt%20fly%20rear%20delt%20%2F%20fly%20machine%20proper%20form"
+          "videoUrl": "https://www.youtube.com/results?search_query=Rear%20delt%20fly%20rear%20delt%20%2F%20fly%20machine%20proper%20form",
+          "swimDescription": "Supports shoulder balance for freestyle and backstroke recovery so the front of the shoulder is not doing all the work."
         },
         {
           "id": "leg-press",
@@ -69,13 +69,13 @@
           "equipment": "leg press machine",
           "unit": "kg",
           "category": "legs",
-          "swimDescription": "Builds leg drive for starts, turns, and push-offs across every stroke, with the biggest transfer to wall speed and streamline distance.",
           "guideCues": [
             "Feet about shoulder width",
             "Lower until knees bend comfortably",
             "Drive through mid-foot, no knee lockout"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Leg%20press%20leg%20press%20machine%20proper%20form"
+          "videoUrl": "https://www.youtube.com/results?search_query=Leg%20press%20leg%20press%20machine%20proper%20form",
+          "swimDescription": "Builds leg drive for starts, turns, and push-offs across every stroke, with the biggest transfer to wall speed and streamline distance."
         },
         {
           "id": "dumbbell-romanian-deadlift",
@@ -83,13 +83,13 @@
           "equipment": "dumbbells",
           "unit": "kg",
           "category": "legs",
-          "swimDescription": "Strengthens hamstrings and glutes for dolphin kick and freestyle kick rhythm, while also protecting the lower back during starts and turns.",
           "guideCues": [
             "Push hips back first",
             "Dumbbells track close to legs",
             "Stand tall by squeezing glutes"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Dumbbell%20Romanian%20deadlift%20dumbbells%20proper%20form"
+          "videoUrl": "https://www.youtube.com/results?search_query=Dumbbell%20Romanian%20deadlift%20dumbbells%20proper%20form",
+          "swimDescription": "Strengthens hamstrings and glutes for dolphin kick and freestyle kick rhythm, while also protecting the lower back during starts and turns."
         },
         {
           "id": "dumbbell-external-rotation",
@@ -97,13 +97,13 @@
           "equipment": "dumbbell",
           "unit": "kg",
           "category": "shoulders",
-          "swimDescription": "Builds rotator cuff control for freestyle and butterfly recovery, helping keep the shoulder centred through repeated overhead strokes.",
           "guideCues": [
             "Elbow stays fixed by side",
             "Rotate forearm outward slowly",
             "Use light load and strict control"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Dumbbell%20external%20rotation%20dumbbell%20proper%20form"
+          "videoUrl": "https://www.youtube.com/results?search_query=Dumbbell%20external%20rotation%20dumbbell%20proper%20form",
+          "swimDescription": "Builds rotator cuff control for freestyle and butterfly recovery, helping keep the shoulder centred through repeated overhead strokes."
         },
         {
           "id": "weighted-dead-bug-hollow-hold",
@@ -111,13 +111,13 @@
           "equipment": "dumbbell or bodyweight",
           "unit": "seconds",
           "category": "core",
-          "swimDescription": "Improves body-line control for streamline, freestyle rotation, and butterfly undulation without the hips or ribs leaking position.",
           "guideCues": [
             "Low back stays pressed down",
             "Reach long through arms and legs",
             "Stop before form breaks"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Weighted%20dead%20bug%20%2F%20hollow%20hold%20dumbbell%20or%20bodyweight%20proper%20form"
+          "videoUrl": "https://www.youtube.com/results?search_query=Weighted%20dead%20bug%20%2F%20hollow%20hold%20dumbbell%20or%20bodyweight%20proper%20form",
+          "swimDescription": "Improves body-line control for streamline, freestyle rotation, and butterfly undulation without the hips or ribs leaking position."
         },
         {
           "id": "farmers-carry",
@@ -125,13 +125,22 @@
           "equipment": "dumbbells or kettlebells",
           "unit": "seconds",
           "category": "power",
-          "swimDescription": "Builds grip, trunk stiffness, and shoulder packing that carry over to freestyle and backstroke pull stability late in a set.",
           "guideCues": [
             "Stand tall with shoulders packed",
             "Walk slowly without leaning",
             "Keep grip tight and ribs down"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Farmer's%20carry%20dumbbells%20or%20kettlebells%20proper%20form"
+          "videoUrl": "https://www.youtube.com/results?search_query=Farmer's%20carry%20dumbbells%20or%20kettlebells%20proper%20form",
+          "swimDescription": "Builds grip, trunk stiffness, and shoulder packing that carry over to freestyle and backstroke pull stability late in a set."
+        },
+        {
+          "id": "exercise-c5d12f3f-8b4b-48bf-b31b-11da5df0f23e",
+          "name": "Calf raises",
+          "equipment": "",
+          "unit": "kg",
+          "category": "legs",
+          "imageUrl": "",
+          "swimDescription": "None. Just helps my Achilles"
         }
       ]
     },
@@ -146,13 +155,13 @@
           "equipment": "lat pulldown machine",
           "unit": "kg",
           "category": "pull",
-          "swimDescription": "Builds the main pulling muscles for freestyle and butterfly, especially the strong early catch and acceleration under the body.",
           "guideCues": [
             "Grip just outside shoulders",
             "Pull bar toward upper chest",
             "Keep shoulders down away from ears"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Lat%20pulldown%20lat%20pulldown%20machine%20proper%20form"
+          "videoUrl": "https://www.youtube.com/results?search_query=Lat%20pulldown%20lat%20pulldown%20machine%20proper%20form",
+          "swimDescription": "Builds the main pulling muscles for freestyle and butterfly, especially the strong early catch and acceleration under the body."
         },
         {
           "id": "single-arm-dumbbell-row",
@@ -160,13 +169,13 @@
           "equipment": "dumbbell",
           "unit": "kg",
           "category": "row",
-          "swimDescription": "Trains one-side pulling strength and trunk control for freestyle rotation, helping each arm connect to the lat without twisting loose.",
           "guideCues": [
             "Brace with flat back",
             "Pull elbow toward hip",
             "Lower until shoulder blade reaches forward"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Single-arm%20dumbbell%20row%20dumbbell%20proper%20form"
+          "videoUrl": "https://www.youtube.com/results?search_query=Single-arm%20dumbbell%20row%20dumbbell%20proper%20form",
+          "swimDescription": "Trains one-side pulling strength and trunk control for freestyle rotation, helping each arm connect to the lat without twisting loose."
         },
         {
           "id": "dumbbell-pullover",
@@ -174,13 +183,13 @@
           "equipment": "dumbbell",
           "unit": "kg",
           "category": "pull",
-          "swimDescription": "Works shoulder extension and lat length for freestyle and butterfly, useful for feeling a long catch without collapsing the ribs.",
           "guideCues": [
             "Ribs stay down on bench",
             "Move dumbbell in a smooth arc",
             "Stop when shoulders feel stretched"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Dumbbell%20pullover%20dumbbell%20proper%20form"
+          "videoUrl": "https://www.youtube.com/results?search_query=Dumbbell%20pullover%20dumbbell%20proper%20form",
+          "swimDescription": "Works shoulder extension and lat length for freestyle and butterfly, useful for feeling a long catch without collapsing the ribs."
         },
         {
           "id": "face-pull",
@@ -188,13 +197,13 @@
           "equipment": "cable machine with rope",
           "unit": "kg",
           "category": "shoulders",
-          "swimDescription": "Keeps the upper back and external rotators strong for freestyle, backstroke, and butterfly recovery positions.",
           "guideCues": [
             "Pull rope toward eye level",
             "Elbows high and wide",
             "Finish with hands beside ears"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Face%20pull%20cable%20machine%20with%20rope%20proper%20form"
+          "videoUrl": "https://www.youtube.com/results?search_query=Face%20pull%20cable%20machine%20with%20rope%20proper%20form",
+          "swimDescription": "Keeps the upper back and external rotators strong for freestyle, backstroke, and butterfly recovery positions."
         },
         {
           "id": "triceps-pressdown",
@@ -202,13 +211,13 @@
           "equipment": "cable machine",
           "unit": "kg",
           "category": "arms",
-          "swimDescription": "Strengthens the final push phase of freestyle and butterfly, helping finish each stroke past the hip instead of slipping early.",
           "guideCues": [
             "Elbows pinned by sides",
             "Press rope or bar to thighs",
             "Control back to bent elbows"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Triceps%20pressdown%20cable%20machine%20proper%20form"
+          "videoUrl": "https://www.youtube.com/results?search_query=Triceps%20pressdown%20cable%20machine%20proper%20form",
+          "swimDescription": "Strengthens the final push phase of freestyle and butterfly, helping finish each stroke past the hip instead of slipping early."
         },
         {
           "id": "goblet-squat",
@@ -216,13 +225,13 @@
           "equipment": "kettlebell or dumbbell",
           "unit": "kg",
           "category": "legs",
-          "swimDescription": "Builds leg strength and hip mobility for breaststroke kick, starts, and turns while keeping the torso upright and controlled.",
           "guideCues": [
             "Hold weight close to chest",
             "Sit between knees",
             "Stand tall through whole foot"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Goblet%20squat%20kettlebell%20or%20dumbbell%20proper%20form"
+          "videoUrl": "https://www.youtube.com/results?search_query=Goblet%20squat%20kettlebell%20or%20dumbbell%20proper%20form",
+          "swimDescription": "Builds leg strength and hip mobility for breaststroke kick, starts, and turns while keeping the torso upright and controlled."
         },
         {
           "id": "hamstring-curl",
@@ -230,13 +239,13 @@
           "equipment": "hamstring curl machine",
           "unit": "kg",
           "category": "legs",
-          "swimDescription": "Targets knee flexion for breaststroke recovery and supports hamstring durability for starts, turns, and dolphin kick.",
           "guideCues": [
             "Hips stay heavy on pad",
             "Curl heels toward glutes",
             "Lower slowly to full control"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Hamstring%20curl%20hamstring%20curl%20machine%20proper%20form"
+          "videoUrl": "https://www.youtube.com/results?search_query=Hamstring%20curl%20hamstring%20curl%20machine%20proper%20form",
+          "swimDescription": "Targets knee flexion for breaststroke recovery and supports hamstring durability for starts, turns, and dolphin kick."
         },
         {
           "id": "kettlebell-swing",
@@ -244,13 +253,13 @@
           "equipment": "kettlebell",
           "unit": "kg",
           "category": "power",
-          "swimDescription": "Develops hip snap for starts, turns, and butterfly dolphin kick power, with the strongest transfer to explosive wall push-offs.",
           "guideCues": [
             "Hinge, do not squat",
             "Snap hips forward",
             "Let arms guide, not lift"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Kettlebell%20swing%20kettlebell%20proper%20form"
+          "videoUrl": "https://www.youtube.com/results?search_query=Kettlebell%20swing%20kettlebell%20proper%20form",
+          "swimDescription": "Develops hip snap for starts, turns, and butterfly dolphin kick power, with the strongest transfer to explosive wall push-offs."
         },
         {
           "id": "medicine-ball-slam",
@@ -258,13 +267,13 @@
           "equipment": "medicine ball",
           "unit": "kg",
           "category": "power",
-          "swimDescription": "Builds whole-body power for butterfly and freestyle sprinting, linking the overhead position to a fast core-driven pull down.",
           "guideCues": [
             "Reach tall overhead",
             "Brace and slam through the floor",
             "Reset before the next rep"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Medicine%20ball%20slam%20medicine%20ball%20proper%20form"
+          "videoUrl": "https://www.youtube.com/results?search_query=Medicine%20ball%20slam%20medicine%20ball%20proper%20form",
+          "swimDescription": "Builds whole-body power for butterfly and freestyle sprinting, linking the overhead position to a fast core-driven pull down."
         },
         {
           "id": "low-twist-high-twist",
@@ -272,13 +281,21 @@
           "equipment": "cable machine",
           "unit": "kg",
           "category": "core",
-          "swimDescription": "Trains rotation for freestyle and backstroke so the hips, ribs, and pull connect instead of the arm working alone.",
           "guideCues": [
             "Stand tall with cable to one side",
             "Rotate through trunk and hips",
             "Control back to start position"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Low%20twist%20or%20high%20twist%20cable%20machine%20proper%20form"
+          "videoUrl": "https://www.youtube.com/results?search_query=Low%20twist%20or%20high%20twist%20cable%20machine%20proper%20form",
+          "swimDescription": "Trains rotation for freestyle and backstroke so the hips, ribs, and pull connect instead of the arm working alone."
+        },
+        {
+          "id": "exercise-6b4922e0-ec6d-4e88-9bf7-363a065ef574",
+          "name": "Dumbbell bench press",
+          "equipment": "",
+          "unit": "kg",
+          "category": "arms",
+          "imageUrl": ""
         }
       ]
     },
@@ -431,5 +448,968 @@
       ]
     }
   ],
-  "workoutHistory": []
+  "workoutHistory": [
+    {
+      "id": "entry-5b550af6-b330-4180-8fd9-c18fcdbb4f17",
+      "exerciseId": "lat-pulldown",
+      "exerciseName": "Lat pulldown",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "lat pulldown machine",
+      "completedAt": "2026-05-08T09:09:06.747Z",
+      "value": "45",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-0232c92a-7b47-4f67-b9d3-ece7055c079d",
+      "exerciseId": "assisted-chin-up",
+      "exerciseName": "Assisted chin-up",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "assisted chin-up machine",
+      "completedAt": "2026-05-08T11:22:39.647Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-cfdd984d-f357-44b4-ba8a-000e4a89c0a3",
+      "exerciseId": "chest-supported-row",
+      "exerciseName": "Chest-supported row",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "seated row machine",
+      "completedAt": "2026-05-08T11:22:41.914Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-8dc3cf5b-aed8-4961-be4a-8dabbf64a847",
+      "exerciseId": "straight-arm-pulldown",
+      "exerciseName": "Straight-arm pulldown",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "cable machine",
+      "completedAt": "2026-05-08T11:23:06.988Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-1d64d11a-01e5-4809-896e-a742a314b01b",
+      "exerciseId": "rear-delt-fly",
+      "exerciseName": "Rear delt fly",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "rear delt / fly machine",
+      "completedAt": "2026-05-08T11:23:09.704Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-0af0713d-42c7-42ad-be40-f933bb12b140",
+      "exerciseId": "leg-press",
+      "exerciseName": "Leg press",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "leg press machine",
+      "completedAt": "2026-05-08T11:23:12.353Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-5414da13-94f1-4a5c-9022-96cec9f5196a",
+      "exerciseId": "dumbbell-romanian-deadlift",
+      "exerciseName": "Dumbbell Romanian deadlift",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbells",
+      "completedAt": "2026-05-08T11:23:17.835Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-e23aa606-19bb-4981-ba8e-092312fbca85",
+      "exerciseId": "dumbbell-external-rotation",
+      "exerciseName": "Dumbbell external rotation",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbell",
+      "completedAt": "2026-05-08T11:23:55.145Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-7866314d-0052-44b3-ad5f-dda64f78dd7e",
+      "exerciseId": "weighted-dead-bug-hollow-hold",
+      "exerciseName": "Weighted dead bug / hollow hold",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbell or bodyweight",
+      "completedAt": "2026-05-08T11:23:57.112Z",
+      "value": "",
+      "unit": "seconds"
+    },
+    {
+      "id": "entry-b9177cc9-5ecb-4365-a3b1-768e75b8c3fd",
+      "exerciseId": "farmers-carry",
+      "exerciseName": "Farmer's carry",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbells or kettlebells",
+      "completedAt": "2026-05-08T11:24:15.376Z",
+      "value": "",
+      "unit": "seconds"
+    },
+    {
+      "id": "entry-9b523e23-ba0b-4fa3-acd2-c1aa5cb90879",
+      "exerciseId": "lat-pulldown",
+      "exerciseName": "Lat pulldown",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "lat pulldown machine",
+      "completedAt": "2026-05-08T11:24:31.682Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-ab6b04e0-0f26-47ef-8c40-1eb3b68ff7d0",
+      "exerciseId": "single-arm-dumbbell-row",
+      "exerciseName": "Single-arm dumbbell row",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "dumbbell",
+      "completedAt": "2026-05-08T11:24:36.732Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-8dd9d804-64ca-4640-bde5-cf8dfcda32fe",
+      "exerciseId": "dumbbell-pullover",
+      "exerciseName": "Dumbbell pullover",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "dumbbell",
+      "completedAt": "2026-05-08T11:24:47.024Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-7e0daa9b-9525-4aae-9efe-859614d4def9",
+      "exerciseId": "face-pull",
+      "exerciseName": "Face pull",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "cable machine with rope",
+      "completedAt": "2026-05-08T11:25:02.105Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-0492dcf2-d83e-4f28-8dfc-24a5a4fd5e08",
+      "exerciseId": "triceps-pressdown",
+      "exerciseName": "Triceps pressdown",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "cable machine",
+      "completedAt": "2026-05-08T11:25:04.469Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-63ea4297-3170-4af3-b819-be02b1d54555",
+      "exerciseId": "goblet-squat",
+      "exerciseName": "Goblet squat",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "kettlebell or dumbbell",
+      "completedAt": "2026-05-08T11:25:42.219Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-5b8521b1-70f6-4fe6-8567-186fbd49287c",
+      "exerciseId": "hamstring-curl",
+      "exerciseName": "Hamstring curl",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "hamstring curl machine",
+      "completedAt": "2026-05-08T11:25:47.450Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-e414e99c-82c9-461f-b830-d42e8b4715b4",
+      "exerciseId": "kettlebell-swing",
+      "exerciseName": "Kettlebell swing",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "kettlebell",
+      "completedAt": "2026-05-08T11:25:49.383Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-c7aa2f46-5da1-4d33-b488-93c39d9eb7d6",
+      "exerciseId": "medicine-ball-slam",
+      "exerciseName": "Medicine ball slam",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "medicine ball",
+      "completedAt": "2026-05-08T11:25:52.434Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-b2fdd336-2b74-414e-b41e-f14dd932e894",
+      "exerciseId": "low-twist-high-twist",
+      "exerciseName": "Low twist or high twist",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "cable machine",
+      "completedAt": "2026-05-08T11:26:07.399Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-8752b9b1-8f43-4c3f-9ded-048100ce1164",
+      "exerciseId": "assisted-chin-up",
+      "exerciseName": "Assisted chin-up",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "assisted chin-up machine",
+      "completedAt": "2026-05-11T07:13:51.284Z",
+      "value": "10",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-e8a1ad49-cc2d-4246-b4ae-e53f2ebd4998",
+      "exerciseId": "chest-supported-row",
+      "exerciseName": "Chest-supported row",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "seated row machine",
+      "completedAt": "2026-05-11T07:18:20.039Z",
+      "value": "35",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-eb65f589-48c4-49c8-8774-5fdeb5f49e02",
+      "exerciseId": "straight-arm-pulldown",
+      "exerciseName": "Straight-arm pulldown",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "cable machine",
+      "completedAt": "2026-05-11T07:22:19.532Z",
+      "value": "19.3",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-778e9695-ddf8-4a0f-bcac-d308d31e844f",
+      "exerciseId": "rear-delt-fly",
+      "exerciseName": "Rear delt fly",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "rear delt / fly machine",
+      "completedAt": "2026-05-11T07:25:35.257Z",
+      "value": "31",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-64f53cf6-588e-4b39-911a-42f783be50ab",
+      "exerciseId": "leg-press",
+      "exerciseName": "Leg press",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "leg press machine",
+      "completedAt": "2026-05-11T07:42:23.038Z",
+      "value": "65",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-91162b07-d1fa-4894-8928-ad1a4943456b",
+      "exerciseId": "dumbbell-romanian-deadlift",
+      "exerciseName": "Dumbbell Romanian deadlift",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbells",
+      "completedAt": "2026-05-11T07:42:27.109Z",
+      "value": "10",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-692315ec-c39b-4a2d-9561-13e14f175f01",
+      "exerciseId": "dumbbell-external-rotation",
+      "exerciseName": "Dumbbell external rotation",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbell",
+      "completedAt": "2026-05-11T07:51:01.321Z",
+      "value": "5",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-d951561a-57bd-4772-a351-fc7f86946159",
+      "exerciseId": "weighted-dead-bug-hollow-hold",
+      "exerciseName": "Weighted dead bug / hollow hold",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbell or bodyweight",
+      "completedAt": "2026-05-11T08:01:24.472Z",
+      "value": "5",
+      "unit": "seconds",
+      "notes": "10kg"
+    },
+    {
+      "id": "entry-edfa5522-2fb8-421b-b7a6-7e863f108098",
+      "exerciseId": "farmers-carry",
+      "exerciseName": "Farmer's carry",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbells or kettlebells",
+      "completedAt": "2026-05-11T08:02:29.588Z",
+      "value": "30",
+      "unit": "seconds",
+      "notes": "20kg"
+    },
+    {
+      "id": "entry-d09d4191-d774-48ec-a3e4-0d0377393339",
+      "exerciseId": "lat-pulldown",
+      "exerciseName": "Lat pulldown",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "lat pulldown machine",
+      "completedAt": "2026-05-16T04:25:55.317Z",
+      "value": "35",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-c4038e6d-dff3-415e-a7a9-da53970e2bf0",
+      "exerciseId": "single-arm-dumbbell-row",
+      "exerciseName": "Single-arm dumbbell row",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "dumbbell",
+      "completedAt": "2026-05-16T04:30:27.202Z",
+      "value": "15",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-e5dacae8-6364-4ce5-bece-a2a299784af6",
+      "exerciseId": "dumbbell-pullover",
+      "exerciseName": "Dumbbell pullover",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "dumbbell",
+      "completedAt": "2026-05-16T04:41:39.610Z",
+      "value": "7",
+      "unit": "kg",
+      "notes": "Em 6"
+    },
+    {
+      "id": "entry-6d56a72d-9556-40a5-8cf6-ca161e8b01c5",
+      "exerciseId": "face-pull",
+      "exerciseName": "Face pull",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "cable machine with rope",
+      "completedAt": "2026-05-16T04:44:14.548Z",
+      "value": "3",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-57038334-3cad-4041-a169-c6af92ac1f2a",
+      "exerciseId": "triceps-pressdown",
+      "exerciseName": "Triceps pressdown",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "cable machine",
+      "completedAt": "2026-05-16T04:47:10.126Z",
+      "value": "5",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-e8cd2ae3-17e6-4cf7-895e-4c21c51aed4a",
+      "exerciseId": "goblet-squat",
+      "exerciseName": "Goblet squat",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "kettlebell or dumbbell",
+      "completedAt": "2026-05-16T04:52:18.313Z",
+      "value": "15",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-7ce5f8fa-1150-4739-af68-cfdff34cedeb",
+      "exerciseId": "hamstring-curl",
+      "exerciseName": "Hamstring curl",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "hamstring curl machine",
+      "completedAt": "2026-05-16T04:59:09.039Z",
+      "value": "70",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-2b2e2e1a-0396-4d8c-9fad-80b15513210e",
+      "exerciseId": "kettlebell-swing",
+      "exerciseName": "Kettlebell swing",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "kettlebell",
+      "completedAt": "2026-05-16T05:05:09.208Z",
+      "value": "16",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-eaa11380-9a59-444e-b9be-9a6b13aabbff",
+      "exerciseId": "medicine-ball-slam",
+      "exerciseName": "Medicine ball slam",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "medicine ball",
+      "completedAt": "2026-05-16T05:09:45.115Z",
+      "value": "12",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-c6470e8a-959d-4cd4-9c2a-f148fbf626b9",
+      "exerciseId": "assisted-chin-up",
+      "exerciseName": "Assisted chin-up",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "assisted chin-up machine",
+      "completedAt": "2026-05-17T04:49:45.157Z",
+      "value": "10",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-8c96dcc9-b687-4603-9f99-ab46e6af6f3f",
+      "exerciseId": "chest-supported-row",
+      "exerciseName": "Chest-supported row",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "seated row machine",
+      "completedAt": "2026-05-17T05:01:23.064Z",
+      "value": "35",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-9aa2e0bd-2669-4b6b-8632-1ade88703071",
+      "exerciseId": "straight-arm-pulldown",
+      "exerciseName": "Straight-arm pulldown",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "cable machine",
+      "completedAt": "2026-05-17T05:05:47.700Z",
+      "value": "19.3",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-7c0dc544-4191-45f5-93b9-3c35362f4464",
+      "exerciseId": "rear-delt-fly",
+      "exerciseName": "Rear delt fly",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "rear delt / fly machine",
+      "completedAt": "2026-05-17T05:08:57.152Z",
+      "value": "31",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-1f46370b-6abf-4c26-a0f2-041bdf8a7e44",
+      "exerciseId": "leg-press",
+      "exerciseName": "Leg press",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "leg press machine",
+      "completedAt": "2026-05-17T05:13:45.528Z",
+      "value": "68",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-40e15e1f-5be0-4df0-a3e0-db03a00f9d9d",
+      "exerciseId": "dumbbell-romanian-deadlift",
+      "exerciseName": "Dumbbell Romanian deadlift",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbells",
+      "completedAt": "2026-05-17T05:16:03.614Z",
+      "value": "12.5",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-57a73feb-b765-4efa-ab34-552a47cd3b6c",
+      "exerciseId": "dumbbell-external-rotation",
+      "exerciseName": "Dumbbell external rotation",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbell",
+      "completedAt": "2026-05-17T05:23:48.824Z",
+      "value": "5",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-d424a3fa-b79a-4405-a2f3-ef221f95caa2",
+      "exerciseId": "weighted-dead-bug-hollow-hold",
+      "exerciseName": "Weighted dead bug / hollow hold",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbell or bodyweight",
+      "completedAt": "2026-05-17T05:27:13.895Z",
+      "value": "10",
+      "unit": "seconds"
+    },
+    {
+      "id": "entry-d5c9db7a-73e5-474c-8600-8b8aeb93f89b",
+      "exerciseId": "farmers-carry",
+      "exerciseName": "Farmer's carry",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbells or kettlebells",
+      "completedAt": "2026-05-17T05:31:19.922Z",
+      "value": "30",
+      "unit": "seconds",
+      "notes": "20kg"
+    },
+    {
+      "id": "entry-4147ad1b-27b1-4306-8b4c-d3ada25c0a82",
+      "exerciseId": "assisted-chin-up",
+      "exerciseName": "Assisted chin-up",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "assisted chin-up machine",
+      "completedAt": "2026-06-22T07:18:54.704Z",
+      "value": "10",
+      "unit": "?"
+    },
+    {
+      "id": "entry-c8e8d588-14a3-4a91-a46f-f79206dad416",
+      "exerciseId": "chest-supported-row",
+      "exerciseName": "Chest-supported row",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "seated row machine",
+      "completedAt": "2026-06-22T07:23:30.445Z",
+      "value": "25",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-253a1c5e-dbe1-4c84-9add-fd527d4a48f2",
+      "exerciseId": "straight-arm-pulldown",
+      "exerciseName": "Straight-arm pulldown",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "cable machine",
+      "completedAt": "2026-06-22T07:32:21.441Z",
+      "value": "18",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-0139e6dc-8955-43e6-92ce-1eb62c971a62",
+      "exerciseId": "rear-delt-fly",
+      "exerciseName": "Rear delt fly",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "rear delt / fly machine",
+      "completedAt": "2026-06-22T07:32:58.057Z",
+      "value": "70",
+      "unit": "Lbs"
+    },
+    {
+      "id": "entry-601d617d-9734-4385-b05d-9442f19dc511",
+      "exerciseId": "leg-press",
+      "exerciseName": "Leg press",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "leg press machine",
+      "completedAt": "2026-06-22T07:35:51.022Z",
+      "value": "68",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-037e53f7-1637-4822-8a35-0bc1d63dbb0b",
+      "exerciseId": "dumbbell-romanian-deadlift",
+      "exerciseName": "Dumbbell Romanian deadlift",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbells",
+      "completedAt": "2026-06-22T07:40:57.489Z",
+      "value": "12.5",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-0a96335b-161c-46ba-b6ea-e63a556027d7",
+      "exerciseId": "dumbbell-external-rotation",
+      "exerciseName": "Dumbbell external rotation",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbell",
+      "completedAt": "2026-06-22T07:43:44.828Z",
+      "value": "5",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-a944bdff-dd67-4c7a-8319-3bfc93e17463",
+      "exerciseId": "weighted-dead-bug-hollow-hold",
+      "exerciseName": "Weighted dead bug / hollow hold",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbell or bodyweight",
+      "completedAt": "2026-06-22T07:52:14.877Z",
+      "value": "10",
+      "unit": "seconds"
+    },
+    {
+      "id": "entry-ae99b9c3-33be-40fb-99d6-a1bbb69846ab",
+      "exerciseId": "farmers-carry",
+      "exerciseName": "Farmer's carry",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbells or kettlebells",
+      "completedAt": "2026-06-22T07:52:58.193Z",
+      "value": "30",
+      "unit": "seconds"
+    },
+    {
+      "id": "entry-e18a3421-e911-4d55-8e6f-8b6a0ff87ae1",
+      "exerciseId": "exercise-c5d12f3f-8b4b-48bf-b31b-11da5df0f23e",
+      "exerciseName": "Calf raises",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "",
+      "completedAt": "2026-06-22T08:01:17.545Z",
+      "value": "15",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-00265826-f762-4583-a803-16a92efe7fed",
+      "exerciseId": "lat-pulldown",
+      "exerciseName": "Lat pulldown",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "lat pulldown machine",
+      "completedAt": "2026-06-26T07:04:31.709Z",
+      "value": "35",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-ec1882c8-417e-4007-898f-42dede570ec5",
+      "exerciseId": "single-arm-dumbbell-row",
+      "exerciseName": "Single-arm dumbbell row",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "dumbbell",
+      "completedAt": "2026-06-26T07:07:32.867Z",
+      "value": "15",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-c7e77da4-49c3-4fb7-a1d4-a72df23debcb",
+      "exerciseId": "dumbbell-pullover",
+      "exerciseName": "Dumbbell pullover",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "dumbbell",
+      "completedAt": "2026-06-26T07:29:02.454Z",
+      "value": "10",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-cb6a094e-23f1-4c88-bf45-48fb396d95de",
+      "exerciseId": "face-pull",
+      "exerciseName": "Face pull",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "cable machine with rope",
+      "completedAt": "2026-06-26T07:32:07.740Z",
+      "value": "10.2",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-93663d0d-a993-44af-8d1b-cf722c319378",
+      "exerciseId": "triceps-pressdown",
+      "exerciseName": "Triceps pressdown",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "cable machine",
+      "completedAt": "2026-06-26T07:35:34.248Z",
+      "value": "14.7",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-5dc2d4d8-c2ed-46d9-b86c-8cefab81c9f5",
+      "exerciseId": "goblet-squat",
+      "exerciseName": "Goblet squat",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "kettlebell or dumbbell",
+      "completedAt": "2026-06-26T07:35:36.297Z",
+      "value": "15",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-75a7f21e-d775-4800-9f6a-10a1239fb655",
+      "exerciseId": "hamstring-curl",
+      "exerciseName": "Hamstring curl",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "hamstring curl machine",
+      "completedAt": "2026-06-26T07:41:21.971Z",
+      "value": "29",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-6164f002-84d5-463e-9a59-f684a0044f30",
+      "exerciseId": "kettlebell-swing",
+      "exerciseName": "Kettlebell swing",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "kettlebell",
+      "completedAt": "2026-06-26T07:42:48.179Z",
+      "value": "10",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-960fe385-d2d0-4d6c-a5b7-05bcd0007cb8",
+      "exerciseId": "medicine-ball-slam",
+      "exerciseName": "Medicine ball slam",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "medicine ball",
+      "completedAt": "2026-06-26T07:46:24.839Z",
+      "value": "12",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-128e8ede-d095-4b60-9124-fd65e7b358e4",
+      "exerciseId": "low-twist-high-twist",
+      "exerciseName": "Low twist or high twist",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "cable machine",
+      "completedAt": "2026-06-26T07:50:18.625Z",
+      "value": "5.7",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-bfa7d662-06f5-4539-b7b5-8caf53a655d3",
+      "exerciseId": "exercise-6b4922e0-ec6d-4e88-9bf7-363a065ef574",
+      "exerciseName": "Dumbbell bench press",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "",
+      "completedAt": "2026-06-26T07:50:19.941Z",
+      "value": "15",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-30e5fb67-3971-43cd-8e18-9a50549bfa46",
+      "exerciseId": "assisted-chin-up",
+      "exerciseName": "Assisted chin-up",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "assisted chin-up machine",
+      "completedAt": "2026-06-28T00:50:48.327Z",
+      "value": "10",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-baccbde2-588f-4522-98c1-5562c9b6979b",
+      "exerciseId": "chest-supported-row",
+      "exerciseName": "Chest-supported row",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "seated row machine",
+      "completedAt": "2026-06-28T00:59:24.228Z",
+      "value": "35",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-a26018a5-07b6-4f52-ad39-6e8aa4b6a0ff",
+      "exerciseId": "straight-arm-pulldown",
+      "exerciseName": "Straight-arm pulldown",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "cable machine",
+      "completedAt": "2026-06-28T00:59:29.990Z",
+      "value": "18",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-df8a1923-fcf8-4bd2-9f34-1783568e81a2",
+      "exerciseId": "assisted-chin-up",
+      "exerciseName": "Assisted chin-up",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "assisted chin-up machine",
+      "completedAt": "2026-06-28T01:19:25.255Z",
+      "value": "10",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-e19ea605-26c6-4059-a48a-c2b5c1f35325",
+      "exerciseId": "chest-supported-row",
+      "exerciseName": "Chest-supported row",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "seated row machine",
+      "completedAt": "2026-06-28T01:19:30.492Z",
+      "value": "35",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-9c396e43-87f2-4555-847e-63148bd574cd",
+      "exerciseId": "straight-arm-pulldown",
+      "exerciseName": "Straight-arm pulldown",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "cable machine",
+      "completedAt": "2026-06-28T01:19:35.838Z",
+      "value": "18",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-496de129-7ccd-4463-af63-0aa35096fe1b",
+      "exerciseId": "rear-delt-fly",
+      "exerciseName": "Rear delt fly",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "rear delt / fly machine",
+      "completedAt": "2026-06-28T01:19:44.146Z",
+      "value": "70",
+      "unit": "Lbs"
+    },
+    {
+      "id": "entry-1561e487-fd30-4bb7-92e5-1b270989ab25",
+      "exerciseId": "leg-press",
+      "exerciseName": "Leg press",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "leg press machine",
+      "completedAt": "2026-06-28T01:20:26.554Z",
+      "value": "65",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-3940a08e-c0d2-4d94-92e5-f80eb59a2f43",
+      "exerciseId": "assisted-chin-up",
+      "exerciseName": "Assisted chin-up",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "assisted chin-up machine",
+      "completedAt": "2026-06-28T01:28:22.879Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-8cfefa0b-6b61-4662-b243-414c3640ea8f",
+      "exerciseId": "chest-supported-row",
+      "exerciseName": "Chest-supported row",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "seated row machine",
+      "completedAt": "2026-06-28T01:28:23.761Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-32f21fef-1a95-4910-adb7-cd726c757125",
+      "exerciseId": "straight-arm-pulldown",
+      "exerciseName": "Straight-arm pulldown",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "cable machine",
+      "completedAt": "2026-06-28T01:28:24.561Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-8e725c12-e32b-4ba2-be19-893409b5a1c5",
+      "exerciseId": "rear-delt-fly",
+      "exerciseName": "Rear delt fly",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "rear delt / fly machine",
+      "completedAt": "2026-06-28T01:28:25.745Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-fb65e220-b9ad-4a96-8b14-42040b30fdb4",
+      "exerciseId": "leg-press",
+      "exerciseName": "Leg press",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "leg press machine",
+      "completedAt": "2026-06-28T01:28:26.645Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-d45b0207-62ce-4d66-b5f9-536c5afe856f",
+      "exerciseId": "dumbbell-romanian-deadlift",
+      "exerciseName": "Dumbbell Romanian deadlift",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbells",
+      "completedAt": "2026-06-28T01:29:45.837Z",
+      "value": "12.5",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-f9daee68-b140-4da0-bffd-80293b100a60",
+      "exerciseId": "dumbbell-external-rotation",
+      "exerciseName": "Dumbbell external rotation",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbell",
+      "completedAt": "2026-06-28T01:34:13.362Z",
+      "value": "6",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-087ad9aa-ca57-4bbe-9bd7-e56269b8993f",
+      "exerciseId": "weighted-dead-bug-hollow-hold",
+      "exerciseName": "Weighted dead bug / hollow hold",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbell or bodyweight",
+      "completedAt": "2026-06-28T01:49:42.640Z",
+      "value": "10",
+      "unit": "seconds"
+    },
+    {
+      "id": "entry-dceb7d76-32c8-4455-985d-95b412a42bd4",
+      "exerciseId": "farmers-carry",
+      "exerciseName": "Farmer's carry",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbells or kettlebells",
+      "completedAt": "2026-06-28T01:55:12.068Z",
+      "value": "30",
+      "unit": "seconds",
+      "notes": "20kg"
+    },
+    {
+      "id": "entry-a4aeea71-32fd-40cf-a17f-96f76c5ec4c8",
+      "exerciseId": "exercise-c5d12f3f-8b4b-48bf-b31b-11da5df0f23e",
+      "exerciseName": "Calf raises",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "",
+      "completedAt": "2026-06-28T01:55:15.814Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-2edd68a6-ff04-47c6-abf0-166cbcafd538",
+      "exerciseId": "cat-camel",
+      "exerciseName": "Cat-camel",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "mat or floor",
+      "completedAt": "2026-06-28T03:25:44.796Z",
+      "value": "",
+      "unit": "reps"
+    }
+  ]
 }
