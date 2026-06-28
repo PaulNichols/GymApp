@@ -47,22 +47,44 @@ export const syncLandTrainingDataToGitHub = async (data: ExportData): Promise<vo
 };
 
 const getGitHubToken = (): string => {
-  const existing = sessionStorage.getItem(tokenKey)?.trim();
+  const existing = getStoredGitHubToken();
 
   if (existing) {
     return existing;
   }
 
   const entered = window
-    .prompt('Enter your fine-grained GitHub token for GymApp. It is stored in this browser session only.')
+    .prompt('Enter your fine-grained GitHub token for GymApp. It will be remembered on this device until you forget it.')
     ?.trim();
 
   if (!entered) {
     return '';
   }
 
-  sessionStorage.setItem(tokenKey, entered);
+  saveGitHubToken(entered);
   return entered;
+};
+
+export const hasStoredGitHubToken = (): boolean => getStoredGitHubToken().length > 0;
+
+export const forgetStoredGitHubToken = (): void => {
+  localStorage.removeItem(tokenKey);
+  sessionStorage.removeItem(tokenKey);
+};
+
+const getStoredGitHubToken = (): string => {
+  const storedToken = localStorage.getItem(tokenKey)?.trim() ?? sessionStorage.getItem(tokenKey)?.trim() ?? '';
+
+  if (storedToken) {
+    saveGitHubToken(storedToken);
+  }
+
+  return storedToken;
+};
+
+const saveGitHubToken = (token: string): void => {
+  localStorage.setItem(tokenKey, token);
+  sessionStorage.removeItem(tokenKey);
 };
 
 const putContentFile = async (token: string, request: PutContentRequest): Promise<void> => {

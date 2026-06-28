@@ -88,7 +88,7 @@ data/workout-data.json
 data/codex-land-training-summary.json
 ```
 
-The sync uses a fine-grained GitHub token for `PaulNichols/GymApp` with **Contents: Read and write** permission. The token is prompted for on first sync and stored only in `sessionStorage`, not in source code or localStorage.
+The sync uses a fine-grained GitHub token for `PaulNichols/GymApp` with **Contents: Read and write** permission. The token is prompted for on first sync on a device and stored only in that browser's local storage, not in source code or the repository. Use **Forget token** on the GitHub Sync page to remove it from that browser.
 
 The repository summary avoids raw notes and is the preferred file for weekly Codex coaching. The full `workout-data.json` remains available when deeper review is needed.
 
