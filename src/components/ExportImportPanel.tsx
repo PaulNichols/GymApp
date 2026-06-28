@@ -1,4 +1,5 @@
 import { useRef, useState } from 'react';
+import { syncCurrentLandTrainingDataToGitHub } from '../services/githubSyncService';
 import { storageService } from '../services/storageService';
 
 interface ExportImportPanelProps {
@@ -8,6 +9,7 @@ interface ExportImportPanelProps {
 export function ExportImportPanel({ onImported }: ExportImportPanelProps) {
   const inputRef = useRef<HTMLInputElement | null>(null);
   const [message, setMessage] = useState('');
+  const [isSyncing, setIsSyncing] = useState(false);
 
   const exportData = () => {
     const data = storageService.exportData();
@@ -41,6 +43,12 @@ export function ExportImportPanel({ onImported }: ExportImportPanelProps) {
 
       if (imported) {
         onImported();
+        setMessage('Data imported. Syncing to GitHub...');
+        try {
+          setMessage(await syncCurrentLandTrainingDataToGitHub());
+        } catch (error) {
+          setMessage(error instanceof Error ? `Data imported locally. ${error.message}` : 'Data imported locally. GitHub sync failed.');
+        }
       }
     } catch {
       setMessage('Import failed. Choose a valid JSON export file.');
@@ -51,11 +59,29 @@ export function ExportImportPanel({ onImported }: ExportImportPanelProps) {
     }
   };
 
+  const syncToGitHub = async () => {
+    setIsSyncing(true);
+    setMessage('Syncing to GitHub...');
+
+    try {
+      setMessage(await syncCurrentLandTrainingDataToGitHub());
+    } catch (error) {
+      setMessage(error instanceof Error ? error.message : 'GitHub sync failed.');
+    } finally {
+      setIsSyncing(false);
+    }
+  };
+
   return (
     <section className="panel">
-      <h2>Export / Import Data</h2>
-      <p className="muted">Back up your localStorage data before changing phones, clearing Safari data, or experimenting with edits.</p>
+      <h2>Data</h2>
+      <p className="muted">
+        Export/import still protects local browser data. Sync writes the current programs and workout history to this repo for Codex coaching.
+      </p>
       <div className="button-row">
+        <button className="primary-button" type="button" onClick={() => void syncToGitHub()} disabled={isSyncing}>
+          {isSyncing ? 'Syncing...' : 'Sync to GitHub'}
+        </button>
         <button className="secondary-button" type="button" onClick={exportData}>
           Export Data
         </button>

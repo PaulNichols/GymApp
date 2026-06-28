@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { ExerciseImage } from '../components/ExerciseImage';
 import { createId } from '../services/idService';
+import { syncCurrentLandTrainingDataToGitHub } from '../services/githubSyncService';
 import { storageService } from '../services/storageService';
 import type { ExerciseDraft, Program, WorkoutEntry } from '../types';
 
@@ -15,6 +16,8 @@ export function ProgramPage({ program, onBack, onComplete }: ProgramPageProps) {
   const [drafts, setDrafts] = useState<Record<string, ExerciseDraft>>({});
   const [entryIds, setEntryIds] = useState<Record<string, string>>({});
   const [summaryEntries, setSummaryEntries] = useState<Record<string, WorkoutEntry>>({});
+  const [syncStatus, setSyncStatus] = useState('');
+  const [isFinishing, setIsFinishing] = useState(false);
 
   const exercise = program.exercises[index];
   if (!exercise) {
@@ -77,10 +80,20 @@ export function ProgramPage({ program, onBack, onComplete }: ProgramPageProps) {
     setIndex((current) => Math.min(current + 1, program.exercises.length - 1));
   };
 
-  const finishProgram = () => {
+  const finishProgram = async () => {
     const finalEntry = saveCurrent();
     const allEntries = { ...summaryEntries, [exercise.id]: finalEntry };
-    onComplete(program.exercises.map((item) => allEntries[item.id]).filter(Boolean));
+    setIsFinishing(true);
+    setSyncStatus('Syncing session to GitHub...');
+
+    try {
+      await syncCurrentLandTrainingDataToGitHub();
+      onComplete(program.exercises.map((item) => allEntries[item.id]).filter(Boolean));
+    } catch (error) {
+      setSyncStatus(error instanceof Error ? error.message : 'GitHub sync failed. The session is still saved locally.');
+    } finally {
+      setIsFinishing(false);
+    }
   };
 
   return (
@@ -146,6 +159,8 @@ export function ProgramPage({ program, onBack, onComplete }: ProgramPageProps) {
         </label>
       </section>
 
+      {syncStatus && <p className="status-message">{syncStatus}</p>}
+
       <div className="sticky-actions">
         <button className="secondary-button" type="button" disabled={index === 0} onClick={() => setIndex((current) => current - 1)}>
           Previous
@@ -155,8 +170,8 @@ export function ProgramPage({ program, onBack, onComplete }: ProgramPageProps) {
             Save and Next
           </button>
         ) : (
-          <button className="primary-button" type="button" onClick={finishProgram}>
-            Finish Program
+          <button className="primary-button" type="button" onClick={() => void finishProgram()} disabled={isFinishing}>
+            {isFinishing ? 'Syncing...' : 'Finish Program'}
           </button>
         )}
       </div>

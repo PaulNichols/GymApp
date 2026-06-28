@@ -9,9 +9,10 @@ A super simple mobile-first land training tracker for gym, mobility, and flexibi
 - TypeScript
 - Plain CSS
 - Browser `localStorage`
+- GitHub repository JSON sync
 - GitHub Pages and GitHub Actions
 
-No backend API, database, server-side hosting, or paid service is required.
+No backend API, database, server-side hosting, or paid service is required. GitHub sync uses the GitHub Contents API from the browser when you enter a fine-grained token.
 
 ## Run Locally
 
@@ -69,7 +70,7 @@ base: '/'
 
 ## How Data Works
 
-All data is stored in the browser on the device using `localStorage`.
+The app saves first to browser `localStorage` so the workout flow remains fast and resilient.
 
 The app stores:
 
@@ -80,7 +81,18 @@ The app stores:
 
 The storage code lives in `src/services/storageService.ts` so localStorage access is not scattered through the app.
 
-Important limitation: clearing Safari website data, switching phones, or using a different browser can remove or hide this local data. Use export/import for backups.
+After finishing a program, the app also attempts to sync the complete export to this repository:
+
+```text
+data/workout-data.json
+data/codex-land-training-summary.json
+```
+
+The sync uses a fine-grained GitHub token for `PaulNichols/GymApp` with **Contents: Read and write** permission. The token is prompted for on first sync and stored only in `sessionStorage`, not in source code or localStorage.
+
+The repository summary avoids raw notes and is the preferred file for weekly Codex coaching. The full `workout-data.json` remains available when deeper review is needed.
+
+Privacy note: this repository is public, so committed workout data is publicly readable.
 
 ## Use the App
 
@@ -123,6 +135,18 @@ The app downloads a JSON file containing:
 - Workout history
 
 Keep this file somewhere safe if your phone browser data matters.
+
+## Sync Data
+
+Open **Export / Import Data** and tap **Sync to GitHub** to push the current local programs and workout history to the repository.
+
+The app also syncs after **Finish Program** and after successful imports. If you cancel the token prompt or GitHub rejects the token, the session remains saved locally and the app shows the sync error.
+
+To rebuild the Codex summary locally:
+
+```bash
+npm run summarise:workouts
+```
 
 ## Import Data
 
