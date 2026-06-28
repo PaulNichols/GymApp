@@ -31,7 +31,7 @@ export function HomePage({ programs, onStartProgram, onNavigate }: HomePageProps
           Admin / Edit Programs
         </button>
         <button type="button" onClick={() => onNavigate('data')}>
-          Export / Import Data
+          GitHub Sync
         </button>
       </nav>
     </main>

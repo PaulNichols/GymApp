@@ -123,36 +123,17 @@ Open **Admin / Edit Programs** to:
 
 Program edits are stored in `localStorage`.
 
-## Export Data
-
-Open **Export / Import Data** and tap **Export Data**.
-
-The app downloads a JSON file containing:
-
-- App version
-- Export date/time
-- Program definitions
-- Workout history
-
-Keep this file somewhere safe if your phone browser data matters.
-
 ## Sync Data
 
-Open **Export / Import Data** and tap **Sync to GitHub** to push the current local programs and workout history to the repository.
+Open **GitHub Sync** and tap **Sync to GitHub** to push the current local programs and workout history to the repository.
 
-The app also syncs after **Finish Program** and after successful imports. If you cancel the token prompt or GitHub rejects the token, the session remains saved locally and the app shows the sync error.
+The app also syncs after **Finish Program**. If you cancel the token prompt or GitHub rejects the token, the session remains saved locally and the app shows the sync error.
 
 To rebuild the Codex summary locally:
 
 ```bash
 npm run summarise:workouts
 ```
-
-## Import Data
-
-Open **Export / Import Data**, tap **Import Data**, and choose a previous JSON export.
-
-The app validates the basic shape of the file and asks for confirmation before replacing your current programs and history.
 
 ## Default Programs
 

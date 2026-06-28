@@ -58,7 +58,7 @@ export function App() {
   }
 
   if (page === 'data') {
-    return <DataPage onBack={goHome} onImported={refreshPrograms} />;
+    return <DataPage onBack={goHome} />;
   }
 
   return <HomePage programs={programs} onStartProgram={startProgram} onNavigate={setPage} />;

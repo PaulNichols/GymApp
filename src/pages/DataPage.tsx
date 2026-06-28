@@ -2,10 +2,9 @@ import { ExportImportPanel } from '../components/ExportImportPanel';
 
 interface DataPageProps {
   onBack: () => void;
-  onImported: () => void;
 }
 
-export function DataPage({ onBack, onImported }: DataPageProps) {
+export function DataPage({ onBack }: DataPageProps) {
   return (
     <main className="screen">
       <header className="top-bar">
@@ -14,7 +13,7 @@ export function DataPage({ onBack, onImported }: DataPageProps) {
         </button>
         <span>Data</span>
       </header>
-      <ExportImportPanel onImported={onImported} />
+      <ExportImportPanel />
     </main>
   );
 }
