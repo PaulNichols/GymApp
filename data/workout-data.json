@@ -1,6 +1,6 @@
 {
   "appVersion": "0.1.0",
-  "exportedAt": "2026-07-07T07:15:59.793Z",
+  "exportedAt": "2026-07-07T08:02:09.402Z",
   "programs": [
     {
       "id": "program-a",
@@ -1530,6 +1530,116 @@
       "equipment": "",
       "completedAt": "2026-06-30T08:18:37.391Z",
       "value": "15",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-4015d10c-cb41-4ed3-962c-cb862c4d5cc7",
+      "exerciseId": "assisted-chin-up",
+      "exerciseName": "Assisted chin-up",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "assisted chin-up machine",
+      "completedAt": "2026-07-07T07:23:20.474Z",
+      "value": "9",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-b518ef3b-cee4-4e9d-93cd-54b2ef679c0c",
+      "exerciseId": "chest-supported-row",
+      "exerciseName": "Chest-supported row",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "seated row machine",
+      "completedAt": "2026-07-07T07:27:45.259Z",
+      "value": "45",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-cb3a6c12-d581-4284-bc8a-eaa6a95711d4",
+      "exerciseId": "straight-arm-pulldown",
+      "exerciseName": "Straight-arm pulldown",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "cable machine",
+      "completedAt": "2026-07-07T07:33:27.368Z",
+      "value": "36",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-4eb728ad-51d7-4154-9b2d-dac6b83ceecb",
+      "exerciseId": "rear-delt-fly",
+      "exerciseName": "Rear delt fly",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "rear delt / fly machine",
+      "completedAt": "2026-07-07T07:54:58.374Z",
+      "value": "70",
+      "unit": "Lbs"
+    },
+    {
+      "id": "entry-c356baf0-5a9f-4464-995e-7bbf88c9a000",
+      "exerciseId": "leg-press",
+      "exerciseName": "Leg press",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "leg press machine",
+      "completedAt": "2026-07-07T07:54:59.559Z",
+      "value": "75",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-c1ab559c-5084-4177-8ca3-be0885535d5e",
+      "exerciseId": "dumbbell-romanian-deadlift",
+      "exerciseName": "Dumbbell Romanian deadlift",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbells",
+      "completedAt": "2026-07-07T07:55:00.642Z",
+      "value": "15",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-3ba7e573-c744-4550-8eb1-af6c58490551",
+      "exerciseId": "dumbbell-external-rotation",
+      "exerciseName": "Dumbbell external rotation",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbell",
+      "completedAt": "2026-07-07T07:55:01.659Z",
+      "value": "7",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-e0d60be5-1e82-4ac2-81aa-cd6416086743",
+      "exerciseId": "weighted-dead-bug-hollow-hold",
+      "exerciseName": "Weighted dead bug / hollow hold",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbell or bodyweight",
+      "completedAt": "2026-07-07T07:55:02.860Z",
+      "value": "10",
+      "unit": "seconds"
+    },
+    {
+      "id": "entry-ddeb573a-7e5c-416d-95ec-4596bda1cd4d",
+      "exerciseId": "farmers-carry",
+      "exerciseName": "Farmer's carry",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbells or kettlebells",
+      "completedAt": "2026-07-07T07:58:19.897Z",
+      "value": "32",
+      "unit": "seconds"
+    },
+    {
+      "id": "entry-965c89d3-dda2-4238-89e1-425457a4ce08",
+      "exerciseId": "exercise-c5d12f3f-8b4b-48bf-b31b-11da5df0f23e",
+      "exerciseName": "Calf raises",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "",
+      "completedAt": "2026-07-07T08:02:09.401Z",
+      "value": "10",
       "unit": "kg"
     }
   ]
