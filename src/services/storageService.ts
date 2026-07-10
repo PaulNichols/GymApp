@@ -4,6 +4,8 @@ import type { ExportData, Program, WorkoutEntry } from '../types';
 const APP_VERSION = '0.1.0';
 const PROGRAMS_KEY = 'swimGymTracker.programs';
 const HISTORY_KEY = 'swimGymTracker.history';
+const PROGRAM_MIGRATION_KEY = 'swimGymTracker.programMigration';
+const DEFAULT_EXERCISE_MIGRATION = '2026-07-swim-strength-additions';
 const CATEGORIES = new Set(['pull', 'row', 'legs', 'core', 'shoulders', 'power', 'arms', 'mobility']);
 
 const cloneDefaults = (): Program[] => structuredClone(defaultPrograms);
@@ -32,6 +34,25 @@ const appendMissingDefaultPrograms = (programs: Program[]): Program[] => {
 
   return missingPrograms.length > 0 ? [...programs, ...structuredClone(missingPrograms)] : programs;
 };
+
+const appendMissingDefaultExercises = (programs: Program[]): Program[] =>
+  programs.map((program) => {
+    const defaultProgram = defaultProgramsById.get(program.id);
+
+    if (!defaultProgram) {
+      return program;
+    }
+
+    const existingExerciseIds = new Set(program.exercises.map((exercise) => exercise.id));
+    const missingExercises = defaultProgram.exercises.filter((exercise) => !existingExerciseIds.has(exercise.id));
+
+    return missingExercises.length > 0
+      ? {
+          ...program,
+          exercises: [...program.exercises, ...structuredClone(missingExercises)],
+        }
+      : program;
+  });
 
 const readJson = <T,>(key: string, fallback: T): T => {
   try {
@@ -108,12 +129,19 @@ export const storageService = {
     if (!hasValidProgramShape(programs)) {
       const defaults = cloneDefaults();
       writeJson(PROGRAMS_KEY, defaults);
+      localStorage.setItem(PROGRAM_MIGRATION_KEY, DEFAULT_EXERCISE_MIGRATION);
       return defaults;
     }
 
     const enriched = appendMissingDefaultPrograms(enrichPrograms(programs));
-    writeJson(PROGRAMS_KEY, enriched);
-    return enriched;
+    const migrated =
+      localStorage.getItem(PROGRAM_MIGRATION_KEY) === DEFAULT_EXERCISE_MIGRATION
+        ? enriched
+        : appendMissingDefaultExercises(enriched);
+
+    localStorage.setItem(PROGRAM_MIGRATION_KEY, DEFAULT_EXERCISE_MIGRATION);
+    writeJson(PROGRAMS_KEY, migrated);
+    return migrated;
   },
 
   savePrograms(programs: Program[]): void {
@@ -123,6 +151,7 @@ export const storageService = {
   resetToDefaults(): Program[] {
     const defaults = cloneDefaults();
     writeJson(PROGRAMS_KEY, defaults);
+    localStorage.setItem(PROGRAM_MIGRATION_KEY, DEFAULT_EXERCISE_MIGRATION);
     return defaults;
   },
 

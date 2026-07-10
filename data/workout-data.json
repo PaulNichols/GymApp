@@ -78,6 +78,20 @@
           "swimDescription": "Builds leg drive for starts, turns, and push-offs across every stroke, with the biggest transfer to wall speed and streamline distance."
         },
         {
+          "id": "step-up-bulgarian-split-squat",
+          "name": "Step-up / Bulgarian split squat",
+          "equipment": "box, bench, or dumbbells",
+          "unit": "kg",
+          "category": "legs",
+          "swimDescription": "Builds single-leg hip and knee strength for starts, turns, and kick symmetry, helping stop one leg from doing more of the work off the wall.",
+          "guideCues": [
+            "Use a low, controlled range first",
+            "Keep knee tracking over toes",
+            "Drive through the whole foot"
+          ],
+          "videoUrl": "https://www.youtube.com/results?search_query=Step-up%20%2F%20Bulgarian%20split%20squat%20box%2C%20bench%2C%20or%20dumbbells%20proper%20form"
+        },
+        {
           "id": "dumbbell-romanian-deadlift",
           "name": "Dumbbell Romanian deadlift",
           "equipment": "dumbbells",
@@ -90,6 +104,20 @@
           ],
           "videoUrl": "https://www.youtube.com/results?search_query=Dumbbell%20Romanian%20deadlift%20dumbbells%20proper%20form",
           "swimDescription": "Strengthens hamstrings and glutes for dolphin kick and freestyle kick rhythm, while also protecting the lower back during starts and turns."
+        },
+        {
+          "id": "landmine-press",
+          "name": "Landmine press",
+          "equipment": "landmine or barbell corner",
+          "unit": "kg",
+          "category": "shoulders",
+          "swimDescription": "Adds shoulder-friendly pressing strength for starts, turns, and general shoulder balance without forcing a straight-overhead position.",
+          "guideCues": [
+            "Set ribs down before pressing",
+            "Press up and slightly forward",
+            "Control the return to shoulder height"
+          ],
+          "videoUrl": "https://www.youtube.com/results?search_query=Landmine%20press%20landmine%20or%20barbell%20corner%20proper%20form"
         },
         {
           "id": "dumbbell-external-rotation",
@@ -118,6 +146,20 @@
           ],
           "videoUrl": "https://www.youtube.com/results?search_query=Weighted%20dead%20bug%20%2F%20hollow%20hold%20dumbbell%20or%20bodyweight%20proper%20form",
           "swimDescription": "Improves body-line control for streamline, freestyle rotation, and butterfly undulation without the hips or ribs leaking position."
+        },
+        {
+          "id": "pallof-press",
+          "name": "Pallof press",
+          "equipment": "cable machine or resistance band",
+          "unit": "kg",
+          "category": "core",
+          "swimDescription": "Trains anti-rotation strength for freestyle and backstroke so the body stays long and connected while the arms pull hard.",
+          "guideCues": [
+            "Stand side-on to the cable",
+            "Press hands straight out from chest",
+            "Resist twisting toward the machine"
+          ],
+          "videoUrl": "https://www.youtube.com/results?search_query=Pallof%20press%20cable%20machine%20or%20resistance%20band%20proper%20form"
         },
         {
           "id": "farmers-carry",
@@ -260,6 +302,20 @@
           ],
           "videoUrl": "https://www.youtube.com/results?search_query=Kettlebell%20swing%20kettlebell%20proper%20form",
           "swimDescription": "Develops hip snap for starts, turns, and butterfly dolphin kick power, with the strongest transfer to explosive wall push-offs."
+        },
+        {
+          "id": "copenhagen-plank-adductor-machine",
+          "name": "Copenhagen plank / adductor machine",
+          "equipment": "bench, mat, or adductor machine",
+          "unit": "seconds or kg",
+          "category": "legs",
+          "swimDescription": "Builds adductor and groin strength for breaststroke kick while also supporting hip control during starts and turns.",
+          "guideCues": [
+            "Start with a short lever if planking",
+            "Keep hips stacked and ribs quiet",
+            "Use controlled range on the machine"
+          ],
+          "videoUrl": "https://www.youtube.com/results?search_query=Copenhagen%20plank%20%2F%20adductor%20machine%20bench%2C%20mat%2C%20or%20adductor%20machine%20proper%20form"
         },
         {
           "id": "medicine-ball-slam",

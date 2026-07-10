@@ -50,10 +50,20 @@ export const defaultPrograms: Program[] = [
         'Lower until knees bend comfortably',
         'Drive through mid-foot, no knee lockout',
       ]),
+      exercise('step-up-bulgarian-split-squat', 'Step-up / Bulgarian split squat', 'box, bench, or dumbbells', 'kg', 'legs', 'Builds single-leg hip and knee strength for starts, turns, and kick symmetry, helping stop one leg from doing more of the work off the wall.', [
+        'Use a low, controlled range first',
+        'Keep knee tracking over toes',
+        'Drive through the whole foot',
+      ]),
       exercise('dumbbell-romanian-deadlift', 'Dumbbell Romanian deadlift', 'dumbbells', 'kg', 'legs', 'Strengthens hamstrings and glutes for dolphin kick and freestyle kick rhythm, while also protecting the lower back during starts and turns.', [
         'Push hips back first',
         'Dumbbells track close to legs',
         'Stand tall by squeezing glutes',
+      ]),
+      exercise('landmine-press', 'Landmine press', 'landmine or barbell corner', 'kg', 'shoulders', 'Adds shoulder-friendly pressing strength for starts, turns, and general shoulder balance without forcing a straight-overhead position.', [
+        'Set ribs down before pressing',
+        'Press up and slightly forward',
+        'Control the return to shoulder height',
       ]),
       exercise('dumbbell-external-rotation', 'Dumbbell external rotation', 'dumbbell', 'kg', 'shoulders', 'Builds rotator cuff control for freestyle and butterfly recovery, helping keep the shoulder centred through repeated overhead strokes.', [
         'Elbow stays fixed by side',
@@ -64,6 +74,11 @@ export const defaultPrograms: Program[] = [
         'Low back stays pressed down',
         'Reach long through arms and legs',
         'Stop before form breaks',
+      ]),
+      exercise('pallof-press', 'Pallof press', 'cable machine or resistance band', 'kg', 'core', 'Trains anti-rotation strength for freestyle and backstroke so the body stays long and connected while the arms pull hard.', [
+        'Stand side-on to the cable',
+        'Press hands straight out from chest',
+        'Resist twisting toward the machine',
       ]),
       exercise('farmers-carry', "Farmer's carry", 'dumbbells or kettlebells', 'seconds', 'power', 'Builds grip, trunk stiffness, and shoulder packing that carry over to freestyle and backstroke pull stability late in a set.', [
         'Stand tall with shoulders packed',
@@ -116,6 +131,11 @@ export const defaultPrograms: Program[] = [
         'Hinge, do not squat',
         'Snap hips forward',
         'Let arms guide, not lift',
+      ]),
+      exercise('copenhagen-plank-adductor-machine', 'Copenhagen plank / adductor machine', 'bench, mat, or adductor machine', 'seconds or kg', 'legs', 'Builds adductor and groin strength for breaststroke kick while also supporting hip control during starts and turns.', [
+        'Start with a short lever if planking',
+        'Keep hips stacked and ribs quiet',
+        'Use controlled range on the machine',
       ]),
       exercise('medicine-ball-slam', 'Medicine ball slam', 'medicine ball', 'kg', 'power', 'Builds whole-body power for butterfly and freestyle sprinting, linking the overhead position to a fast core-driven pull down.', [
         'Reach tall overhead',

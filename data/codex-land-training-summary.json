@@ -6,12 +6,12 @@
   "timezone": "Australia/Brisbane",
   "window": {
     "days": 31,
-    "startDate": "2026-06-07",
-    "endDate": "2026-07-07"
+    "startDate": "2026-06-10",
+    "endDate": "2026-07-10"
   },
   "totals": {
     "programs": 3,
-    "exercises": 31,
+    "exercises": 35,
     "totalEntries": 108,
     "entriesInWindow": 61,
     "sessionsInWindow": 6,
@@ -869,13 +869,13 @@
       "id": "program-a",
       "name": "Program A",
       "description": "Pull, legs, core",
-      "exerciseCount": 10
+      "exerciseCount": 13
     },
     {
       "id": "program-b",
       "name": "Program B",
       "description": "Swim power, back, hips, shoulders",
-      "exerciseCount": 11
+      "exerciseCount": 12
     },
     {
       "id": "flexibility",
