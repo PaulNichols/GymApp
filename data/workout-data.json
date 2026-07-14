@@ -1,6 +1,6 @@
 {
   "appVersion": "0.1.0",
-  "exportedAt": "2026-07-11T03:36:00.301Z",
+  "exportedAt": "2026-07-14T08:21:31.327Z",
   "programs": [
     {
       "id": "program-a",
@@ -1830,6 +1830,151 @@
       "value": "10",
       "unit": "seconds",
       "notes": "Twice on each side \n\nVery, very hard"
+    },
+    {
+      "id": "entry-794cb3f5-f835-468f-a865-c51a794fe36e",
+      "exerciseId": "assisted-chin-up",
+      "exerciseName": "Assisted chin-up",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "assisted chin-up machine",
+      "completedAt": "2026-07-14T08:20:57.789Z",
+      "value": "10",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-5fa620b5-a893-4d97-ad2a-98aa68d26c2b",
+      "exerciseId": "chest-supported-row",
+      "exerciseName": "Chest-supported row",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "seated row machine",
+      "completedAt": "2026-07-14T08:20:58.555Z",
+      "value": "45",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-b40f7bbd-7ba0-44e0-b4e8-cfb60ce96aa0",
+      "exerciseId": "straight-arm-pulldown",
+      "exerciseName": "Straight-arm pulldown",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "cable machine",
+      "completedAt": "2026-07-14T08:20:59.340Z",
+      "value": "41",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-970df35d-e66f-4990-8319-12b590b47adc",
+      "exerciseId": "rear-delt-fly",
+      "exerciseName": "Rear delt fly",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "rear delt / fly machine",
+      "completedAt": "2026-07-14T08:21:00.154Z",
+      "value": "70",
+      "unit": "Lbs"
+    },
+    {
+      "id": "entry-c93bb558-1d55-4993-b8ed-b1c8d3f53602",
+      "exerciseId": "leg-press",
+      "exerciseName": "Leg press",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "leg press machine",
+      "completedAt": "2026-07-14T08:21:00.973Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-af3fbfec-cabb-463f-91da-ba612762baf6",
+      "exerciseId": "dumbbell-romanian-deadlift",
+      "exerciseName": "Dumbbell Romanian deadlift",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbells",
+      "completedAt": "2026-07-14T08:21:02.039Z",
+      "value": "15",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-e61ea74a-8741-47fd-ad19-f857eee99c1f",
+      "exerciseId": "dumbbell-external-rotation",
+      "exerciseName": "Dumbbell external rotation",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbell",
+      "completedAt": "2026-07-14T08:21:06.337Z",
+      "value": "7",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-7d62336f-8a30-40a8-82f9-24debc1a936d",
+      "exerciseId": "weighted-dead-bug-hollow-hold",
+      "exerciseName": "Weighted dead bug / hollow hold",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbell or bodyweight",
+      "completedAt": "2026-07-14T08:21:07.272Z",
+      "value": "10",
+      "unit": "seconds"
+    },
+    {
+      "id": "entry-e6546abe-ad8a-4731-9577-6bff87136c49",
+      "exerciseId": "farmers-carry",
+      "exerciseName": "Farmer's carry",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbells or kettlebells",
+      "completedAt": "2026-07-14T08:21:08.256Z",
+      "value": "32",
+      "unit": "seconds"
+    },
+    {
+      "id": "entry-f5a62c19-4e60-4ec3-a5f5-612ea817cae3",
+      "exerciseId": "exercise-c5d12f3f-8b4b-48bf-b31b-11da5df0f23e",
+      "exerciseName": "Calf raises",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "",
+      "completedAt": "2026-07-14T08:21:10.191Z",
+      "value": "",
+      "unit": "kg",
+      "notes": "Skip"
+    },
+    {
+      "id": "entry-7f937403-ec59-4364-b925-a0b77b73994c",
+      "exerciseId": "step-up-bulgarian-split-squat",
+      "exerciseName": "Step-up / Bulgarian split squat",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "box, bench, or dumbbells",
+      "completedAt": "2026-07-14T08:21:25.424Z",
+      "value": "10",
+      "unit": "kg",
+      "notes": "Only did 1 set this time, 1st time"
+    },
+    {
+      "id": "entry-e7f02751-dd80-4eac-91c2-9630e0793f96",
+      "exerciseId": "landmine-press",
+      "exerciseName": "Landmine press",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "landmine or barbell corner",
+      "completedAt": "2026-07-14T08:21:28.808Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-6b133bc4-8927-4396-942a-8da37236c812",
+      "exerciseId": "pallof-press",
+      "exerciseName": "Pallof press",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "cable machine or resistance band",
+      "completedAt": "2026-07-14T08:21:31.326Z",
+      "value": "",
+      "unit": "kg"
     }
   ]
 }
