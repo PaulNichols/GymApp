@@ -5,8 +5,14 @@ const APP_VERSION = '0.1.0';
 const PROGRAMS_KEY = 'swimGymTracker.programs';
 const HISTORY_KEY = 'swimGymTracker.history';
 const PROGRAM_MIGRATION_KEY = 'swimGymTracker.programMigration';
-const DEFAULT_EXERCISE_MIGRATION = '2026-07-swim-strength-additions';
+const DEFAULT_EXERCISE_MIGRATION = '2026-07-machine-swaps';
 const CATEGORIES = new Set(['pull', 'row', 'legs', 'core', 'shoulders', 'power', 'arms', 'mobility']);
+const REPLACED_DEFAULT_EXERCISE_IDS = new Set([
+  'step-up-bulgarian-split-squat',
+  'landmine-press',
+  'pallof-press',
+  'copenhagen-plank-adductor-machine',
+]);
 
 const cloneDefaults = (): Program[] => structuredClone(defaultPrograms);
 const defaultExercises = new Map(defaultPrograms.flatMap((program) => program.exercises.map((exercise) => [exercise.id, exercise])));
@@ -53,6 +59,12 @@ const appendMissingDefaultExercises = (programs: Program[]): Program[] =>
         }
       : program;
   });
+
+const removeReplacedDefaultExercises = (programs: Program[]): Program[] =>
+  programs.map((program) => ({
+    ...program,
+    exercises: program.exercises.filter((exercise) => !REPLACED_DEFAULT_EXERCISE_IDS.has(exercise.id)),
+  }));
 
 const readJson = <T,>(key: string, fallback: T): T => {
   try {
@@ -137,7 +149,7 @@ export const storageService = {
     const migrated =
       localStorage.getItem(PROGRAM_MIGRATION_KEY) === DEFAULT_EXERCISE_MIGRATION
         ? enriched
-        : appendMissingDefaultExercises(enriched);
+        : appendMissingDefaultExercises(removeReplacedDefaultExercises(enriched));
 
     localStorage.setItem(PROGRAM_MIGRATION_KEY, DEFAULT_EXERCISE_MIGRATION);
     writeJson(PROGRAMS_KEY, migrated);

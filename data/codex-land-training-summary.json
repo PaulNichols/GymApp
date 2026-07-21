@@ -6,8 +6,8 @@
   "timezone": "Australia/Brisbane",
   "window": {
     "days": 31,
-    "startDate": "2026-06-14",
-    "endDate": "2026-07-14"
+    "startDate": "2026-06-22",
+    "endDate": "2026-07-22"
   },
   "totals": {
     "programs": 3,
@@ -891,7 +891,7 @@
       "exerciseId": "copenhagen-plank-adductor-machine",
       "exerciseName": "Copenhagen plank / adductor machine",
       "programName": "Program B",
-      "category": "legs",
+      "category": "",
       "completedAt": "2026-07-11T03:21:37.102Z",
       "value": "10",
       "numericValue": 10,
@@ -1001,7 +1001,7 @@
       "exerciseId": "landmine-press",
       "exerciseName": "Landmine press",
       "programName": "Program A",
-      "category": "shoulders",
+      "category": "",
       "completedAt": "2026-07-14T08:21:28.808Z",
       "value": "",
       "numericValue": null,
@@ -1056,7 +1056,7 @@
       "exerciseId": "pallof-press",
       "exerciseName": "Pallof press",
       "programName": "Program A",
-      "category": "core",
+      "category": "",
       "completedAt": "2026-07-14T08:21:31.326Z",
       "value": "",
       "numericValue": null,
@@ -1089,7 +1089,7 @@
       "exerciseId": "step-up-bulgarian-split-squat",
       "exerciseName": "Step-up / Bulgarian split squat",
       "programName": "Program A",
-      "category": "legs",
+      "category": "",
       "completedAt": "2026-07-14T08:21:25.424Z",
       "value": "10",
       "numericValue": 10,

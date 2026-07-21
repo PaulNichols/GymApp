@@ -50,20 +50,20 @@ export const defaultPrograms: Program[] = [
         'Lower until knees bend comfortably',
         'Drive through mid-foot, no knee lockout',
       ]),
-      exercise('step-up-bulgarian-split-squat', 'Step-up / Bulgarian split squat', 'box, bench, or dumbbells', 'kg', 'legs', 'Builds single-leg hip and knee strength for starts, turns, and kick symmetry, helping stop one leg from doing more of the work off the wall.', [
-        'Use a low, controlled range first',
-        'Keep knee tracking over toes',
-        'Drive through the whole foot',
+      exercise('single-leg-leg-press', 'Single-leg leg press', 'leg press machine', 'kg', 'legs', 'Builds single-leg hip and knee strength for starts, turns, and kick symmetry, while using a stable machine setup instead of balance-heavy split squats.', [
+        'Set the seat so the range feels controlled',
+        'Press through the whole foot',
+        'Keep knee tracking in line with toes',
       ]),
       exercise('dumbbell-romanian-deadlift', 'Dumbbell Romanian deadlift', 'dumbbells', 'kg', 'legs', 'Strengthens hamstrings and glutes for dolphin kick and freestyle kick rhythm, while also protecting the lower back during starts and turns.', [
         'Push hips back first',
         'Dumbbells track close to legs',
         'Stand tall by squeezing glutes',
       ]),
-      exercise('landmine-press', 'Landmine press', 'landmine or barbell corner', 'kg', 'shoulders', 'Adds shoulder-friendly pressing strength for starts, turns, and general shoulder balance without forcing a straight-overhead position.', [
-        'Set ribs down before pressing',
-        'Press up and slightly forward',
-        'Control the return to shoulder height',
+      exercise('shoulder-press-machine', 'Shoulder press machine', 'shoulder press machine', 'kg', 'shoulders', 'Adds controlled pressing strength for starts, turns, and shoulder balance, with a guided path that is simpler than a landmine setup.', [
+        'Set handles around shoulder height',
+        'Press without shrugging',
+        'Lower slowly under control',
       ]),
       exercise('dumbbell-external-rotation', 'Dumbbell external rotation', 'dumbbell', 'kg', 'shoulders', 'Builds rotator cuff control for freestyle and butterfly recovery, helping keep the shoulder centred through repeated overhead strokes.', [
         'Elbow stays fixed by side',
@@ -75,10 +75,10 @@ export const defaultPrograms: Program[] = [
         'Reach long through arms and legs',
         'Stop before form breaks',
       ]),
-      exercise('pallof-press', 'Pallof press', 'cable machine or resistance band', 'kg', 'core', 'Trains anti-rotation strength for freestyle and backstroke so the body stays long and connected while the arms pull hard.', [
-        'Stand side-on to the cable',
-        'Press hands straight out from chest',
-        'Resist twisting toward the machine',
+      exercise('rotary-torso-machine', 'Rotary torso machine', 'rotary torso machine', 'kg', 'core', 'Trains controlled trunk rotation for freestyle and backstroke, helping the hips and ribs connect to the pull without overloading the lower back.', [
+        'Use a small controlled range',
+        'Move from ribs and hips together',
+        'Return slowly without bouncing',
       ]),
       exercise('farmers-carry', "Farmer's carry", 'dumbbells or kettlebells', 'seconds', 'power', 'Builds grip, trunk stiffness, and shoulder packing that carry over to freestyle and backstroke pull stability late in a set.', [
         'Stand tall with shoulders packed',
@@ -132,10 +132,10 @@ export const defaultPrograms: Program[] = [
         'Snap hips forward',
         'Let arms guide, not lift',
       ]),
-      exercise('copenhagen-plank-adductor-machine', 'Copenhagen plank / adductor machine', 'bench, mat, or adductor machine', 'seconds or kg', 'legs', 'Builds adductor and groin strength for breaststroke kick while also supporting hip control during starts and turns.', [
-        'Start with a short lever if planking',
-        'Keep hips stacked and ribs quiet',
-        'Use controlled range on the machine',
+      exercise('hip-adductor-machine', 'Hip adductor machine', 'hip adductor machine', 'kg', 'legs', 'Builds adductor and groin strength for breaststroke kick with a simple machine setup instead of a Copenhagen plank.', [
+        'Set the pads comfortably wide',
+        'Squeeze inward under control',
+        'Return slowly without letting plates slam',
       ]),
       exercise('medicine-ball-slam', 'Medicine ball slam', 'medicine ball', 'kg', 'power', 'Builds whole-body power for butterfly and freestyle sprinting, linking the overhead position to a fast core-driven pull down.', [
         'Reach tall overhead',
