@@ -5,13 +5,13 @@ const APP_VERSION = '0.1.0';
 const PROGRAMS_KEY = 'swimGymTracker.programs';
 const HISTORY_KEY = 'swimGymTracker.history';
 const PROGRAM_MIGRATION_KEY = 'swimGymTracker.programMigration';
-const DEFAULT_EXERCISE_MIGRATION = '2026-07-machine-swaps';
+const DEFAULT_EXERCISE_MIGRATION = '2026-07-copenhagen-return';
 const CATEGORIES = new Set(['pull', 'row', 'legs', 'core', 'shoulders', 'power', 'arms', 'mobility']);
 const REPLACED_DEFAULT_EXERCISE_IDS = new Set([
   'step-up-bulgarian-split-squat',
   'landmine-press',
   'pallof-press',
-  'copenhagen-plank-adductor-machine',
+  'hip-adductor-machine',
 ]);
 
 const cloneDefaults = (): Program[] => structuredClone(defaultPrograms);

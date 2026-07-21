@@ -132,10 +132,10 @@ export const defaultPrograms: Program[] = [
         'Snap hips forward',
         'Let arms guide, not lift',
       ]),
-      exercise('hip-adductor-machine', 'Hip adductor machine', 'hip adductor machine', 'kg', 'legs', 'Builds adductor and groin strength for breaststroke kick with a simple machine setup instead of a Copenhagen plank.', [
-        'Set the pads comfortably wide',
-        'Squeeze inward under control',
-        'Return slowly without letting plates slam',
+      exercise('copenhagen-plank-adductor-machine', 'Copenhagen plank', 'bench or mat', 'seconds', 'legs', 'Builds adductor and groin strength for breaststroke kick without needing a machine, while also supporting hip control during starts and turns.', [
+        'Start with a short lever if needed',
+        'Keep hips stacked and ribs quiet',
+        'Stop before groin or knee discomfort',
       ]),
       exercise('medicine-ball-slam', 'Medicine ball slam', 'medicine ball', 'kg', 'power', 'Builds whole-body power for butterfly and freestyle sprinting, linking the overhead position to a fast core-driven pull down.', [
         'Reach tall overhead',

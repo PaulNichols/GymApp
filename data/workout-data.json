@@ -304,18 +304,18 @@
           "swimDescription": "Develops hip snap for starts, turns, and butterfly dolphin kick power, with the strongest transfer to explosive wall push-offs."
         },
         {
-          "id": "hip-adductor-machine",
-          "name": "Hip adductor machine",
-          "equipment": "hip adductor machine",
-          "unit": "kg",
+          "id": "copenhagen-plank-adductor-machine",
+          "name": "Copenhagen plank",
+          "equipment": "bench or mat",
+          "unit": "seconds",
           "category": "legs",
-          "swimDescription": "Builds adductor and groin strength for breaststroke kick with a simple machine setup instead of a Copenhagen plank.",
+          "swimDescription": "Builds adductor and groin strength for breaststroke kick without needing a machine, while also supporting hip control during starts and turns.",
           "guideCues": [
-            "Set the pads comfortably wide",
-            "Squeeze inward under control",
-            "Return slowly without letting plates slam"
+            "Start with a short lever if needed",
+            "Keep hips stacked and ribs quiet",
+            "Stop before groin or knee discomfort"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Hip%20adductor%20machine%20hip%20adductor%20machine%20proper%20form"
+          "videoUrl": "https://www.youtube.com/results?search_query=Copenhagen%20plank%20bench%20or%20mat%20proper%20form"
         },
         {
           "id": "medicine-ball-slam",
