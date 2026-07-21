@@ -37,7 +37,8 @@ export function ProgramPage({ program, onBack, onComplete }: ProgramPageProps) {
     );
   }
 
-  const latestEntry = storageService.getLatestEntryForExercise(exercise.id);
+  const currentWorkoutEntryIds = new Set(Object.values(entryIds));
+  const latestEntry = storageService.getLatestEntryForExercise(exercise.id, currentWorkoutEntryIds);
   const latestNote = latestEntry?.notes?.trim();
   const draft = drafts[exercise.id] ?? { value: '', unit: exercise.unit, notes: '' };
   const progressText = `Exercise ${index + 1} of ${program.exercises.length}`;

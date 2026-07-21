@@ -1,5 +1,6 @@
 import { defaultPrograms } from '../data/defaultPrograms';
 import type { ExportData, Program, WorkoutEntry } from '../types';
+import { findLatestRecordedEntry } from './workoutHistory';
 
 const APP_VERSION = '0.1.0';
 const PROGRAMS_KEY = 'swimGymTracker.programs';
@@ -204,10 +205,8 @@ export const storageService = {
     writeJson(HISTORY_KEY, [...existing, ...entries]);
   },
 
-  getLatestEntryForExercise(exerciseId: string): WorkoutEntry | undefined {
-    return this.getWorkoutHistory()
-      .filter((entry) => entry.exerciseId === exerciseId)
-      .sort((a, b) => new Date(b.completedAt).getTime() - new Date(a.completedAt).getTime())[0];
+  getLatestEntryForExercise(exerciseId: string, excludedEntryIds?: ReadonlySet<string>): WorkoutEntry | undefined {
+    return findLatestRecordedEntry(this.getWorkoutHistory(), exerciseId, excludedEntryIds);
   },
 
   exportData(): ExportData {
