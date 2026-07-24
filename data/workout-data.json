@@ -1,6 +1,6 @@
 {
   "appVersion": "0.1.0",
-  "exportedAt": "2026-07-14T08:21:31.327Z",
+  "exportedAt": "2026-07-24T07:29:37.898Z",
   "programs": [
     {
       "id": "program-a",
@@ -78,20 +78,6 @@
           "swimDescription": "Builds leg drive for starts, turns, and push-offs across every stroke, with the biggest transfer to wall speed and streamline distance."
         },
         {
-          "id": "single-leg-leg-press",
-          "name": "Single-leg leg press",
-          "equipment": "leg press machine",
-          "unit": "kg",
-          "category": "legs",
-          "swimDescription": "Builds single-leg hip and knee strength for starts, turns, and kick symmetry, while using a stable machine setup instead of balance-heavy split squats.",
-          "guideCues": [
-            "Set the seat so the range feels controlled",
-            "Press through the whole foot",
-            "Keep knee tracking in line with toes"
-          ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Single-leg%20leg%20press%20leg%20press%20machine%20proper%20form"
-        },
-        {
           "id": "dumbbell-romanian-deadlift",
           "name": "Dumbbell Romanian deadlift",
           "equipment": "dumbbells",
@@ -104,20 +90,6 @@
           ],
           "videoUrl": "https://www.youtube.com/results?search_query=Dumbbell%20Romanian%20deadlift%20dumbbells%20proper%20form",
           "swimDescription": "Strengthens hamstrings and glutes for dolphin kick and freestyle kick rhythm, while also protecting the lower back during starts and turns."
-        },
-        {
-          "id": "shoulder-press-machine",
-          "name": "Shoulder press machine",
-          "equipment": "shoulder press machine",
-          "unit": "kg",
-          "category": "shoulders",
-          "swimDescription": "Adds controlled pressing strength for starts, turns, and shoulder balance, with a guided path that is simpler than a landmine setup.",
-          "guideCues": [
-            "Set handles around shoulder height",
-            "Press without shrugging",
-            "Lower slowly under control"
-          ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Shoulder%20press%20machine%20shoulder%20press%20machine%20proper%20form"
         },
         {
           "id": "dumbbell-external-rotation",
@@ -148,20 +120,6 @@
           "swimDescription": "Improves body-line control for streamline, freestyle rotation, and butterfly undulation without the hips or ribs leaking position."
         },
         {
-          "id": "rotary-torso-machine",
-          "name": "Rotary torso machine",
-          "equipment": "rotary torso machine",
-          "unit": "kg",
-          "category": "core",
-          "swimDescription": "Trains controlled trunk rotation for freestyle and backstroke, helping the hips and ribs connect to the pull without overloading the lower back.",
-          "guideCues": [
-            "Use a small controlled range",
-            "Move from ribs and hips together",
-            "Return slowly without bouncing"
-          ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Rotary%20torso%20machine%20rotary%20torso%20machine%20proper%20form"
-        },
-        {
           "id": "farmers-carry",
           "name": "Farmer's carry",
           "equipment": "dumbbells or kettlebells",
@@ -183,6 +141,48 @@
           "category": "legs",
           "imageUrl": "",
           "swimDescription": "None. Just helps my Achilles"
+        },
+        {
+          "id": "step-up-bulgarian-split-squat",
+          "name": "Step-up / Bulgarian split squat",
+          "equipment": "box, bench, or dumbbells",
+          "unit": "kg",
+          "category": "legs",
+          "swimDescription": "Builds single-leg hip and knee strength for starts, turns, and kick symmetry, helping stop one leg from doing more of the work off the wall.",
+          "guideCues": [
+            "Use a low, controlled range first",
+            "Keep knee tracking over toes",
+            "Drive through the whole foot"
+          ],
+          "videoUrl": "https://www.youtube.com/results?search_query=Step-up%20%2F%20Bulgarian%20split%20squat%20box%2C%20bench%2C%20or%20dumbbells%20proper%20form"
+        },
+        {
+          "id": "landmine-press",
+          "name": "Landmine press",
+          "equipment": "landmine or barbell corner",
+          "unit": "kg",
+          "category": "shoulders",
+          "swimDescription": "Adds shoulder-friendly pressing strength for starts, turns, and general shoulder balance without forcing a straight-overhead position.",
+          "guideCues": [
+            "Set ribs down before pressing",
+            "Press up and slightly forward",
+            "Control the return to shoulder height"
+          ],
+          "videoUrl": "https://www.youtube.com/results?search_query=Landmine%20press%20landmine%20or%20barbell%20corner%20proper%20form"
+        },
+        {
+          "id": "pallof-press",
+          "name": "Pallof press",
+          "equipment": "cable machine or resistance band",
+          "unit": "kg",
+          "category": "core",
+          "swimDescription": "Trains anti-rotation strength for freestyle and backstroke so the body stays long and connected while the arms pull hard.",
+          "guideCues": [
+            "Stand side-on to the cable",
+            "Press hands straight out from chest",
+            "Resist twisting toward the machine"
+          ],
+          "videoUrl": "https://www.youtube.com/results?search_query=Pallof%20press%20cable%20machine%20or%20resistance%20band%20proper%20form"
         }
       ]
     },
@@ -304,20 +304,6 @@
           "swimDescription": "Develops hip snap for starts, turns, and butterfly dolphin kick power, with the strongest transfer to explosive wall push-offs."
         },
         {
-          "id": "copenhagen-plank-adductor-machine",
-          "name": "Copenhagen plank",
-          "equipment": "bench or mat",
-          "unit": "seconds",
-          "category": "legs",
-          "swimDescription": "Builds adductor and groin strength for breaststroke kick without needing a machine, while also supporting hip control during starts and turns.",
-          "guideCues": [
-            "Start with a short lever if needed",
-            "Keep hips stacked and ribs quiet",
-            "Stop before groin or knee discomfort"
-          ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Copenhagen%20plank%20bench%20or%20mat%20proper%20form"
-        },
-        {
           "id": "medicine-ball-slam",
           "name": "Medicine ball slam",
           "equipment": "medicine ball",
@@ -352,6 +338,20 @@
           "unit": "kg",
           "category": "arms",
           "imageUrl": ""
+        },
+        {
+          "id": "copenhagen-plank-adductor-machine",
+          "name": "Copenhagen plank / adductor machine",
+          "equipment": "bench, mat, or adductor machine",
+          "unit": "seconds or kg",
+          "category": "legs",
+          "swimDescription": "Builds adductor and groin strength for breaststroke kick while also supporting hip control during starts and turns.",
+          "guideCues": [
+            "Start with a short lever if planking",
+            "Keep hips stacked and ribs quiet",
+            "Use controlled range on the machine"
+          ],
+          "videoUrl": "https://www.youtube.com/results?search_query=Copenhagen%20plank%20%2F%20adductor%20machine%20bench%2C%20mat%2C%20or%20adductor%20machine%20proper%20form"
         }
       ]
     },
@@ -1975,6 +1975,141 @@
       "completedAt": "2026-07-14T08:21:31.326Z",
       "value": "",
       "unit": "kg"
+    },
+    {
+      "id": "entry-73b6421b-9c08-4998-bcda-ea01d3a68ac1",
+      "exerciseId": "lat-pulldown",
+      "exerciseName": "Lat pulldown",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "lat pulldown machine",
+      "completedAt": "2026-07-24T06:45:58.725Z",
+      "value": "55",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-2c2cc03c-f8af-48e7-b595-94546cb866a8",
+      "exerciseId": "single-arm-dumbbell-row",
+      "exerciseName": "Single-arm dumbbell row",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "dumbbell",
+      "completedAt": "2026-07-24T06:49:38.562Z",
+      "value": "17.5",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-59a37c78-6cc4-4dc1-83a9-974e864e46f8",
+      "exerciseId": "dumbbell-pullover",
+      "exerciseName": "Dumbbell pullover",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "dumbbell",
+      "completedAt": "2026-07-24T06:58:23.819Z",
+      "value": "12.5",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-2705a9ff-429a-4b61-a6d1-cba2c92a12c2",
+      "exerciseId": "face-pull",
+      "exerciseName": "Face pull",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "cable machine with rope",
+      "completedAt": "2026-07-24T07:03:37.976Z",
+      "value": "12.5",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-a95d6a7f-4808-487f-a1b9-83348e604908",
+      "exerciseId": "triceps-pressdown",
+      "exerciseName": "Triceps pressdown",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "cable machine",
+      "completedAt": "2026-07-24T07:03:48.791Z",
+      "value": "17",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-f58b2d8f-d386-44a9-8d14-40d8a054f003",
+      "exerciseId": "goblet-squat",
+      "exerciseName": "Goblet squat",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "kettlebell or dumbbell",
+      "completedAt": "2026-07-24T07:12:31.542Z",
+      "value": "17.5",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-069cce22-41b0-4a78-9a8e-e1cd3491acaf",
+      "exerciseId": "hamstring-curl",
+      "exerciseName": "Hamstring curl",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "hamstring curl machine",
+      "completedAt": "2026-07-24T07:16:40.639Z",
+      "value": "50",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-8ffe6986-e5c5-4bec-9a45-789c5e26dbea",
+      "exerciseId": "kettlebell-swing",
+      "exerciseName": "Kettlebell swing",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "kettlebell",
+      "completedAt": "2026-07-24T07:29:30.615Z",
+      "value": "",
+      "unit": "kg",
+      "notes": "Skipped"
+    },
+    {
+      "id": "entry-138676f4-3ac5-42bb-aa23-517650a3f8c6",
+      "exerciseId": "medicine-ball-slam",
+      "exerciseName": "Medicine ball slam",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "medicine ball",
+      "completedAt": "2026-07-24T07:29:31.744Z",
+      "value": "12",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-f4821105-6258-4bd2-b49d-55f34f5c5f88",
+      "exerciseId": "low-twist-high-twist",
+      "exerciseName": "Low twist or high twist",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "cable machine",
+      "completedAt": "2026-07-24T07:29:34.362Z",
+      "value": "",
+      "unit": "kg",
+      "notes": "Skipped"
+    },
+    {
+      "id": "entry-10bf2ac9-5c54-4773-bc89-3fa6b096d8d7",
+      "exerciseId": "exercise-6b4922e0-ec6d-4e88-9bf7-363a065ef574",
+      "exerciseName": "Dumbbell bench press",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "",
+      "completedAt": "2026-07-24T07:29:36.312Z",
+      "value": "35",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-f7b9b26d-0302-4e01-8f6d-8b5525902dd3",
+      "exerciseId": "copenhagen-plank-adductor-machine",
+      "exerciseName": "Copenhagen plank / adductor machine",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "bench, mat, or adductor machine",
+      "completedAt": "2026-07-24T07:29:37.897Z",
+      "value": "",
+      "unit": "seconds or kg",
+      "notes": "Skipped"
     }
   ]
 }
