@@ -1,6 +1,6 @@
 {
   "appVersion": "0.1.0",
-  "exportedAt": "2026-07-24T07:29:37.898Z",
+  "exportedAt": "2026-07-27T08:06:23.337Z",
   "programs": [
     {
       "id": "program-a",
@@ -143,46 +143,46 @@
           "swimDescription": "None. Just helps my Achilles"
         },
         {
-          "id": "step-up-bulgarian-split-squat",
-          "name": "Step-up / Bulgarian split squat",
-          "equipment": "box, bench, or dumbbells",
+          "id": "single-leg-leg-press",
+          "name": "Single-leg leg press",
+          "equipment": "leg press machine",
           "unit": "kg",
           "category": "legs",
-          "swimDescription": "Builds single-leg hip and knee strength for starts, turns, and kick symmetry, helping stop one leg from doing more of the work off the wall.",
+          "swimDescription": "Builds single-leg hip and knee strength for starts, turns, and kick symmetry, while using a stable machine setup instead of balance-heavy split squats.",
           "guideCues": [
-            "Use a low, controlled range first",
-            "Keep knee tracking over toes",
-            "Drive through the whole foot"
+            "Set the seat so the range feels controlled",
+            "Press through the whole foot",
+            "Keep knee tracking in line with toes"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Step-up%20%2F%20Bulgarian%20split%20squat%20box%2C%20bench%2C%20or%20dumbbells%20proper%20form"
+          "videoUrl": "https://www.youtube.com/results?search_query=Single-leg%20leg%20press%20leg%20press%20machine%20proper%20form"
         },
         {
-          "id": "landmine-press",
-          "name": "Landmine press",
-          "equipment": "landmine or barbell corner",
+          "id": "shoulder-press-machine",
+          "name": "Shoulder press machine",
+          "equipment": "shoulder press machine",
           "unit": "kg",
           "category": "shoulders",
-          "swimDescription": "Adds shoulder-friendly pressing strength for starts, turns, and general shoulder balance without forcing a straight-overhead position.",
+          "swimDescription": "Adds controlled pressing strength for starts, turns, and shoulder balance, with a guided path that is simpler than a landmine setup.",
           "guideCues": [
-            "Set ribs down before pressing",
-            "Press up and slightly forward",
-            "Control the return to shoulder height"
+            "Set handles around shoulder height",
+            "Press without shrugging",
+            "Lower slowly under control"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Landmine%20press%20landmine%20or%20barbell%20corner%20proper%20form"
+          "videoUrl": "https://www.youtube.com/results?search_query=Shoulder%20press%20machine%20shoulder%20press%20machine%20proper%20form"
         },
         {
-          "id": "pallof-press",
-          "name": "Pallof press",
-          "equipment": "cable machine or resistance band",
+          "id": "rotary-torso-machine",
+          "name": "Rotary torso machine",
+          "equipment": "rotary torso machine",
           "unit": "kg",
           "category": "core",
-          "swimDescription": "Trains anti-rotation strength for freestyle and backstroke so the body stays long and connected while the arms pull hard.",
+          "swimDescription": "Trains controlled trunk rotation for freestyle and backstroke, helping the hips and ribs connect to the pull without overloading the lower back.",
           "guideCues": [
-            "Stand side-on to the cable",
-            "Press hands straight out from chest",
-            "Resist twisting toward the machine"
+            "Use a small controlled range",
+            "Move from ribs and hips together",
+            "Return slowly without bouncing"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Pallof%20press%20cable%20machine%20or%20resistance%20band%20proper%20form"
+          "videoUrl": "https://www.youtube.com/results?search_query=Rotary%20torso%20machine%20rotary%20torso%20machine%20proper%20form"
         }
       ]
     },
@@ -2110,6 +2110,161 @@
       "value": "",
       "unit": "seconds or kg",
       "notes": "Skipped"
+    },
+    {
+      "id": "entry-6cfe384c-dace-4f43-b72e-2f6818138a90",
+      "exerciseId": "lat-pulldown",
+      "exerciseName": "Lat pulldown",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "lat pulldown machine",
+      "completedAt": "2026-07-27T07:26:29.314Z",
+      "value": "55",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-0deeeb19-5650-4270-bd75-501424ef67f3",
+      "exerciseId": "assisted-chin-up",
+      "exerciseName": "Assisted chin-up",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "assisted chin-up machine",
+      "completedAt": "2026-07-27T07:46:02.715Z",
+      "value": "9",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-c5ac90e3-3dd5-4320-a7a7-b6ccd7b245f4",
+      "exerciseId": "chest-supported-row",
+      "exerciseName": "Chest-supported row",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "seated row machine",
+      "completedAt": "2026-07-27T07:46:03.648Z",
+      "value": "45",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-0a87cc3f-c227-4efc-8e8f-784160751b4f",
+      "exerciseId": "straight-arm-pulldown",
+      "exerciseName": "Straight-arm pulldown",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "cable machine",
+      "completedAt": "2026-07-27T07:56:13.753Z",
+      "value": "45",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-520b4e61-77e6-43b3-80bc-1fb7f369437e",
+      "exerciseId": "rear-delt-fly",
+      "exerciseName": "Rear delt fly",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "rear delt / fly machine",
+      "completedAt": "2026-07-27T07:58:21.976Z",
+      "value": "70",
+      "unit": "Lbs"
+    },
+    {
+      "id": "entry-95172621-ac6d-42a3-8960-6fbfd75a95e1",
+      "exerciseId": "leg-press",
+      "exerciseName": "Leg press",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "leg press machine",
+      "completedAt": "2026-07-27T07:58:23.256Z",
+      "value": "75",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-84e74bba-4e49-435f-848b-0611c6842c46",
+      "exerciseId": "dumbbell-romanian-deadlift",
+      "exerciseName": "Dumbbell Romanian deadlift",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbells",
+      "completedAt": "2026-07-27T07:58:24.440Z",
+      "value": "15",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-d670d1e2-283b-453e-b000-7a2234979106",
+      "exerciseId": "dumbbell-external-rotation",
+      "exerciseName": "Dumbbell external rotation",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbell",
+      "completedAt": "2026-07-27T07:58:25.306Z",
+      "value": "7",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-4403af7c-9969-4499-a307-30c47006c521",
+      "exerciseId": "weighted-dead-bug-hollow-hold",
+      "exerciseName": "Weighted dead bug / hollow hold",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbell or bodyweight",
+      "completedAt": "2026-07-27T07:58:43.513Z",
+      "value": "10",
+      "unit": "Kg"
+    },
+    {
+      "id": "entry-31ae551c-4710-408c-9430-a760fe21cc26",
+      "exerciseId": "farmers-carry",
+      "exerciseName": "Farmer's carry",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbells or kettlebells",
+      "completedAt": "2026-07-27T07:58:46.916Z",
+      "value": "32",
+      "unit": "Kg",
+      "notes": "30 secs"
+    },
+    {
+      "id": "entry-48733fcd-1537-4743-b469-e87d2d5fa8c8",
+      "exerciseId": "exercise-c5d12f3f-8b4b-48bf-b31b-11da5df0f23e",
+      "exerciseName": "Calf raises",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "",
+      "completedAt": "2026-07-27T07:58:50.083Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-52ca5d96-4898-4def-8038-c0750d96ed41",
+      "exerciseId": "single-leg-leg-press",
+      "exerciseName": "Single-leg leg press",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "leg press machine",
+      "completedAt": "2026-07-27T07:58:53.616Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-7c12d997-5a1d-4189-8304-e296ed54599d",
+      "exerciseId": "shoulder-press-machine",
+      "exerciseName": "Shoulder press machine",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "shoulder press machine",
+      "completedAt": "2026-07-27T08:06:13.071Z",
+      "value": "17.5",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-36fabc04-a061-41b9-bc73-14ee80852c67",
+      "exerciseId": "rotary-torso-machine",
+      "exerciseName": "Rotary torso machine",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "rotary torso machine",
+      "completedAt": "2026-07-27T08:06:23.336Z",
+      "value": "",
+      "unit": "kg"
     }
   ]
 }
