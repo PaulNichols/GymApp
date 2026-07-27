@@ -127,6 +127,11 @@ export const defaultPrograms: Program[] = [
         'Curl heels toward glutes',
         'Lower slowly to full control',
       ]),
+      exercise('leg-extension', 'Leg extension', 'leg extension machine', 'kg', 'legs', 'Builds quadriceps strength for powerful starts, turns, and wall push-offs across every stroke, with extra support for the knee-extension phase of breaststroke kick.', [
+        'Align knees with the machine pivot',
+        'Extend smoothly without locking knees',
+        'Lower slowly through a comfortable range',
+      ]),
       exercise('kettlebell-swing', 'Kettlebell swing', 'kettlebell', 'kg', 'power', 'Develops hip snap for starts, turns, and butterfly dolphin kick power, with the strongest transfer to explosive wall push-offs.', [
         'Hinge, do not squat',
         'Snap hips forward',

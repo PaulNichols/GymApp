@@ -6,12 +6,12 @@
   "timezone": "Australia/Brisbane",
   "window": {
     "days": 31,
-    "startDate": "2026-06-27",
-    "endDate": "2026-07-27"
+    "startDate": "2026-06-28",
+    "endDate": "2026-07-28"
   },
   "totals": {
     "programs": 3,
-    "exercises": 35,
+    "exercises": 36,
     "totalEntries": 159,
     "entriesInWindow": 91,
     "sessionsInWindow": 9,
@@ -1225,7 +1225,7 @@
       "id": "program-b",
       "name": "Program B",
       "description": "Swim power, back, hips, shoulders",
-      "exerciseCount": 12
+      "exerciseCount": 13
     },
     {
       "id": "flexibility",

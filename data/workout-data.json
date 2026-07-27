@@ -290,6 +290,20 @@
           "swimDescription": "Targets knee flexion for breaststroke recovery and supports hamstring durability for starts, turns, and dolphin kick."
         },
         {
+          "id": "leg-extension",
+          "name": "Leg extension",
+          "equipment": "leg extension machine",
+          "unit": "kg",
+          "category": "legs",
+          "guideCues": [
+            "Align knees with the machine pivot",
+            "Extend smoothly without locking knees",
+            "Lower slowly through a comfortable range"
+          ],
+          "videoUrl": "https://www.youtube.com/results?search_query=Leg%20extension%20leg%20extension%20machine%20proper%20form",
+          "swimDescription": "Builds quadriceps strength for powerful starts, turns, and wall push-offs across every stroke, with extra support for the knee-extension phase of breaststroke kick."
+        },
+        {
           "id": "kettlebell-swing",
           "name": "Kettlebell swing",
           "equipment": "kettlebell",
