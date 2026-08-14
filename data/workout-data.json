@@ -1,6 +1,6 @@
 {
   "appVersion": "0.1.0",
-  "exportedAt": "2026-07-27T08:06:23.337Z",
+  "exportedAt": "2026-08-14T07:55:51.444Z",
   "programs": [
     {
       "id": "program-a",
@@ -132,15 +132,6 @@
           ],
           "videoUrl": "https://www.youtube.com/results?search_query=Farmer's%20carry%20dumbbells%20or%20kettlebells%20proper%20form",
           "swimDescription": "Builds grip, trunk stiffness, and shoulder packing that carry over to freestyle and backstroke pull stability late in a set."
-        },
-        {
-          "id": "exercise-c5d12f3f-8b4b-48bf-b31b-11da5df0f23e",
-          "name": "Calf raises",
-          "equipment": "",
-          "unit": "kg",
-          "category": "legs",
-          "imageUrl": "",
-          "swimDescription": "None. Just helps my Achilles"
         },
         {
           "id": "single-leg-leg-press",
@@ -290,20 +281,6 @@
           "swimDescription": "Targets knee flexion for breaststroke recovery and supports hamstring durability for starts, turns, and dolphin kick."
         },
         {
-          "id": "leg-extension",
-          "name": "Leg extension",
-          "equipment": "leg extension machine",
-          "unit": "kg",
-          "category": "legs",
-          "guideCues": [
-            "Align knees with the machine pivot",
-            "Extend smoothly without locking knees",
-            "Lower slowly through a comfortable range"
-          ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Leg%20extension%20leg%20extension%20machine%20proper%20form",
-          "swimDescription": "Builds quadriceps strength for powerful starts, turns, and wall push-offs across every stroke, with extra support for the knee-extension phase of breaststroke kick."
-        },
-        {
           "id": "kettlebell-swing",
           "name": "Kettlebell swing",
           "equipment": "kettlebell",
@@ -366,6 +343,20 @@
             "Use controlled range on the machine"
           ],
           "videoUrl": "https://www.youtube.com/results?search_query=Copenhagen%20plank%20%2F%20adductor%20machine%20bench%2C%20mat%2C%20or%20adductor%20machine%20proper%20form"
+        },
+        {
+          "id": "leg-extension",
+          "name": "Leg extension",
+          "equipment": "leg extension machine",
+          "unit": "kg",
+          "category": "legs",
+          "swimDescription": "Builds quadriceps strength for powerful starts, turns, and wall push-offs across every stroke, with extra support for the knee-extension phase of breaststroke kick.",
+          "guideCues": [
+            "Align knees with the machine pivot",
+            "Extend smoothly without locking knees",
+            "Lower slowly through a comfortable range"
+          ],
+          "videoUrl": "https://www.youtube.com/results?search_query=Leg%20extension%20leg%20extension%20machine%20proper%20form"
         }
       ]
     },
@@ -2278,6 +2269,325 @@
       "equipment": "rotary torso machine",
       "completedAt": "2026-07-27T08:06:23.336Z",
       "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-27bc32e1-b495-42a3-9387-f71829314719",
+      "exerciseId": "cat-camel",
+      "exerciseName": "Cat-camel",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "mat or floor",
+      "completedAt": "2026-08-05T11:10:39.048Z",
+      "value": "",
+      "unit": "reps"
+    },
+    {
+      "id": "entry-66d5c5e7-dda0-4987-893a-8f0c78f50d84",
+      "exerciseId": "childs-pose",
+      "exerciseName": "Child's pose",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "mat or floor",
+      "completedAt": "2026-08-05T11:10:54.936Z",
+      "value": "",
+      "unit": "seconds"
+    },
+    {
+      "id": "entry-20830cee-455e-4a11-b020-94ce8c1170c1",
+      "exerciseId": "lower-back-rotations",
+      "exerciseName": "Knees side-to-side / lower back rotations",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "mat or floor",
+      "completedAt": "2026-08-05T11:11:11.246Z",
+      "value": "",
+      "unit": "reps each side"
+    },
+    {
+      "id": "entry-0d551803-0ddc-4856-b4f0-5389c4e0b376",
+      "exerciseId": "knee-to-chest-stretch",
+      "exerciseName": "Knee-to-chest stretch",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "mat or floor",
+      "completedAt": "2026-08-05T11:11:12.842Z",
+      "value": "",
+      "unit": "seconds each side"
+    },
+    {
+      "id": "entry-aafaa13c-ebe1-4ffa-84cf-d0b60182c458",
+      "exerciseId": "hip-flexor-stretch",
+      "exerciseName": "Hip flexor stretch",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "mat or floor",
+      "completedAt": "2026-08-05T11:11:16.700Z",
+      "value": "",
+      "unit": "seconds each side"
+    },
+    {
+      "id": "entry-0223e3dc-688a-40a1-8db5-f3fff836e127",
+      "exerciseId": "figure-four-stretch",
+      "exerciseName": "Glute / figure-four stretch",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "mat, floor, or chair",
+      "completedAt": "2026-08-05T11:11:19.013Z",
+      "value": "",
+      "unit": "seconds each side"
+    },
+    {
+      "id": "entry-283e7dd1-7ab4-4fba-b7bb-3d8aa9cbcb17",
+      "exerciseId": "chair-hamstring-stretch",
+      "exerciseName": "Hamstring stretch on chair",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "chair",
+      "completedAt": "2026-08-05T11:11:23.314Z",
+      "value": "",
+      "unit": "seconds each side"
+    },
+    {
+      "id": "entry-16b7f487-167b-4863-9d3f-0a78b41a452a",
+      "exerciseId": "wall-calf-stretch",
+      "exerciseName": "Calf stretch against wall",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "wall",
+      "completedAt": "2026-08-05T11:11:26.009Z",
+      "value": "",
+      "unit": "seconds each side"
+    },
+    {
+      "id": "entry-af549eaf-2524-4a31-b70f-7867bee7291f",
+      "exerciseId": "bent-knee-forward-fold",
+      "exerciseName": "Standing forward fold with bent knees",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "bodyweight",
+      "completedAt": "2026-08-05T11:11:39.015Z",
+      "value": "",
+      "unit": "seconds"
+    },
+    {
+      "id": "entry-85ab9fad-2292-4626-90b6-82c3aa32dc88",
+      "exerciseId": "lat-pulldown",
+      "exerciseName": "Lat pulldown",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "lat pulldown machine",
+      "completedAt": "2026-08-14T07:13:07.834Z",
+      "value": "55",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-177cdebf-8330-4dec-a625-be4bb59d9c93",
+      "exerciseId": "single-arm-dumbbell-row",
+      "exerciseName": "Single-arm dumbbell row",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "dumbbell",
+      "completedAt": "2026-08-14T07:19:04.323Z",
+      "value": "17.5",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-59b4ceda-959e-4a69-a3c4-94997420f3e6",
+      "exerciseId": "dumbbell-pullover",
+      "exerciseName": "Dumbbell pullover",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "dumbbell",
+      "completedAt": "2026-08-14T07:21:43.314Z",
+      "value": "15",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-c6a3cf4e-d8be-4e51-829a-04bdc84e8c8d",
+      "exerciseId": "face-pull",
+      "exerciseName": "Face pull",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "cable machine with rope",
+      "completedAt": "2026-08-14T07:28:18.171Z",
+      "value": "14.7",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-869d0e0f-f9d7-4525-b1ce-522c20150d3c",
+      "exerciseId": "triceps-pressdown",
+      "exerciseName": "Triceps pressdown",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "cable machine",
+      "completedAt": "2026-08-14T07:31:22.271Z",
+      "value": "17",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-5e18527d-2a6e-49ac-b4a8-239c5fc2eb12",
+      "exerciseId": "assisted-chin-up",
+      "exerciseName": "Assisted chin-up",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "assisted chin-up machine",
+      "completedAt": "2026-08-14T07:32:49.487Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-9ece8c8e-1e5d-47dc-9e2c-292fc60c01ef",
+      "exerciseId": "chest-supported-row",
+      "exerciseName": "Chest-supported row",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "seated row machine",
+      "completedAt": "2026-08-14T07:32:50.910Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-e2653e6f-91af-49af-9e68-461ea1af4fec",
+      "exerciseId": "lat-pulldown",
+      "exerciseName": "Lat pulldown",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "lat pulldown machine",
+      "completedAt": "2026-08-14T07:33:02.775Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-71e4e591-4ebc-4485-b0bb-0246f392611b",
+      "exerciseId": "single-arm-dumbbell-row",
+      "exerciseName": "Single-arm dumbbell row",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "dumbbell",
+      "completedAt": "2026-08-14T07:33:03.773Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-753de8a3-ad48-428d-83b4-f7d24b8bb8b5",
+      "exerciseId": "dumbbell-pullover",
+      "exerciseName": "Dumbbell pullover",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "dumbbell",
+      "completedAt": "2026-08-14T07:33:04.996Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-9690bdbf-9d4e-4d10-b6f1-7a88b51cc954",
+      "exerciseId": "face-pull",
+      "exerciseName": "Face pull",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "cable machine with rope",
+      "completedAt": "2026-08-14T07:33:07.541Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-91258eb7-cce3-44f0-9d32-8227b2552fd4",
+      "exerciseId": "triceps-pressdown",
+      "exerciseName": "Triceps pressdown",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "cable machine",
+      "completedAt": "2026-08-14T07:33:09.174Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-692da265-6362-437c-b0e6-1786aa1e015a",
+      "exerciseId": "goblet-squat",
+      "exerciseName": "Goblet squat",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "kettlebell or dumbbell",
+      "completedAt": "2026-08-14T07:33:14.835Z",
+      "value": "17.5",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-447fb698-807a-40bb-ab8d-3a37ca9c8db0",
+      "exerciseId": "hamstring-curl",
+      "exerciseName": "Hamstring curl",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "hamstring curl machine",
+      "completedAt": "2026-08-14T07:35:52.526Z",
+      "value": "50",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-f515bcff-5b50-4a21-9f87-e8ad24968d6a",
+      "exerciseId": "kettlebell-swing",
+      "exerciseName": "Kettlebell swing",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "kettlebell",
+      "completedAt": "2026-08-14T07:38:32.546Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-1dd5457c-5f00-4dc3-981b-c9cdf7e7be5b",
+      "exerciseId": "medicine-ball-slam",
+      "exerciseName": "Medicine ball slam",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "medicine ball",
+      "completedAt": "2026-08-14T07:38:39.316Z",
+      "value": "12",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-a6de1720-00b5-4319-9252-16fe1a9ab0b3",
+      "exerciseId": "low-twist-high-twist",
+      "exerciseName": "Low twist or high twist",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "cable machine",
+      "completedAt": "2026-08-14T07:40:55.002Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-cfc6281e-699a-4bcc-b9a1-e3a7fee35717",
+      "exerciseId": "exercise-6b4922e0-ec6d-4e88-9bf7-363a065ef574",
+      "exerciseName": "Dumbbell bench press",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "",
+      "completedAt": "2026-08-14T07:41:09.819Z",
+      "value": "35",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-c7e26d4a-beb9-45fe-86c6-1237085e8852",
+      "exerciseId": "copenhagen-plank-adductor-machine",
+      "exerciseName": "Copenhagen plank / adductor machine",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "bench, mat, or adductor machine",
+      "completedAt": "2026-08-14T07:43:08.098Z",
+      "value": "",
+      "unit": "seconds or kg"
+    },
+    {
+      "id": "entry-1ea33849-31b6-4fd2-84eb-05bbf1581327",
+      "exerciseId": "leg-extension",
+      "exerciseName": "Leg extension",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "leg extension machine",
+      "completedAt": "2026-08-14T07:55:51.443Z",
+      "value": "50",
       "unit": "kg"
     }
   ]
