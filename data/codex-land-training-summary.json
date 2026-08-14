@@ -1,63 +1,335 @@
 {
   "schemaVersion": 1,
   "source": "GymApp repository data",
-  "sourceExportedAt": "2026-07-27T08:06:23.337Z",
-  "sourceUpdatedAt": "2026-07-27T08:06:23.336Z",
+  "sourceExportedAt": "2026-08-14T07:55:51.444Z",
+  "sourceUpdatedAt": "2026-08-14T07:55:51.443Z",
   "timezone": "Australia/Brisbane",
   "window": {
     "days": 31,
-    "startDate": "2026-07-04",
-    "endDate": "2026-08-03"
+    "startDate": "2026-07-15",
+    "endDate": "2026-08-14"
   },
   "totals": {
     "programs": 3,
-    "exercises": 36,
-    "totalEntries": 159,
-    "entriesInWindow": 61,
+    "exercises": 35,
+    "totalEntries": 188,
+    "entriesInWindow": 55,
     "sessionsInWindow": 6,
-    "trainingDaysInWindow": 5,
-    "notesInWindow": 7
+    "trainingDaysInWindow": 4,
+    "notesInWindow": 4
   },
   "programTotals": [
     {
       "programName": "Flexibility",
-      "entries": 1,
-      "sessions": 1,
-      "trainingDays": 1,
-      "latestCompletedAt": "2026-06-28T03:25:44.796Z"
+      "entries": 10,
+      "sessions": 2,
+      "trainingDays": 2,
+      "latestCompletedAt": "2026-08-05T11:11:39.015Z"
     },
     {
       "programName": "Program A",
-      "entries": 91,
-      "sessions": 8,
-      "trainingDays": 8,
-      "latestCompletedAt": "2026-07-27T08:06:23.336Z"
+      "entries": 93,
+      "sessions": 9,
+      "trainingDays": 9,
+      "latestCompletedAt": "2026-08-14T07:32:50.910Z"
     },
     {
       "programName": "Program B",
-      "entries": 67,
-      "sessions": 7,
-      "trainingDays": 7,
-      "latestCompletedAt": "2026-07-27T07:26:29.314Z"
+      "entries": 85,
+      "sessions": 8,
+      "trainingDays": 8,
+      "latestCompletedAt": "2026-08-14T07:55:51.443Z"
     }
   ],
   "windowProgramTotals": [
     {
+      "programName": "Flexibility",
+      "entries": 9,
+      "sessions": 1,
+      "trainingDays": 1,
+      "latestCompletedAt": "2026-08-05T11:11:39.015Z"
+    },
+    {
       "programName": "Program A",
-      "entries": 36,
-      "sessions": 3,
-      "trainingDays": 3,
-      "latestCompletedAt": "2026-07-27T08:06:23.336Z"
+      "entries": 15,
+      "sessions": 2,
+      "trainingDays": 2,
+      "latestCompletedAt": "2026-08-14T07:32:50.910Z"
     },
     {
       "programName": "Program B",
-      "entries": 25,
+      "entries": 31,
       "sessions": 3,
       "trainingDays": 3,
-      "latestCompletedAt": "2026-07-27T07:26:29.314Z"
+      "latestCompletedAt": "2026-08-14T07:55:51.443Z"
     }
   ],
   "recentSessions": [
+    {
+      "date": "2026-08-14",
+      "programId": "program-b",
+      "programName": "Program B",
+      "startedAt": "2026-08-14T07:13:07.834Z",
+      "completedAt": "2026-08-14T07:55:51.443Z",
+      "entryCount": 18,
+      "notesCount": 0,
+      "exercises": [
+        {
+          "exerciseId": "lat-pulldown",
+          "exerciseName": "Lat pulldown",
+          "value": "55",
+          "numericValue": 55,
+          "unit": "kg",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "single-arm-dumbbell-row",
+          "exerciseName": "Single-arm dumbbell row",
+          "value": "17.5",
+          "numericValue": 17.5,
+          "unit": "kg",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "dumbbell-pullover",
+          "exerciseName": "Dumbbell pullover",
+          "value": "15",
+          "numericValue": 15,
+          "unit": "kg",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "face-pull",
+          "exerciseName": "Face pull",
+          "value": "14.7",
+          "numericValue": 14.7,
+          "unit": "kg",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "triceps-pressdown",
+          "exerciseName": "Triceps pressdown",
+          "value": "17",
+          "numericValue": 17,
+          "unit": "kg",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "lat-pulldown",
+          "exerciseName": "Lat pulldown",
+          "value": "",
+          "numericValue": null,
+          "unit": "kg",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "single-arm-dumbbell-row",
+          "exerciseName": "Single-arm dumbbell row",
+          "value": "",
+          "numericValue": null,
+          "unit": "kg",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "dumbbell-pullover",
+          "exerciseName": "Dumbbell pullover",
+          "value": "",
+          "numericValue": null,
+          "unit": "kg",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "face-pull",
+          "exerciseName": "Face pull",
+          "value": "",
+          "numericValue": null,
+          "unit": "kg",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "triceps-pressdown",
+          "exerciseName": "Triceps pressdown",
+          "value": "",
+          "numericValue": null,
+          "unit": "kg",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "goblet-squat",
+          "exerciseName": "Goblet squat",
+          "value": "17.5",
+          "numericValue": 17.5,
+          "unit": "kg",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "hamstring-curl",
+          "exerciseName": "Hamstring curl",
+          "value": "50",
+          "numericValue": 50,
+          "unit": "kg",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "kettlebell-swing",
+          "exerciseName": "Kettlebell swing",
+          "value": "",
+          "numericValue": null,
+          "unit": "kg",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "medicine-ball-slam",
+          "exerciseName": "Medicine ball slam",
+          "value": "12",
+          "numericValue": 12,
+          "unit": "kg",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "low-twist-high-twist",
+          "exerciseName": "Low twist or high twist",
+          "value": "",
+          "numericValue": null,
+          "unit": "kg",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "exercise-6b4922e0-ec6d-4e88-9bf7-363a065ef574",
+          "exerciseName": "Dumbbell bench press",
+          "value": "35",
+          "numericValue": 35,
+          "unit": "kg",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "copenhagen-plank-adductor-machine",
+          "exerciseName": "Copenhagen plank / adductor machine",
+          "value": "",
+          "numericValue": null,
+          "unit": "seconds or kg",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "leg-extension",
+          "exerciseName": "Leg extension",
+          "value": "50",
+          "numericValue": 50,
+          "unit": "kg",
+          "hasNotes": false
+        }
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "programId": "program-a",
+      "programName": "Program A",
+      "startedAt": "2026-08-14T07:32:49.487Z",
+      "completedAt": "2026-08-14T07:32:50.910Z",
+      "entryCount": 2,
+      "notesCount": 0,
+      "exercises": [
+        {
+          "exerciseId": "assisted-chin-up",
+          "exerciseName": "Assisted chin-up",
+          "value": "",
+          "numericValue": null,
+          "unit": "kg",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "chest-supported-row",
+          "exerciseName": "Chest-supported row",
+          "value": "",
+          "numericValue": null,
+          "unit": "kg",
+          "hasNotes": false
+        }
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "startedAt": "2026-08-05T11:10:39.048Z",
+      "completedAt": "2026-08-05T11:11:39.015Z",
+      "entryCount": 9,
+      "notesCount": 0,
+      "exercises": [
+        {
+          "exerciseId": "cat-camel",
+          "exerciseName": "Cat-camel",
+          "value": "",
+          "numericValue": null,
+          "unit": "reps",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "childs-pose",
+          "exerciseName": "Child's pose",
+          "value": "",
+          "numericValue": null,
+          "unit": "seconds",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "lower-back-rotations",
+          "exerciseName": "Knees side-to-side / lower back rotations",
+          "value": "",
+          "numericValue": null,
+          "unit": "reps each side",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "knee-to-chest-stretch",
+          "exerciseName": "Knee-to-chest stretch",
+          "value": "",
+          "numericValue": null,
+          "unit": "seconds each side",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "hip-flexor-stretch",
+          "exerciseName": "Hip flexor stretch",
+          "value": "",
+          "numericValue": null,
+          "unit": "seconds each side",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "figure-four-stretch",
+          "exerciseName": "Glute / figure-four stretch",
+          "value": "",
+          "numericValue": null,
+          "unit": "seconds each side",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "chair-hamstring-stretch",
+          "exerciseName": "Hamstring stretch on chair",
+          "value": "",
+          "numericValue": null,
+          "unit": "seconds each side",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "wall-calf-stretch",
+          "exerciseName": "Calf stretch against wall",
+          "value": "",
+          "numericValue": null,
+          "unit": "seconds each side",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "bent-knee-forward-fold",
+          "exerciseName": "Standing forward fold with bent knees",
+          "value": "",
+          "numericValue": null,
+          "unit": "seconds",
+          "hasNotes": false
+        }
+      ]
+    },
     {
       "date": "2026-07-27",
       "programId": "program-b",
@@ -298,339 +570,26 @@
           "hasNotes": true
         }
       ]
-    },
-    {
-      "date": "2026-07-14",
-      "programId": "program-a",
-      "programName": "Program A",
-      "startedAt": "2026-07-14T08:20:57.789Z",
-      "completedAt": "2026-07-14T08:21:31.326Z",
-      "entryCount": 13,
-      "notesCount": 2,
-      "exercises": [
-        {
-          "exerciseId": "assisted-chin-up",
-          "exerciseName": "Assisted chin-up",
-          "value": "10",
-          "numericValue": 10,
-          "unit": "kg",
-          "hasNotes": false
-        },
-        {
-          "exerciseId": "chest-supported-row",
-          "exerciseName": "Chest-supported row",
-          "value": "45",
-          "numericValue": 45,
-          "unit": "kg",
-          "hasNotes": false
-        },
-        {
-          "exerciseId": "straight-arm-pulldown",
-          "exerciseName": "Straight-arm pulldown",
-          "value": "41",
-          "numericValue": 41,
-          "unit": "kg",
-          "hasNotes": false
-        },
-        {
-          "exerciseId": "rear-delt-fly",
-          "exerciseName": "Rear delt fly",
-          "value": "70",
-          "numericValue": 70,
-          "unit": "Lbs",
-          "hasNotes": false
-        },
-        {
-          "exerciseId": "leg-press",
-          "exerciseName": "Leg press",
-          "value": "",
-          "numericValue": null,
-          "unit": "kg",
-          "hasNotes": false
-        },
-        {
-          "exerciseId": "dumbbell-romanian-deadlift",
-          "exerciseName": "Dumbbell Romanian deadlift",
-          "value": "15",
-          "numericValue": 15,
-          "unit": "kg",
-          "hasNotes": false
-        },
-        {
-          "exerciseId": "dumbbell-external-rotation",
-          "exerciseName": "Dumbbell external rotation",
-          "value": "7",
-          "numericValue": 7,
-          "unit": "kg",
-          "hasNotes": false
-        },
-        {
-          "exerciseId": "weighted-dead-bug-hollow-hold",
-          "exerciseName": "Weighted dead bug / hollow hold",
-          "value": "10",
-          "numericValue": 10,
-          "unit": "seconds",
-          "hasNotes": false
-        },
-        {
-          "exerciseId": "farmers-carry",
-          "exerciseName": "Farmer's carry",
-          "value": "32",
-          "numericValue": 32,
-          "unit": "seconds",
-          "hasNotes": false
-        },
-        {
-          "exerciseId": "exercise-c5d12f3f-8b4b-48bf-b31b-11da5df0f23e",
-          "exerciseName": "Calf raises",
-          "value": "",
-          "numericValue": null,
-          "unit": "kg",
-          "hasNotes": true
-        },
-        {
-          "exerciseId": "step-up-bulgarian-split-squat",
-          "exerciseName": "Step-up / Bulgarian split squat",
-          "value": "10",
-          "numericValue": 10,
-          "unit": "kg",
-          "hasNotes": true
-        },
-        {
-          "exerciseId": "landmine-press",
-          "exerciseName": "Landmine press",
-          "value": "",
-          "numericValue": null,
-          "unit": "kg",
-          "hasNotes": false
-        },
-        {
-          "exerciseId": "pallof-press",
-          "exerciseName": "Pallof press",
-          "value": "",
-          "numericValue": null,
-          "unit": "kg",
-          "hasNotes": false
-        }
-      ]
-    },
-    {
-      "date": "2026-07-11",
-      "programId": "program-b",
-      "programName": "Program B",
-      "startedAt": "2026-07-11T02:25:46.650Z",
-      "completedAt": "2026-07-11T03:21:37.102Z",
-      "entryCount": 12,
-      "notesCount": 1,
-      "exercises": [
-        {
-          "exerciseId": "lat-pulldown",
-          "exerciseName": "Lat pulldown",
-          "value": "55",
-          "numericValue": 55,
-          "unit": "kg",
-          "hasNotes": false
-        },
-        {
-          "exerciseId": "single-arm-dumbbell-row",
-          "exerciseName": "Single-arm dumbbell row",
-          "value": "17.5",
-          "numericValue": 17.5,
-          "unit": "kg",
-          "hasNotes": false
-        },
-        {
-          "exerciseId": "dumbbell-pullover",
-          "exerciseName": "Dumbbell pullover",
-          "value": "12.5",
-          "numericValue": 12.5,
-          "unit": "kg",
-          "hasNotes": false
-        },
-        {
-          "exerciseId": "face-pull",
-          "exerciseName": "Face pull",
-          "value": "12.5",
-          "numericValue": 12.5,
-          "unit": "kg",
-          "hasNotes": false
-        },
-        {
-          "exerciseId": "triceps-pressdown",
-          "exerciseName": "Triceps pressdown",
-          "value": "17",
-          "numericValue": 17,
-          "unit": "kg",
-          "hasNotes": false
-        },
-        {
-          "exerciseId": "goblet-squat",
-          "exerciseName": "Goblet squat",
-          "value": "17.5",
-          "numericValue": 17.5,
-          "unit": "kg",
-          "hasNotes": false
-        },
-        {
-          "exerciseId": "hamstring-curl",
-          "exerciseName": "Hamstring curl",
-          "value": "43",
-          "numericValue": 43,
-          "unit": "kg",
-          "hasNotes": false
-        },
-        {
-          "exerciseId": "kettlebell-swing",
-          "exerciseName": "Kettlebell swing",
-          "value": "",
-          "numericValue": null,
-          "unit": "kg",
-          "hasNotes": false
-        },
-        {
-          "exerciseId": "medicine-ball-slam",
-          "exerciseName": "Medicine ball slam",
-          "value": "12",
-          "numericValue": 12,
-          "unit": "kg",
-          "hasNotes": false
-        },
-        {
-          "exerciseId": "low-twist-high-twist",
-          "exerciseName": "Low twist or high twist",
-          "value": "7.9",
-          "numericValue": 7.9,
-          "unit": "kg",
-          "hasNotes": false
-        },
-        {
-          "exerciseId": "exercise-6b4922e0-ec6d-4e88-9bf7-363a065ef574",
-          "exerciseName": "Dumbbell bench press",
-          "value": "15",
-          "numericValue": 15,
-          "unit": "kg",
-          "hasNotes": false
-        },
-        {
-          "exerciseId": "copenhagen-plank-adductor-machine",
-          "exerciseName": "Copenhagen plank / adductor machine",
-          "value": "10",
-          "numericValue": 10,
-          "unit": "seconds",
-          "hasNotes": true
-        }
-      ]
-    },
-    {
-      "date": "2026-07-07",
-      "programId": "program-a",
-      "programName": "Program A",
-      "startedAt": "2026-07-07T07:23:20.474Z",
-      "completedAt": "2026-07-07T08:02:09.401Z",
-      "entryCount": 10,
-      "notesCount": 0,
-      "exercises": [
-        {
-          "exerciseId": "assisted-chin-up",
-          "exerciseName": "Assisted chin-up",
-          "value": "9",
-          "numericValue": 9,
-          "unit": "kg",
-          "hasNotes": false
-        },
-        {
-          "exerciseId": "chest-supported-row",
-          "exerciseName": "Chest-supported row",
-          "value": "45",
-          "numericValue": 45,
-          "unit": "kg",
-          "hasNotes": false
-        },
-        {
-          "exerciseId": "straight-arm-pulldown",
-          "exerciseName": "Straight-arm pulldown",
-          "value": "36",
-          "numericValue": 36,
-          "unit": "kg",
-          "hasNotes": false
-        },
-        {
-          "exerciseId": "rear-delt-fly",
-          "exerciseName": "Rear delt fly",
-          "value": "70",
-          "numericValue": 70,
-          "unit": "Lbs",
-          "hasNotes": false
-        },
-        {
-          "exerciseId": "leg-press",
-          "exerciseName": "Leg press",
-          "value": "75",
-          "numericValue": 75,
-          "unit": "kg",
-          "hasNotes": false
-        },
-        {
-          "exerciseId": "dumbbell-romanian-deadlift",
-          "exerciseName": "Dumbbell Romanian deadlift",
-          "value": "15",
-          "numericValue": 15,
-          "unit": "kg",
-          "hasNotes": false
-        },
-        {
-          "exerciseId": "dumbbell-external-rotation",
-          "exerciseName": "Dumbbell external rotation",
-          "value": "7",
-          "numericValue": 7,
-          "unit": "kg",
-          "hasNotes": false
-        },
-        {
-          "exerciseId": "weighted-dead-bug-hollow-hold",
-          "exerciseName": "Weighted dead bug / hollow hold",
-          "value": "10",
-          "numericValue": 10,
-          "unit": "seconds",
-          "hasNotes": false
-        },
-        {
-          "exerciseId": "farmers-carry",
-          "exerciseName": "Farmer's carry",
-          "value": "32",
-          "numericValue": 32,
-          "unit": "seconds",
-          "hasNotes": false
-        },
-        {
-          "exerciseId": "exercise-c5d12f3f-8b4b-48bf-b31b-11da5df0f23e",
-          "exerciseName": "Calf raises",
-          "value": "10",
-          "numericValue": 10,
-          "unit": "kg",
-          "hasNotes": false
-        }
-      ]
     }
   ],
   "latestExerciseEntries": [
+    {
+      "exerciseId": "lat-pulldown",
+      "exerciseName": "Lat pulldown",
+      "programName": "Program B",
+      "category": "pull",
+      "completedAt": "2026-08-14T07:33:02.775Z",
+      "value": "",
+      "numericValue": null,
+      "unit": "kg",
+      "hasNotes": false
+    },
     {
       "exerciseId": "assisted-chin-up",
       "exerciseName": "Assisted chin-up",
       "programName": "Program A",
       "category": "pull",
-      "completedAt": "2026-07-27T07:46:02.715Z",
-      "value": "9",
-      "numericValue": 9,
-      "unit": "kg",
-      "hasNotes": false
-    },
-    {
-      "exerciseId": "exercise-c5d12f3f-8b4b-48bf-b31b-11da5df0f23e",
-      "exerciseName": "Calf raises",
-      "programName": "Program A",
-      "category": "legs",
-      "completedAt": "2026-07-27T07:58:50.083Z",
+      "completedAt": "2026-08-14T07:32:49.487Z",
       "value": "",
       "numericValue": null,
       "unit": "kg",
@@ -641,7 +600,7 @@
       "exerciseName": "Cat-camel",
       "programName": "Flexibility",
       "category": "mobility",
-      "completedAt": "2026-06-28T03:25:44.796Z",
+      "completedAt": "2026-08-05T11:10:39.048Z",
       "value": "",
       "numericValue": null,
       "unit": "reps",
@@ -652,42 +611,42 @@
       "exerciseName": "Chest-supported row",
       "programName": "Program A",
       "category": "row",
-      "completedAt": "2026-07-27T07:46:03.648Z",
-      "value": "45",
-      "numericValue": 45,
-      "unit": "kg",
-      "hasNotes": false
-    },
-    {
-      "exerciseId": "copenhagen-plank-adductor-machine",
-      "exerciseName": "Copenhagen plank / adductor machine",
-      "programName": "Program B",
-      "category": "legs",
-      "completedAt": "2026-07-24T07:29:37.897Z",
+      "completedAt": "2026-08-14T07:32:50.910Z",
       "value": "",
       "numericValue": null,
-      "unit": "seconds or kg",
-      "hasNotes": true
-    },
-    {
-      "exerciseId": "exercise-6b4922e0-ec6d-4e88-9bf7-363a065ef574",
-      "exerciseName": "Dumbbell bench press",
-      "programName": "Program B",
-      "category": "arms",
-      "completedAt": "2026-07-24T07:29:36.312Z",
-      "value": "35",
-      "numericValue": 35,
       "unit": "kg",
       "hasNotes": false
     },
     {
-      "exerciseId": "dumbbell-external-rotation",
-      "exerciseName": "Dumbbell external rotation",
+      "exerciseId": "single-arm-dumbbell-row",
+      "exerciseName": "Single-arm dumbbell row",
+      "programName": "Program B",
+      "category": "row",
+      "completedAt": "2026-08-14T07:33:03.773Z",
+      "value": "",
+      "numericValue": null,
+      "unit": "kg",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "childs-pose",
+      "exerciseName": "Child's pose",
+      "programName": "Flexibility",
+      "category": "mobility",
+      "completedAt": "2026-08-05T11:10:54.936Z",
+      "value": "",
+      "numericValue": null,
+      "unit": "seconds",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "straight-arm-pulldown",
+      "exerciseName": "Straight-arm pulldown",
       "programName": "Program A",
-      "category": "shoulders",
-      "completedAt": "2026-07-27T07:58:25.306Z",
-      "value": "7",
-      "numericValue": 7,
+      "category": "pull",
+      "completedAt": "2026-07-27T07:56:13.753Z",
+      "value": "45",
+      "numericValue": 45,
       "unit": "kg",
       "hasNotes": false
     },
@@ -696,142 +655,21 @@
       "exerciseName": "Dumbbell pullover",
       "programName": "Program B",
       "category": "pull",
-      "completedAt": "2026-07-24T06:58:23.819Z",
-      "value": "12.5",
-      "numericValue": 12.5,
-      "unit": "kg",
-      "hasNotes": false
-    },
-    {
-      "exerciseId": "dumbbell-romanian-deadlift",
-      "exerciseName": "Dumbbell Romanian deadlift",
-      "programName": "Program A",
-      "category": "legs",
-      "completedAt": "2026-07-27T07:58:24.440Z",
-      "value": "15",
-      "numericValue": 15,
-      "unit": "kg",
-      "hasNotes": false
-    },
-    {
-      "exerciseId": "face-pull",
-      "exerciseName": "Face pull",
-      "programName": "Program B",
-      "category": "shoulders",
-      "completedAt": "2026-07-24T07:03:37.976Z",
-      "value": "12.5",
-      "numericValue": 12.5,
-      "unit": "kg",
-      "hasNotes": false
-    },
-    {
-      "exerciseId": "farmers-carry",
-      "exerciseName": "Farmer's carry",
-      "programName": "Program A",
-      "category": "power",
-      "completedAt": "2026-07-27T07:58:46.916Z",
-      "value": "32",
-      "numericValue": 32,
-      "unit": "Kg",
-      "hasNotes": true
-    },
-    {
-      "exerciseId": "goblet-squat",
-      "exerciseName": "Goblet squat",
-      "programName": "Program B",
-      "category": "legs",
-      "completedAt": "2026-07-24T07:12:31.542Z",
-      "value": "17.5",
-      "numericValue": 17.5,
-      "unit": "kg",
-      "hasNotes": false
-    },
-    {
-      "exerciseId": "hamstring-curl",
-      "exerciseName": "Hamstring curl",
-      "programName": "Program B",
-      "category": "legs",
-      "completedAt": "2026-07-24T07:16:40.639Z",
-      "value": "50",
-      "numericValue": 50,
-      "unit": "kg",
-      "hasNotes": false
-    },
-    {
-      "exerciseId": "kettlebell-swing",
-      "exerciseName": "Kettlebell swing",
-      "programName": "Program B",
-      "category": "power",
-      "completedAt": "2026-07-24T07:29:30.615Z",
-      "value": "",
-      "numericValue": null,
-      "unit": "kg",
-      "hasNotes": true
-    },
-    {
-      "exerciseId": "landmine-press",
-      "exerciseName": "Landmine press",
-      "programName": "Program A",
-      "category": "",
-      "completedAt": "2026-07-14T08:21:28.808Z",
+      "completedAt": "2026-08-14T07:33:04.996Z",
       "value": "",
       "numericValue": null,
       "unit": "kg",
       "hasNotes": false
     },
     {
-      "exerciseId": "lat-pulldown",
-      "exerciseName": "Lat pulldown",
-      "programName": "Program B",
-      "category": "pull",
-      "completedAt": "2026-07-27T07:26:29.314Z",
-      "value": "55",
-      "numericValue": 55,
-      "unit": "kg",
-      "hasNotes": false
-    },
-    {
-      "exerciseId": "leg-press",
-      "exerciseName": "Leg press",
-      "programName": "Program A",
-      "category": "legs",
-      "completedAt": "2026-07-27T07:58:23.256Z",
-      "value": "75",
-      "numericValue": 75,
-      "unit": "kg",
-      "hasNotes": false
-    },
-    {
-      "exerciseId": "low-twist-high-twist",
-      "exerciseName": "Low twist or high twist",
-      "programName": "Program B",
-      "category": "core",
-      "completedAt": "2026-07-24T07:29:34.362Z",
+      "exerciseId": "lower-back-rotations",
+      "exerciseName": "Knees side-to-side / lower back rotations",
+      "programName": "Flexibility",
+      "category": "mobility",
+      "completedAt": "2026-08-05T11:11:11.246Z",
       "value": "",
       "numericValue": null,
-      "unit": "kg",
-      "hasNotes": true
-    },
-    {
-      "exerciseId": "medicine-ball-slam",
-      "exerciseName": "Medicine ball slam",
-      "programName": "Program B",
-      "category": "power",
-      "completedAt": "2026-07-24T07:29:31.744Z",
-      "value": "12",
-      "numericValue": 12,
-      "unit": "kg",
-      "hasNotes": false
-    },
-    {
-      "exerciseId": "pallof-press",
-      "exerciseName": "Pallof press",
-      "programName": "Program A",
-      "category": "",
-      "completedAt": "2026-07-14T08:21:31.326Z",
-      "value": "",
-      "numericValue": null,
-      "unit": "kg",
+      "unit": "reps each side",
       "hasNotes": false
     },
     {
@@ -846,13 +684,222 @@
       "hasNotes": false
     },
     {
-      "exerciseId": "rotary-torso-machine",
-      "exerciseName": "Rotary torso machine",
-      "programName": "Program A",
-      "category": "core",
-      "completedAt": "2026-07-27T08:06:23.336Z",
+      "exerciseId": "face-pull",
+      "exerciseName": "Face pull",
+      "programName": "Program B",
+      "category": "shoulders",
+      "completedAt": "2026-08-14T07:33:07.541Z",
       "value": "",
       "numericValue": null,
+      "unit": "kg",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "knee-to-chest-stretch",
+      "exerciseName": "Knee-to-chest stretch",
+      "programName": "Flexibility",
+      "category": "mobility",
+      "completedAt": "2026-08-05T11:11:12.842Z",
+      "value": "",
+      "numericValue": null,
+      "unit": "seconds each side",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "leg-press",
+      "exerciseName": "Leg press",
+      "programName": "Program A",
+      "category": "legs",
+      "completedAt": "2026-07-27T07:58:23.256Z",
+      "value": "75",
+      "numericValue": 75,
+      "unit": "kg",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "triceps-pressdown",
+      "exerciseName": "Triceps pressdown",
+      "programName": "Program B",
+      "category": "arms",
+      "completedAt": "2026-08-14T07:33:09.174Z",
+      "value": "",
+      "numericValue": null,
+      "unit": "kg",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "hip-flexor-stretch",
+      "exerciseName": "Hip flexor stretch",
+      "programName": "Flexibility",
+      "category": "mobility",
+      "completedAt": "2026-08-05T11:11:16.700Z",
+      "value": "",
+      "numericValue": null,
+      "unit": "seconds each side",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "dumbbell-romanian-deadlift",
+      "exerciseName": "Dumbbell Romanian deadlift",
+      "programName": "Program A",
+      "category": "legs",
+      "completedAt": "2026-07-27T07:58:24.440Z",
+      "value": "15",
+      "numericValue": 15,
+      "unit": "kg",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "goblet-squat",
+      "exerciseName": "Goblet squat",
+      "programName": "Program B",
+      "category": "legs",
+      "completedAt": "2026-08-14T07:33:14.835Z",
+      "value": "17.5",
+      "numericValue": 17.5,
+      "unit": "kg",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "figure-four-stretch",
+      "exerciseName": "Glute / figure-four stretch",
+      "programName": "Flexibility",
+      "category": "mobility",
+      "completedAt": "2026-08-05T11:11:19.013Z",
+      "value": "",
+      "numericValue": null,
+      "unit": "seconds each side",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "dumbbell-external-rotation",
+      "exerciseName": "Dumbbell external rotation",
+      "programName": "Program A",
+      "category": "shoulders",
+      "completedAt": "2026-07-27T07:58:25.306Z",
+      "value": "7",
+      "numericValue": 7,
+      "unit": "kg",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "hamstring-curl",
+      "exerciseName": "Hamstring curl",
+      "programName": "Program B",
+      "category": "legs",
+      "completedAt": "2026-08-14T07:35:52.526Z",
+      "value": "50",
+      "numericValue": 50,
+      "unit": "kg",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "chair-hamstring-stretch",
+      "exerciseName": "Hamstring stretch on chair",
+      "programName": "Flexibility",
+      "category": "mobility",
+      "completedAt": "2026-08-05T11:11:23.314Z",
+      "value": "",
+      "numericValue": null,
+      "unit": "seconds each side",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "weighted-dead-bug-hollow-hold",
+      "exerciseName": "Weighted dead bug / hollow hold",
+      "programName": "Program A",
+      "category": "core",
+      "completedAt": "2026-07-27T07:58:43.513Z",
+      "value": "10",
+      "numericValue": 10,
+      "unit": "Kg",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "kettlebell-swing",
+      "exerciseName": "Kettlebell swing",
+      "programName": "Program B",
+      "category": "power",
+      "completedAt": "2026-08-14T07:38:32.546Z",
+      "value": "",
+      "numericValue": null,
+      "unit": "kg",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "wall-calf-stretch",
+      "exerciseName": "Calf stretch against wall",
+      "programName": "Flexibility",
+      "category": "mobility",
+      "completedAt": "2026-08-05T11:11:26.009Z",
+      "value": "",
+      "numericValue": null,
+      "unit": "seconds each side",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "farmers-carry",
+      "exerciseName": "Farmer's carry",
+      "programName": "Program A",
+      "category": "power",
+      "completedAt": "2026-07-27T07:58:46.916Z",
+      "value": "32",
+      "numericValue": 32,
+      "unit": "Kg",
+      "hasNotes": true
+    },
+    {
+      "exerciseId": "medicine-ball-slam",
+      "exerciseName": "Medicine ball slam",
+      "programName": "Program B",
+      "category": "power",
+      "completedAt": "2026-08-14T07:38:39.316Z",
+      "value": "12",
+      "numericValue": 12,
+      "unit": "kg",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "bent-knee-forward-fold",
+      "exerciseName": "Standing forward fold with bent knees",
+      "programName": "Flexibility",
+      "category": "mobility",
+      "completedAt": "2026-08-05T11:11:39.015Z",
+      "value": "",
+      "numericValue": null,
+      "unit": "seconds",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "low-twist-high-twist",
+      "exerciseName": "Low twist or high twist",
+      "programName": "Program B",
+      "category": "core",
+      "completedAt": "2026-08-14T07:40:55.002Z",
+      "value": "",
+      "numericValue": null,
+      "unit": "kg",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "single-leg-leg-press",
+      "exerciseName": "Single-leg leg press",
+      "programName": "Program A",
+      "category": "legs",
+      "completedAt": "2026-07-27T07:58:53.616Z",
+      "value": "",
+      "numericValue": null,
+      "unit": "kg",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "exercise-6b4922e0-ec6d-4e88-9bf7-363a065ef574",
+      "exerciseName": "Dumbbell bench press",
+      "programName": "Program B",
+      "category": "arms",
+      "completedAt": "2026-08-14T07:41:09.819Z",
+      "value": "35",
+      "numericValue": 35,
       "unit": "kg",
       "hasNotes": false
     },
@@ -868,22 +915,44 @@
       "hasNotes": false
     },
     {
-      "exerciseId": "single-arm-dumbbell-row",
-      "exerciseName": "Single-arm dumbbell row",
+      "exerciseId": "copenhagen-plank-adductor-machine",
+      "exerciseName": "Copenhagen plank / adductor machine",
       "programName": "Program B",
-      "category": "row",
-      "completedAt": "2026-07-24T06:49:38.562Z",
-      "value": "17.5",
-      "numericValue": 17.5,
+      "category": "legs",
+      "completedAt": "2026-08-14T07:43:08.098Z",
+      "value": "",
+      "numericValue": null,
+      "unit": "seconds or kg",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "rotary-torso-machine",
+      "exerciseName": "Rotary torso machine",
+      "programName": "Program A",
+      "category": "core",
+      "completedAt": "2026-07-27T08:06:23.336Z",
+      "value": "",
+      "numericValue": null,
       "unit": "kg",
       "hasNotes": false
     },
     {
-      "exerciseId": "single-leg-leg-press",
-      "exerciseName": "Single-leg leg press",
-      "programName": "Program A",
+      "exerciseId": "leg-extension",
+      "exerciseName": "Leg extension",
+      "programName": "Program B",
       "category": "legs",
-      "completedAt": "2026-07-27T07:58:53.616Z",
+      "completedAt": "2026-08-14T07:55:51.443Z",
+      "value": "50",
+      "numericValue": 50,
+      "unit": "kg",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "exercise-c5d12f3f-8b4b-48bf-b31b-11da5df0f23e",
+      "exerciseName": "Calf raises",
+      "programName": "Program A",
+      "category": "",
+      "completedAt": "2026-07-27T07:58:50.083Z",
       "value": "",
       "numericValue": null,
       "unit": "kg",
@@ -901,36 +970,25 @@
       "hasNotes": true
     },
     {
-      "exerciseId": "straight-arm-pulldown",
-      "exerciseName": "Straight-arm pulldown",
+      "exerciseId": "landmine-press",
+      "exerciseName": "Landmine press",
       "programName": "Program A",
-      "category": "pull",
-      "completedAt": "2026-07-27T07:56:13.753Z",
-      "value": "45",
-      "numericValue": 45,
+      "category": "",
+      "completedAt": "2026-07-14T08:21:28.808Z",
+      "value": "",
+      "numericValue": null,
       "unit": "kg",
       "hasNotes": false
     },
     {
-      "exerciseId": "triceps-pressdown",
-      "exerciseName": "Triceps pressdown",
-      "programName": "Program B",
-      "category": "arms",
-      "completedAt": "2026-07-24T07:03:48.791Z",
-      "value": "17",
-      "numericValue": 17,
-      "unit": "kg",
-      "hasNotes": false
-    },
-    {
-      "exerciseId": "weighted-dead-bug-hollow-hold",
-      "exerciseName": "Weighted dead bug / hollow hold",
+      "exerciseId": "pallof-press",
+      "exerciseName": "Pallof press",
       "programName": "Program A",
-      "category": "core",
-      "completedAt": "2026-07-27T07:58:43.513Z",
-      "value": "10",
-      "numericValue": 10,
-      "unit": "Kg",
+      "category": "",
+      "completedAt": "2026-07-14T08:21:31.326Z",
+      "value": "",
+      "numericValue": null,
+      "unit": "kg",
       "hasNotes": false
     }
   ],
@@ -939,7 +997,7 @@
       "id": "program-a",
       "name": "Program A",
       "description": "Pull, legs, core",
-      "exerciseCount": 13
+      "exerciseCount": 12
     },
     {
       "id": "program-b",
