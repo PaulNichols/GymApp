@@ -166,6 +166,16 @@ export const defaultPrograms: Program[] = [
         'Use smooth breathing',
         'Stop before any pinching',
       ]),
+      exercise('bird-dog', 'Bird dog', 'mat or floor', 'reps each side', 'core', 'Builds controlled trunk and hip stability for holding a streamlined body position while the arms and legs move during every stroke.', [
+        'Complete 2 sets of 6-8 each side',
+        'Reach long without arching the lower back',
+        'Pause briefly, then return with control',
+      ]),
+      exercise('glute-bridge', 'Glute bridge', 'mat or floor', 'reps', 'legs', 'Strengthens the glutes and reinforces hip extension for stronger starts, turns, dolphin kick, and a stable body line in the water.', [
+        'Complete 2 sets of 12',
+        'Keep ribs down and squeeze the glutes',
+        'Progress to single-leg bridges when ready',
+      ]),
       exercise('childs-pose', "Child's pose", 'mat or floor', 'seconds', 'mobility', 'Opens the lats, shoulders, and lower back after swim training, helping freestyle and butterfly overhead reach feel less restricted.', [
         'Reach hands forward',
         'Let hips settle back',

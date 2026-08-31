@@ -6,7 +6,9 @@ const APP_VERSION = '0.1.0';
 const PROGRAMS_KEY = 'swimGymTracker.programs';
 const HISTORY_KEY = 'swimGymTracker.history';
 const PROGRAM_MIGRATION_KEY = 'swimGymTracker.programMigration';
-const DEFAULT_EXERCISE_MIGRATION = '2026-07-leg-extension';
+const DEFAULT_EXERCISE_MIGRATION = '2026-09-flexibility-additions';
+const PREVIOUS_EXERCISE_MIGRATION = '2026-07-leg-extension';
+const FLEXIBILITY_ADDITION_IDS = new Set(['bird-dog', 'glute-bridge']);
 const CATEGORIES = new Set(['pull', 'row', 'legs', 'core', 'shoulders', 'power', 'arms', 'mobility']);
 const REPLACED_DEFAULT_EXERCISE_IDS = new Set([
   'step-up-bulgarian-split-squat',
@@ -42,7 +44,7 @@ const appendMissingDefaultPrograms = (programs: Program[]): Program[] => {
   return missingPrograms.length > 0 ? [...programs, ...structuredClone(missingPrograms)] : programs;
 };
 
-const appendMissingDefaultExercises = (programs: Program[]): Program[] =>
+const appendMissingDefaultExercises = (programs: Program[], includedExerciseIds?: ReadonlySet<string>): Program[] =>
   programs.map((program) => {
     const defaultProgram = defaultProgramsById.get(program.id);
 
@@ -51,7 +53,10 @@ const appendMissingDefaultExercises = (programs: Program[]): Program[] =>
     }
 
     const existingExerciseIds = new Set(program.exercises.map((exercise) => exercise.id));
-    const missingExercises = defaultProgram.exercises.filter((exercise) => !existingExerciseIds.has(exercise.id));
+    const missingExercises = defaultProgram.exercises.filter(
+      (exercise) =>
+        !existingExerciseIds.has(exercise.id) && (!includedExerciseIds || includedExerciseIds.has(exercise.id)),
+    );
 
     return missingExercises.length > 0
       ? {
@@ -147,10 +152,14 @@ export const storageService = {
     }
 
     const enriched = appendMissingDefaultPrograms(enrichPrograms(programs));
-    const migrated =
-      localStorage.getItem(PROGRAM_MIGRATION_KEY) === DEFAULT_EXERCISE_MIGRATION
-        ? enriched
-        : appendMissingDefaultExercises(removeReplacedDefaultExercises(enriched));
+    const currentMigration = localStorage.getItem(PROGRAM_MIGRATION_KEY);
+    let migrated = enriched;
+
+    if (currentMigration === PREVIOUS_EXERCISE_MIGRATION) {
+      migrated = appendMissingDefaultExercises(enriched, FLEXIBILITY_ADDITION_IDS);
+    } else if (currentMigration !== DEFAULT_EXERCISE_MIGRATION) {
+      migrated = appendMissingDefaultExercises(removeReplacedDefaultExercises(enriched));
+    }
 
     localStorage.setItem(PROGRAM_MIGRATION_KEY, DEFAULT_EXERCISE_MIGRATION);
     writeJson(PROGRAMS_KEY, migrated);

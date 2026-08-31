@@ -381,6 +381,34 @@
           "videoUrl": "https://www.youtube.com/results?search_query=Cat-camel%20mat%20or%20floor%20proper%20form"
         },
         {
+          "id": "bird-dog",
+          "name": "Bird dog",
+          "equipment": "mat or floor",
+          "unit": "reps each side",
+          "category": "core",
+          "swimDescription": "Builds controlled trunk and hip stability for holding a streamlined body position while the arms and legs move during every stroke.",
+          "guideCues": [
+            "Complete 2 sets of 6-8 each side",
+            "Reach long without arching the lower back",
+            "Pause briefly, then return with control"
+          ],
+          "videoUrl": "https://www.youtube.com/results?search_query=Bird%20dog%20mat%20or%20floor%20proper%20form"
+        },
+        {
+          "id": "glute-bridge",
+          "name": "Glute bridge",
+          "equipment": "mat or floor",
+          "unit": "reps",
+          "category": "legs",
+          "swimDescription": "Strengthens the glutes and reinforces hip extension for stronger starts, turns, dolphin kick, and a stable body line in the water.",
+          "guideCues": [
+            "Complete 2 sets of 12",
+            "Keep ribs down and squeeze the glutes",
+            "Progress to single-leg bridges when ready"
+          ],
+          "videoUrl": "https://www.youtube.com/results?search_query=Glute%20bridge%20mat%20or%20floor%20proper%20form"
+        },
+        {
           "id": "childs-pose",
           "name": "Child's pose",
           "equipment": "mat or floor",
