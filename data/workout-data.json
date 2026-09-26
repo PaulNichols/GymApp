@@ -1,6 +1,6 @@
 {
   "appVersion": "0.1.0",
-  "exportedAt": "2026-08-14T07:55:51.444Z",
+  "exportedAt": "2026-09-26T03:23:33.107Z",
   "programs": [
     {
       "id": "program-a",
@@ -381,34 +381,6 @@
           "videoUrl": "https://www.youtube.com/results?search_query=Cat-camel%20mat%20or%20floor%20proper%20form"
         },
         {
-          "id": "bird-dog",
-          "name": "Bird dog",
-          "equipment": "mat or floor",
-          "unit": "reps each side",
-          "category": "core",
-          "swimDescription": "Builds controlled trunk and hip stability for holding a streamlined body position while the arms and legs move during every stroke.",
-          "guideCues": [
-            "Complete 2 sets of 6-8 each side",
-            "Reach long without arching the lower back",
-            "Pause briefly, then return with control"
-          ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Bird%20dog%20mat%20or%20floor%20proper%20form"
-        },
-        {
-          "id": "glute-bridge",
-          "name": "Glute bridge",
-          "equipment": "mat or floor",
-          "unit": "reps",
-          "category": "legs",
-          "swimDescription": "Strengthens the glutes and reinforces hip extension for stronger starts, turns, dolphin kick, and a stable body line in the water.",
-          "guideCues": [
-            "Complete 2 sets of 12",
-            "Keep ribs down and squeeze the glutes",
-            "Progress to single-leg bridges when ready"
-          ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Glute%20bridge%20mat%20or%20floor%20proper%20form"
-        },
-        {
           "id": "childs-pose",
           "name": "Child's pose",
           "equipment": "mat or floor",
@@ -533,6 +505,34 @@
             "Follow the hand with your eyes"
           ],
           "videoUrl": "https://www.youtube.com/results?search_query=Open-book%20thoracic%20rotations%20mat%20or%20floor%20proper%20form"
+        },
+        {
+          "id": "bird-dog",
+          "name": "Bird dog",
+          "equipment": "mat or floor",
+          "unit": "reps each side",
+          "category": "core",
+          "swimDescription": "Builds controlled trunk and hip stability for holding a streamlined body position while the arms and legs move during every stroke.",
+          "guideCues": [
+            "Complete 2 sets of 6-8 each side",
+            "Reach long without arching the lower back",
+            "Pause briefly, then return with control"
+          ],
+          "videoUrl": "https://www.youtube.com/results?search_query=Bird%20dog%20mat%20or%20floor%20proper%20form"
+        },
+        {
+          "id": "glute-bridge",
+          "name": "Glute bridge",
+          "equipment": "mat or floor",
+          "unit": "reps",
+          "category": "legs",
+          "swimDescription": "Strengthens the glutes and reinforces hip extension for stronger starts, turns, dolphin kick, and a stable body line in the water.",
+          "guideCues": [
+            "Complete 2 sets of 12",
+            "Keep ribs down and squeeze the glutes",
+            "Progress to single-leg bridges when ready"
+          ],
+          "videoUrl": "https://www.youtube.com/results?search_query=Glute%20bridge%20mat%20or%20floor%20proper%20form"
         }
       ]
     }
@@ -2617,6 +2617,270 @@
       "completedAt": "2026-08-14T07:55:51.443Z",
       "value": "50",
       "unit": "kg"
+    },
+    {
+      "id": "entry-0f6109ab-dd72-4184-8899-d688e3bf52bf",
+      "exerciseId": "lat-pulldown",
+      "exerciseName": "Lat pulldown",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "lat pulldown machine",
+      "completedAt": "2026-08-24T07:47:07.196Z",
+      "value": "50",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-4e34ca6a-fb3b-4b2d-be1f-2dbee83b13fa",
+      "exerciseId": "single-arm-dumbbell-row",
+      "exerciseName": "Single-arm dumbbell row",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "dumbbell",
+      "completedAt": "2026-08-24T07:51:13.683Z",
+      "value": "15",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-1cd13cb7-3fea-43d5-b516-77c6a04e4089",
+      "exerciseId": "dumbbell-pullover",
+      "exerciseName": "Dumbbell pullover",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "dumbbell",
+      "completedAt": "2026-08-24T07:51:20.290Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-dfae2e93-c0a8-4b66-8613-0d4fe8b7b01b",
+      "exerciseId": "face-pull",
+      "exerciseName": "Face pull",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "cable machine with rope",
+      "completedAt": "2026-08-24T07:53:59.098Z",
+      "value": "32",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-a41e1706-0305-4648-8a8a-6a1ba40d2994",
+      "exerciseId": "triceps-pressdown",
+      "exerciseName": "Triceps pressdown",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "cable machine",
+      "completedAt": "2026-08-24T07:57:03.020Z",
+      "value": "32",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-42f3a901-26a3-4ce9-8574-0030128c6543",
+      "exerciseId": "goblet-squat",
+      "exerciseName": "Goblet squat",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "kettlebell or dumbbell",
+      "completedAt": "2026-08-24T07:57:16.123Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-514d2f82-fda1-4faa-b151-8832f944e688",
+      "exerciseId": "hamstring-curl",
+      "exerciseName": "Hamstring curl",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "hamstring curl machine",
+      "completedAt": "2026-08-24T08:16:35.835Z",
+      "value": "50",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-f5d75721-322a-4a1c-921b-76fa5ca90f93",
+      "exerciseId": "kettlebell-swing",
+      "exerciseName": "Kettlebell swing",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "kettlebell",
+      "completedAt": "2026-08-24T07:58:59.873Z",
+      "value": "12",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-2c00c97a-edc8-4764-889d-5349e5911b2b",
+      "exerciseId": "medicine-ball-slam",
+      "exerciseName": "Medicine ball slam",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "medicine ball",
+      "completedAt": "2026-08-24T08:08:39.424Z",
+      "value": "12",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-8ddeb938-eba4-451a-9e36-73dd697094a4",
+      "exerciseId": "low-twist-high-twist",
+      "exerciseName": "Low twist or high twist",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "cable machine",
+      "completedAt": "2026-08-24T08:16:04.312Z",
+      "value": "7.9",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-55527b0d-4d9a-4661-b6b7-6329beb538e8",
+      "exerciseId": "exercise-6b4922e0-ec6d-4e88-9bf7-363a065ef574",
+      "exerciseName": "Dumbbell bench press",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "",
+      "completedAt": "2026-08-24T08:16:12.489Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-7cc00355-7d65-4d92-a63b-0038a1cd9bcc",
+      "exerciseId": "copenhagen-plank-adductor-machine",
+      "exerciseName": "Copenhagen plank / adductor machine",
+      "programId": "program-b",
+      "programName": "Program B",
+      "equipment": "bench, mat, or adductor machine",
+      "completedAt": "2026-08-24T08:16:14.930Z",
+      "value": "",
+      "unit": "seconds or kg"
+    },
+    {
+      "id": "entry-62ef5561-0d92-4cda-b11c-42bb82eaa318",
+      "exerciseId": "cat-camel",
+      "exerciseName": "Cat-camel",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "mat or floor",
+      "completedAt": "2026-09-26T03:07:40.942Z",
+      "value": "12",
+      "unit": "reps"
+    },
+    {
+      "id": "entry-d9899940-7d3b-4155-bf92-893a9a751d88",
+      "exerciseId": "childs-pose",
+      "exerciseName": "Child's pose",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "mat or floor",
+      "completedAt": "2026-09-26T03:09:17.160Z",
+      "value": "30",
+      "unit": "seconds"
+    },
+    {
+      "id": "entry-dc55c6b4-c1a5-4b31-80b6-c077846b51ce",
+      "exerciseId": "lower-back-rotations",
+      "exerciseName": "Knees side-to-side / lower back rotations",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "mat or floor",
+      "completedAt": "2026-09-26T03:11:07.587Z",
+      "value": "10",
+      "unit": "reps each side"
+    },
+    {
+      "id": "entry-74d04a3a-3c30-4778-96b3-0a666c2adbc6",
+      "exerciseId": "knee-to-chest-stretch",
+      "exerciseName": "Knee-to-chest stretch",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "mat or floor",
+      "completedAt": "2026-09-26T03:12:41.656Z",
+      "value": "30",
+      "unit": "seconds each side"
+    },
+    {
+      "id": "entry-f2c01a1f-ae7f-4d63-9997-9fbd0daf683a",
+      "exerciseId": "hip-flexor-stretch",
+      "exerciseName": "Hip flexor stretch",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "mat or floor",
+      "completedAt": "2026-09-26T03:13:50.314Z",
+      "value": "30",
+      "unit": "seconds each side"
+    },
+    {
+      "id": "entry-cdb35f6d-949a-4011-8e64-2c2bb56cc620",
+      "exerciseId": "figure-four-stretch",
+      "exerciseName": "Glute / figure-four stretch",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "mat, floor, or chair",
+      "completedAt": "2026-09-26T03:15:21.714Z",
+      "value": "30",
+      "unit": "seconds each side"
+    },
+    {
+      "id": "entry-07993af1-cee2-4106-944f-bde637245f95",
+      "exerciseId": "chair-hamstring-stretch",
+      "exerciseName": "Hamstring stretch on chair",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "chair",
+      "completedAt": "2026-09-26T03:16:13.870Z",
+      "value": "30",
+      "unit": "seconds each side"
+    },
+    {
+      "id": "entry-c922cdbf-5a7e-4524-9a0d-c008ca23b9fe",
+      "exerciseId": "wall-calf-stretch",
+      "exerciseName": "Calf stretch against wall",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "wall",
+      "completedAt": "2026-09-26T03:18:30.657Z",
+      "value": "30",
+      "unit": "seconds each side"
+    },
+    {
+      "id": "entry-bd6810fb-57e6-4f49-8ec2-488dfa1125dd",
+      "exerciseId": "bent-knee-forward-fold",
+      "exerciseName": "Standing forward fold with bent knees",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "bodyweight",
+      "completedAt": "2026-09-26T03:19:58.599Z",
+      "value": "30",
+      "unit": "seconds"
+    },
+    {
+      "id": "entry-4a8e19c1-887a-409f-942c-315edf8f0d51",
+      "exerciseId": "open-book-thoracic-rotations",
+      "exerciseName": "Open-book thoracic rotations",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "mat or floor",
+      "completedAt": "2026-09-26T03:21:23.727Z",
+      "value": "5",
+      "unit": "reps each side"
+    },
+    {
+      "id": "entry-db380c6d-d020-4718-ad1c-99b81dc9d9a0",
+      "exerciseId": "bird-dog",
+      "exerciseName": "Bird dog",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "mat or floor",
+      "completedAt": "2026-09-26T03:22:44.152Z",
+      "value": "",
+      "unit": "reps each side"
+    },
+    {
+      "id": "entry-c833451d-9045-4c77-9234-89647fcddd7e",
+      "exerciseId": "glute-bridge",
+      "exerciseName": "Glute bridge",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "mat or floor",
+      "completedAt": "2026-09-26T03:23:33.105Z",
+      "value": "",
+      "unit": "reps"
     }
   ]
 }
