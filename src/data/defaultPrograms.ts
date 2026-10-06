@@ -221,6 +221,24 @@ export const defaultPrograms: Program[] = [
         'Open the top arm slowly',
         'Follow the hand with your eyes',
       ]),
+      exercise('seated-chest-opener', 'Seated chest opener', 'stable chair without arms or wheels', 'seconds', 'mobility', 'Gently stretches the chest as part of an easy mobility routine after swimming.', [
+        'Sit tall with feet flat; open arms low to the sides with elbows softly bent',
+        'Ease shoulders back and down, then gently lift the chest; do not grip or push on the chair',
+        'Hold 5-10 seconds, relax, and repeat 5 times; breathe normally without bouncing',
+        'Stay in an easy, pain-free range; stop if your elbows or shoulders hurt',
+      ]),
+      exercise('cross-body-shoulder-stretch', 'Cross-body shoulder stretch', 'no equipment', 'seconds each side', 'mobility', 'Gently stretches the back of the shoulder after repeated swimming arm movements.', [
+        'Relax the shoulders and bring one arm across the chest with a soft elbow',
+        'Support the upper arm with your other hand above the elbow; do not press on the elbow or pull the wrist',
+        'Hold 20-30 seconds once each side, resting between sides; keep breathing and do not bounce',
+        'Use only a mild stretch behind the shoulder; stop for elbow or shoulder pain and never force the range',
+      ]),
+      exercise('seated-upper-back-twist', 'Seated upper-back twist', 'stable chair without arms or wheels', 'reps each side', 'mobility', 'An upright option for gentle upper-back rotation, a movement used in freestyle and backstroke.', [
+        'Sit tall with feet flat; loosely fold arms across the chest with hands resting on the shoulders',
+        'Keep hips facing forward and slowly turn the chest a little to one side; do not pull on the chair',
+        'Hold 5 seconds, return to centre, then change sides; repeat 5 times each side while breathing normally',
+        'Keep the turn small and pain-free; stop if your back, shoulders, or elbows hurt',
+      ]),
     ],
   },
 ];

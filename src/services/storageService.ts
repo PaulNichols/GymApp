@@ -6,9 +6,11 @@ const APP_VERSION = '0.1.0';
 const PROGRAMS_KEY = 'swimGymTracker.programs';
 const HISTORY_KEY = 'swimGymTracker.history';
 const PROGRAM_MIGRATION_KEY = 'swimGymTracker.programMigration';
-const DEFAULT_EXERCISE_MIGRATION = '2026-09-flexibility-additions';
-const PREVIOUS_EXERCISE_MIGRATION = '2026-07-leg-extension';
+const DEFAULT_EXERCISE_MIGRATION = '2026-10-upper-body-flexibility';
+const PREVIOUS_EXERCISE_MIGRATION = '2026-09-flexibility-additions';
+const LEG_EXTENSION_MIGRATION = '2026-07-leg-extension';
 const FLEXIBILITY_ADDITION_IDS = new Set(['bird-dog', 'glute-bridge']);
+const UPPER_BODY_ADDITION_IDS = new Set(['seated-chest-opener', 'cross-body-shoulder-stretch', 'seated-upper-back-twist']);
 const CATEGORIES = new Set(['pull', 'row', 'legs', 'core', 'shoulders', 'power', 'arms', 'mobility']);
 const REPLACED_DEFAULT_EXERCISE_IDS = new Set([
   'step-up-bulgarian-split-squat',
@@ -156,7 +158,9 @@ export const storageService = {
     let migrated = enriched;
 
     if (currentMigration === PREVIOUS_EXERCISE_MIGRATION) {
-      migrated = appendMissingDefaultExercises(enriched, FLEXIBILITY_ADDITION_IDS);
+      migrated = appendMissingDefaultExercises(enriched, UPPER_BODY_ADDITION_IDS);
+    } else if (currentMigration === LEG_EXTENSION_MIGRATION) {
+      migrated = appendMissingDefaultExercises(enriched, new Set([...FLEXIBILITY_ADDITION_IDS, ...UPPER_BODY_ADDITION_IDS]));
     } else if (currentMigration !== DEFAULT_EXERCISE_MIGRATION) {
       migrated = appendMissingDefaultExercises(removeReplacedDefaultExercises(enriched));
     }

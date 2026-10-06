@@ -143,9 +143,15 @@ Program B is Swim power, back, hips, shoulders.
 
 Flexibility is a 10-15 minute land mobility routine for evenings, after a walk, or after a shower. It includes cat-camel, child's pose, lower-back rotations, hip flexor, glute, hamstring, calf, forward fold, and thoracic rotation work.
 
+The routine also includes three gentle upper-body options: a seated chest opener (5-10 seconds, 5 times), a cross-body shoulder stretch (20-30 seconds once each side), and a seated upper-back twist (5-second holds, 5 times each side). Allow a few extra minutes if doing all three. The cues use an easy, pain-free range, relaxed breathing, and no bouncing, pressure on the elbow, or pulling on the wrist/chair. Stop any movement that hurts; these are general flexibility options, not an injury rehabilitation programme. If pain persists or you are unsure about a movement, check with a physiotherapist or GP.
+
+Guidance checked on 6 October 2026: [NHS sitting exercises](https://www.nhs.uk/live-well/exercise/sitting-exercises/) for the chest opener and upper-body twist, and [AAOS shoulder conditioning](https://www.orthoinfo.org/recovery/rotator-cuff-and-shoulder-conditioning-program/) for the cross-body stretch and avoiding elbow pressure. The shoulder stretch uses a shorter, optional single round rather than the full AAOS rehabilitation programme.
+
+Existing September routines receive only these three additions once. July routines also receive the earlier bird-dog and glute-bridge additions. Existing exercise edits, order, workout history, and deletions outside the applicable additions are preserved; a new stretch deleted after migration stays deleted.
+
 The included default exercises match the first version requirements and use sensible default units such as `kg` and `seconds`.
 
-Each default exercise also includes three short form cues and a YouTube search link. The app does not bundle copyrighted exercise photos or videos.
+Each default exercise also includes short form cues and a YouTube search link. The app does not bundle copyrighted exercise photos or videos.
 
 ## PWA Support
 
