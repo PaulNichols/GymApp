@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
   "source": "GymApp repository data",
-  "sourceExportedAt": "2026-09-26T03:23:33.107Z",
-  "sourceUpdatedAt": "2026-09-26T03:23:33.105Z",
+  "sourceExportedAt": "2026-10-09T05:46:01.607Z",
+  "sourceUpdatedAt": "2026-10-09T05:45:48.506Z",
   "timezone": "Australia/Brisbane",
   "window": {
     "days": 31,
-    "startDate": "2026-08-27",
-    "endDate": "2026-09-26"
+    "startDate": "2026-09-09",
+    "endDate": "2026-10-09"
   },
   "totals": {
     "programs": 3,
-    "exercises": 37,
-    "totalEntries": 212,
-    "entriesInWindow": 12,
-    "sessionsInWindow": 1,
-    "trainingDaysInWindow": 1,
+    "exercises": 40,
+    "totalEntries": 229,
+    "entriesInWindow": 29,
+    "sessionsInWindow": 2,
+    "trainingDaysInWindow": 2,
     "notesInWindow": 0
   },
   "programTotals": [
     {
       "programName": "Flexibility",
-      "entries": 22,
-      "sessions": 3,
-      "trainingDays": 3,
-      "latestCompletedAt": "2026-09-26T03:23:33.105Z"
+      "entries": 39,
+      "sessions": 4,
+      "trainingDays": 4,
+      "latestCompletedAt": "2026-10-09T05:45:48.506Z"
     },
     {
       "programName": "Program A",
@@ -44,13 +44,160 @@
   "windowProgramTotals": [
     {
       "programName": "Flexibility",
-      "entries": 12,
-      "sessions": 1,
-      "trainingDays": 1,
-      "latestCompletedAt": "2026-09-26T03:23:33.105Z"
+      "entries": 29,
+      "sessions": 2,
+      "trainingDays": 2,
+      "latestCompletedAt": "2026-10-09T05:45:48.506Z"
     }
   ],
   "recentSessions": [
+    {
+      "date": "2026-10-09",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "startedAt": "2026-10-09T05:05:00.828Z",
+      "completedAt": "2026-10-09T05:45:48.506Z",
+      "entryCount": 17,
+      "notesCount": 0,
+      "exercises": [
+        {
+          "exerciseId": "cat-camel",
+          "exerciseName": "Cat-camel",
+          "value": "",
+          "numericValue": null,
+          "unit": "reps",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "childs-pose",
+          "exerciseName": "Child's pose",
+          "value": "",
+          "numericValue": null,
+          "unit": "seconds",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "cat-camel",
+          "exerciseName": "Cat-camel",
+          "value": "12",
+          "numericValue": 12,
+          "unit": "reps",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "childs-pose",
+          "exerciseName": "Child's pose",
+          "value": "30",
+          "numericValue": 30,
+          "unit": "seconds",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "lower-back-rotations",
+          "exerciseName": "Knees side-to-side / lower back rotations",
+          "value": "10",
+          "numericValue": 10,
+          "unit": "reps each side",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "knee-to-chest-stretch",
+          "exerciseName": "Knee-to-chest stretch",
+          "value": "30",
+          "numericValue": 30,
+          "unit": "seconds each side",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "hip-flexor-stretch",
+          "exerciseName": "Hip flexor stretch",
+          "value": "30",
+          "numericValue": 30,
+          "unit": "seconds each side",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "figure-four-stretch",
+          "exerciseName": "Glute / figure-four stretch",
+          "value": "30",
+          "numericValue": 30,
+          "unit": "seconds each side",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "chair-hamstring-stretch",
+          "exerciseName": "Hamstring stretch on chair",
+          "value": "30",
+          "numericValue": 30,
+          "unit": "seconds each side",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "wall-calf-stretch",
+          "exerciseName": "Calf stretch against wall",
+          "value": "",
+          "numericValue": null,
+          "unit": "seconds each side",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "bent-knee-forward-fold",
+          "exerciseName": "Standing forward fold with bent knees",
+          "value": "30",
+          "numericValue": 30,
+          "unit": "seconds",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "open-book-thoracic-rotations",
+          "exerciseName": "Open-book thoracic rotations",
+          "value": "5",
+          "numericValue": 5,
+          "unit": "reps each side",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "bird-dog",
+          "exerciseName": "Bird dog",
+          "value": "",
+          "numericValue": null,
+          "unit": "reps each side",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "glute-bridge",
+          "exerciseName": "Glute bridge",
+          "value": "",
+          "numericValue": null,
+          "unit": "reps",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "seated-chest-opener",
+          "exerciseName": "Seated chest opener",
+          "value": "",
+          "numericValue": null,
+          "unit": "seconds",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "cross-body-shoulder-stretch",
+          "exerciseName": "Cross-body shoulder stretch",
+          "value": "",
+          "numericValue": null,
+          "unit": "seconds each side",
+          "hasNotes": false
+        },
+        {
+          "exerciseId": "seated-upper-back-twist",
+          "exerciseName": "Seated upper-back twist",
+          "value": "",
+          "numericValue": null,
+          "unit": "reps each side",
+          "hasNotes": false
+        }
+      ]
+    },
     {
       "date": "2026-09-26",
       "programId": "flexibility",
@@ -161,6 +308,17 @@
   ],
   "latestExerciseEntries": [
     {
+      "exerciseId": "lat-pulldown",
+      "exerciseName": "Lat pulldown",
+      "programName": "Program B",
+      "category": "pull",
+      "completedAt": "2026-08-24T07:47:07.196Z",
+      "value": "50",
+      "numericValue": 50,
+      "unit": "kg",
+      "hasNotes": false
+    },
+    {
       "exerciseId": "assisted-chin-up",
       "exerciseName": "Assisted chin-up",
       "programName": "Program A",
@@ -172,44 +330,11 @@
       "hasNotes": false
     },
     {
-      "exerciseId": "bird-dog",
-      "exerciseName": "Bird dog",
-      "programName": "Flexibility",
-      "category": "core",
-      "completedAt": "2026-09-26T03:22:44.152Z",
-      "value": "",
-      "numericValue": null,
-      "unit": "reps each side",
-      "hasNotes": false
-    },
-    {
-      "exerciseId": "exercise-c5d12f3f-8b4b-48bf-b31b-11da5df0f23e",
-      "exerciseName": "Calf raises",
-      "programName": "Program A",
-      "category": "",
-      "completedAt": "2026-07-27T07:58:50.083Z",
-      "value": "",
-      "numericValue": null,
-      "unit": "kg",
-      "hasNotes": false
-    },
-    {
-      "exerciseId": "wall-calf-stretch",
-      "exerciseName": "Calf stretch against wall",
-      "programName": "Flexibility",
-      "category": "mobility",
-      "completedAt": "2026-09-26T03:18:30.657Z",
-      "value": "30",
-      "numericValue": 30,
-      "unit": "seconds each side",
-      "hasNotes": false
-    },
-    {
       "exerciseId": "cat-camel",
       "exerciseName": "Cat-camel",
       "programName": "Flexibility",
       "category": "mobility",
-      "completedAt": "2026-09-26T03:07:40.942Z",
+      "completedAt": "2026-10-09T05:19:08.339Z",
       "value": "12",
       "numericValue": 12,
       "unit": "reps",
@@ -227,46 +352,35 @@
       "hasNotes": false
     },
     {
+      "exerciseId": "single-arm-dumbbell-row",
+      "exerciseName": "Single-arm dumbbell row",
+      "programName": "Program B",
+      "category": "row",
+      "completedAt": "2026-08-24T07:51:13.683Z",
+      "value": "15",
+      "numericValue": 15,
+      "unit": "kg",
+      "hasNotes": false
+    },
+    {
       "exerciseId": "childs-pose",
       "exerciseName": "Child's pose",
       "programName": "Flexibility",
       "category": "mobility",
-      "completedAt": "2026-09-26T03:09:17.160Z",
+      "completedAt": "2026-10-09T05:19:17.993Z",
       "value": "30",
       "numericValue": 30,
       "unit": "seconds",
       "hasNotes": false
     },
     {
-      "exerciseId": "copenhagen-plank-adductor-machine",
-      "exerciseName": "Copenhagen plank / adductor machine",
-      "programName": "Program B",
-      "category": "legs",
-      "completedAt": "2026-08-24T08:16:14.930Z",
-      "value": "",
-      "numericValue": null,
-      "unit": "seconds or kg",
-      "hasNotes": false
-    },
-    {
-      "exerciseId": "exercise-6b4922e0-ec6d-4e88-9bf7-363a065ef574",
-      "exerciseName": "Dumbbell bench press",
-      "programName": "Program B",
-      "category": "arms",
-      "completedAt": "2026-08-24T08:16:12.489Z",
-      "value": "",
-      "numericValue": null,
-      "unit": "kg",
-      "hasNotes": false
-    },
-    {
-      "exerciseId": "dumbbell-external-rotation",
-      "exerciseName": "Dumbbell external rotation",
+      "exerciseId": "straight-arm-pulldown",
+      "exerciseName": "Straight-arm pulldown",
       "programName": "Program A",
-      "category": "shoulders",
-      "completedAt": "2026-07-27T07:58:25.306Z",
-      "value": "7",
-      "numericValue": 7,
+      "category": "pull",
+      "completedAt": "2026-07-27T07:56:13.753Z",
+      "value": "45",
+      "numericValue": 45,
       "unit": "kg",
       "hasNotes": false
     },
@@ -282,14 +396,25 @@
       "hasNotes": false
     },
     {
-      "exerciseId": "dumbbell-romanian-deadlift",
-      "exerciseName": "Dumbbell Romanian deadlift",
+      "exerciseId": "lower-back-rotations",
+      "exerciseName": "Knees side-to-side / lower back rotations",
+      "programName": "Flexibility",
+      "category": "mobility",
+      "completedAt": "2026-10-09T05:19:24.323Z",
+      "value": "10",
+      "numericValue": 10,
+      "unit": "reps each side",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "rear-delt-fly",
+      "exerciseName": "Rear delt fly",
       "programName": "Program A",
-      "category": "legs",
-      "completedAt": "2026-07-27T07:58:24.440Z",
-      "value": "15",
-      "numericValue": 15,
-      "unit": "kg",
+      "category": "shoulders",
+      "completedAt": "2026-07-27T07:58:21.976Z",
+      "value": "70",
+      "numericValue": 70,
+      "unit": "Lbs",
       "hasNotes": false
     },
     {
@@ -304,36 +429,58 @@
       "hasNotes": false
     },
     {
-      "exerciseId": "farmers-carry",
-      "exerciseName": "Farmer's carry",
-      "programName": "Program A",
-      "category": "power",
-      "completedAt": "2026-07-27T07:58:46.916Z",
-      "value": "32",
-      "numericValue": 32,
-      "unit": "Kg",
-      "hasNotes": true
-    },
-    {
-      "exerciseId": "figure-four-stretch",
-      "exerciseName": "Glute / figure-four stretch",
+      "exerciseId": "knee-to-chest-stretch",
+      "exerciseName": "Knee-to-chest stretch",
       "programName": "Flexibility",
       "category": "mobility",
-      "completedAt": "2026-09-26T03:15:21.714Z",
+      "completedAt": "2026-10-09T05:24:41.737Z",
       "value": "30",
       "numericValue": 30,
       "unit": "seconds each side",
       "hasNotes": false
     },
     {
-      "exerciseId": "glute-bridge",
-      "exerciseName": "Glute bridge",
-      "programName": "Flexibility",
+      "exerciseId": "leg-press",
+      "exerciseName": "Leg press",
+      "programName": "Program A",
       "category": "legs",
-      "completedAt": "2026-09-26T03:23:33.105Z",
-      "value": "",
-      "numericValue": null,
-      "unit": "reps",
+      "completedAt": "2026-07-27T07:58:23.256Z",
+      "value": "75",
+      "numericValue": 75,
+      "unit": "kg",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "triceps-pressdown",
+      "exerciseName": "Triceps pressdown",
+      "programName": "Program B",
+      "category": "arms",
+      "completedAt": "2026-08-24T07:57:03.020Z",
+      "value": "32",
+      "numericValue": 32,
+      "unit": "kg",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "hip-flexor-stretch",
+      "exerciseName": "Hip flexor stretch",
+      "programName": "Flexibility",
+      "category": "mobility",
+      "completedAt": "2026-10-09T05:26:46.674Z",
+      "value": "30",
+      "numericValue": 30,
+      "unit": "seconds each side",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "dumbbell-romanian-deadlift",
+      "exerciseName": "Dumbbell Romanian deadlift",
+      "programName": "Program A",
+      "category": "legs",
+      "completedAt": "2026-07-27T07:58:24.440Z",
+      "value": "15",
+      "numericValue": 15,
+      "unit": "kg",
       "hasNotes": false
     },
     {
@@ -344,6 +491,28 @@
       "completedAt": "2026-08-24T07:57:16.123Z",
       "value": "",
       "numericValue": null,
+      "unit": "kg",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "figure-four-stretch",
+      "exerciseName": "Glute / figure-four stretch",
+      "programName": "Flexibility",
+      "category": "mobility",
+      "completedAt": "2026-10-09T05:36:21.102Z",
+      "value": "30",
+      "numericValue": 30,
+      "unit": "seconds each side",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "dumbbell-external-rotation",
+      "exerciseName": "Dumbbell external rotation",
+      "programName": "Program A",
+      "category": "shoulders",
+      "completedAt": "2026-07-27T07:58:25.306Z",
+      "value": "7",
+      "numericValue": 7,
       "unit": "kg",
       "hasNotes": false
     },
@@ -363,21 +532,21 @@
       "exerciseName": "Hamstring stretch on chair",
       "programName": "Flexibility",
       "category": "mobility",
-      "completedAt": "2026-09-26T03:16:13.870Z",
+      "completedAt": "2026-10-09T05:37:14.021Z",
       "value": "30",
       "numericValue": 30,
       "unit": "seconds each side",
       "hasNotes": false
     },
     {
-      "exerciseId": "hip-flexor-stretch",
-      "exerciseName": "Hip flexor stretch",
-      "programName": "Flexibility",
-      "category": "mobility",
-      "completedAt": "2026-09-26T03:13:50.314Z",
-      "value": "30",
-      "numericValue": 30,
-      "unit": "seconds each side",
+      "exerciseId": "weighted-dead-bug-hollow-hold",
+      "exerciseName": "Weighted dead bug / hollow hold",
+      "programName": "Program A",
+      "category": "core",
+      "completedAt": "2026-07-27T07:58:43.513Z",
+      "value": "10",
+      "numericValue": 10,
+      "unit": "Kg",
       "hasNotes": false
     },
     {
@@ -392,69 +561,47 @@
       "hasNotes": false
     },
     {
-      "exerciseId": "knee-to-chest-stretch",
-      "exerciseName": "Knee-to-chest stretch",
+      "exerciseId": "wall-calf-stretch",
+      "exerciseName": "Calf stretch against wall",
       "programName": "Flexibility",
       "category": "mobility",
-      "completedAt": "2026-09-26T03:12:41.656Z",
-      "value": "30",
-      "numericValue": 30,
+      "completedAt": "2026-10-09T05:37:20.858Z",
+      "value": "",
+      "numericValue": null,
       "unit": "seconds each side",
       "hasNotes": false
     },
     {
-      "exerciseId": "lower-back-rotations",
-      "exerciseName": "Knees side-to-side / lower back rotations",
+      "exerciseId": "farmers-carry",
+      "exerciseName": "Farmer's carry",
+      "programName": "Program A",
+      "category": "power",
+      "completedAt": "2026-07-27T07:58:46.916Z",
+      "value": "32",
+      "numericValue": 32,
+      "unit": "Kg",
+      "hasNotes": true
+    },
+    {
+      "exerciseId": "medicine-ball-slam",
+      "exerciseName": "Medicine ball slam",
+      "programName": "Program B",
+      "category": "power",
+      "completedAt": "2026-08-24T08:08:39.424Z",
+      "value": "12",
+      "numericValue": 12,
+      "unit": "kg",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "bent-knee-forward-fold",
+      "exerciseName": "Standing forward fold with bent knees",
       "programName": "Flexibility",
       "category": "mobility",
-      "completedAt": "2026-09-26T03:11:07.587Z",
-      "value": "10",
-      "numericValue": 10,
-      "unit": "reps each side",
-      "hasNotes": false
-    },
-    {
-      "exerciseId": "landmine-press",
-      "exerciseName": "Landmine press",
-      "programName": "Program A",
-      "category": "",
-      "completedAt": "2026-07-14T08:21:28.808Z",
-      "value": "",
-      "numericValue": null,
-      "unit": "kg",
-      "hasNotes": false
-    },
-    {
-      "exerciseId": "lat-pulldown",
-      "exerciseName": "Lat pulldown",
-      "programName": "Program B",
-      "category": "pull",
-      "completedAt": "2026-08-24T07:47:07.196Z",
-      "value": "50",
-      "numericValue": 50,
-      "unit": "kg",
-      "hasNotes": false
-    },
-    {
-      "exerciseId": "leg-extension",
-      "exerciseName": "Leg extension",
-      "programName": "Program B",
-      "category": "legs",
-      "completedAt": "2026-08-14T07:55:51.443Z",
-      "value": "50",
-      "numericValue": 50,
-      "unit": "kg",
-      "hasNotes": false
-    },
-    {
-      "exerciseId": "leg-press",
-      "exerciseName": "Leg press",
-      "programName": "Program A",
-      "category": "legs",
-      "completedAt": "2026-07-27T07:58:23.256Z",
-      "value": "75",
-      "numericValue": 75,
-      "unit": "kg",
+      "completedAt": "2026-10-09T05:37:56.928Z",
+      "value": "30",
+      "numericValue": 30,
+      "unit": "seconds",
       "hasNotes": false
     },
     {
@@ -469,13 +616,13 @@
       "hasNotes": false
     },
     {
-      "exerciseId": "medicine-ball-slam",
-      "exerciseName": "Medicine ball slam",
-      "programName": "Program B",
-      "category": "power",
-      "completedAt": "2026-08-24T08:08:39.424Z",
-      "value": "12",
-      "numericValue": 12,
+      "exerciseId": "single-leg-leg-press",
+      "exerciseName": "Single-leg leg press",
+      "programName": "Program A",
+      "category": "legs",
+      "completedAt": "2026-07-27T07:58:53.616Z",
+      "value": "",
+      "numericValue": null,
       "unit": "kg",
       "hasNotes": false
     },
@@ -484,40 +631,18 @@
       "exerciseName": "Open-book thoracic rotations",
       "programName": "Flexibility",
       "category": "mobility",
-      "completedAt": "2026-09-26T03:21:23.727Z",
+      "completedAt": "2026-10-09T05:40:09.807Z",
       "value": "5",
       "numericValue": 5,
       "unit": "reps each side",
       "hasNotes": false
     },
     {
-      "exerciseId": "pallof-press",
-      "exerciseName": "Pallof press",
-      "programName": "Program A",
-      "category": "",
-      "completedAt": "2026-07-14T08:21:31.326Z",
-      "value": "",
-      "numericValue": null,
-      "unit": "kg",
-      "hasNotes": false
-    },
-    {
-      "exerciseId": "rear-delt-fly",
-      "exerciseName": "Rear delt fly",
-      "programName": "Program A",
-      "category": "shoulders",
-      "completedAt": "2026-07-27T07:58:21.976Z",
-      "value": "70",
-      "numericValue": 70,
-      "unit": "Lbs",
-      "hasNotes": false
-    },
-    {
-      "exerciseId": "rotary-torso-machine",
-      "exerciseName": "Rotary torso machine",
-      "programName": "Program A",
-      "category": "core",
-      "completedAt": "2026-07-27T08:06:23.336Z",
+      "exerciseId": "exercise-6b4922e0-ec6d-4e88-9bf7-363a065ef574",
+      "exerciseName": "Dumbbell bench press",
+      "programName": "Program B",
+      "category": "arms",
+      "completedAt": "2026-08-24T08:16:12.489Z",
       "value": "",
       "numericValue": null,
       "unit": "kg",
@@ -535,36 +660,102 @@
       "hasNotes": false
     },
     {
-      "exerciseId": "single-arm-dumbbell-row",
-      "exerciseName": "Single-arm dumbbell row",
-      "programName": "Program B",
-      "category": "row",
-      "completedAt": "2026-08-24T07:51:13.683Z",
-      "value": "15",
-      "numericValue": 15,
-      "unit": "kg",
+      "exerciseId": "bird-dog",
+      "exerciseName": "Bird dog",
+      "programName": "Flexibility",
+      "category": "core",
+      "completedAt": "2026-10-09T05:40:14.295Z",
+      "value": "",
+      "numericValue": null,
+      "unit": "reps each side",
       "hasNotes": false
     },
     {
-      "exerciseId": "single-leg-leg-press",
-      "exerciseName": "Single-leg leg press",
-      "programName": "Program A",
+      "exerciseId": "copenhagen-plank-adductor-machine",
+      "exerciseName": "Copenhagen plank / adductor machine",
+      "programName": "Program B",
       "category": "legs",
-      "completedAt": "2026-07-27T07:58:53.616Z",
+      "completedAt": "2026-08-24T08:16:14.930Z",
+      "value": "",
+      "numericValue": null,
+      "unit": "seconds or kg",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "rotary-torso-machine",
+      "exerciseName": "Rotary torso machine",
+      "programName": "Program A",
+      "category": "core",
+      "completedAt": "2026-07-27T08:06:23.336Z",
       "value": "",
       "numericValue": null,
       "unit": "kg",
       "hasNotes": false
     },
     {
-      "exerciseId": "bent-knee-forward-fold",
-      "exerciseName": "Standing forward fold with bent knees",
+      "exerciseId": "glute-bridge",
+      "exerciseName": "Glute bridge",
+      "programName": "Flexibility",
+      "category": "legs",
+      "completedAt": "2026-10-09T05:40:17.452Z",
+      "value": "",
+      "numericValue": null,
+      "unit": "reps",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "leg-extension",
+      "exerciseName": "Leg extension",
+      "programName": "Program B",
+      "category": "legs",
+      "completedAt": "2026-08-14T07:55:51.443Z",
+      "value": "50",
+      "numericValue": 50,
+      "unit": "kg",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "seated-chest-opener",
+      "exerciseName": "Seated chest opener",
       "programName": "Flexibility",
       "category": "mobility",
-      "completedAt": "2026-09-26T03:19:58.599Z",
-      "value": "30",
-      "numericValue": 30,
+      "completedAt": "2026-10-09T05:44:27.917Z",
+      "value": "",
+      "numericValue": null,
       "unit": "seconds",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "cross-body-shoulder-stretch",
+      "exerciseName": "Cross-body shoulder stretch",
+      "programName": "Flexibility",
+      "category": "mobility",
+      "completedAt": "2026-10-09T05:44:50.940Z",
+      "value": "",
+      "numericValue": null,
+      "unit": "seconds each side",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "seated-upper-back-twist",
+      "exerciseName": "Seated upper-back twist",
+      "programName": "Flexibility",
+      "category": "mobility",
+      "completedAt": "2026-10-09T05:45:48.506Z",
+      "value": "",
+      "numericValue": null,
+      "unit": "reps each side",
+      "hasNotes": false
+    },
+    {
+      "exerciseId": "exercise-c5d12f3f-8b4b-48bf-b31b-11da5df0f23e",
+      "exerciseName": "Calf raises",
+      "programName": "Program A",
+      "category": "",
+      "completedAt": "2026-07-27T07:58:50.083Z",
+      "value": "",
+      "numericValue": null,
+      "unit": "kg",
       "hasNotes": false
     },
     {
@@ -579,36 +770,25 @@
       "hasNotes": true
     },
     {
-      "exerciseId": "straight-arm-pulldown",
-      "exerciseName": "Straight-arm pulldown",
+      "exerciseId": "landmine-press",
+      "exerciseName": "Landmine press",
       "programName": "Program A",
-      "category": "pull",
-      "completedAt": "2026-07-27T07:56:13.753Z",
-      "value": "45",
-      "numericValue": 45,
+      "category": "",
+      "completedAt": "2026-07-14T08:21:28.808Z",
+      "value": "",
+      "numericValue": null,
       "unit": "kg",
       "hasNotes": false
     },
     {
-      "exerciseId": "triceps-pressdown",
-      "exerciseName": "Triceps pressdown",
-      "programName": "Program B",
-      "category": "arms",
-      "completedAt": "2026-08-24T07:57:03.020Z",
-      "value": "32",
-      "numericValue": 32,
-      "unit": "kg",
-      "hasNotes": false
-    },
-    {
-      "exerciseId": "weighted-dead-bug-hollow-hold",
-      "exerciseName": "Weighted dead bug / hollow hold",
+      "exerciseId": "pallof-press",
+      "exerciseName": "Pallof press",
       "programName": "Program A",
-      "category": "core",
-      "completedAt": "2026-07-27T07:58:43.513Z",
-      "value": "10",
-      "numericValue": 10,
-      "unit": "Kg",
+      "category": "",
+      "completedAt": "2026-07-14T08:21:31.326Z",
+      "value": "",
+      "numericValue": null,
+      "unit": "kg",
       "hasNotes": false
     }
   ],
@@ -629,7 +809,7 @@
       "id": "flexibility",
       "name": "Flexibility",
       "description": "10-15 minute land mobility routine",
-      "exerciseCount": 12
+      "exerciseCount": 15
     }
   ]
 }
