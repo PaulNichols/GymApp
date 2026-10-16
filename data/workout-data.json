@@ -1,6 +1,6 @@
 {
   "appVersion": "0.1.0",
-  "exportedAt": "2026-10-09T05:46:01.607Z",
+  "exportedAt": "2026-10-16T23:07:51.235Z",
   "programs": [
     {
       "id": "program-a",
@@ -3111,6 +3111,171 @@
       "programName": "Flexibility",
       "equipment": "stable chair without arms or wheels",
       "completedAt": "2026-10-09T05:45:48.506Z",
+      "value": "",
+      "unit": "reps each side"
+    },
+    {
+      "id": "entry-69bf2c02-fee2-4b38-af6f-942839056236",
+      "exerciseId": "cat-camel",
+      "exerciseName": "Cat-camel",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "mat or floor",
+      "completedAt": "2026-10-16T22:12:48.669Z",
+      "value": "20",
+      "unit": "reps"
+    },
+    {
+      "id": "entry-884f1531-3c66-404c-955e-ce778773267d",
+      "exerciseId": "childs-pose",
+      "exerciseName": "Child's pose",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "mat or floor",
+      "completedAt": "2026-10-16T22:14:19.612Z",
+      "value": "30",
+      "unit": "seconds"
+    },
+    {
+      "id": "entry-d9e8ace3-3cba-4d08-8817-734b977949a1",
+      "exerciseId": "lower-back-rotations",
+      "exerciseName": "Knees side-to-side / lower back rotations",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "mat or floor",
+      "completedAt": "2026-10-16T22:16:07.479Z",
+      "value": "10",
+      "unit": "reps each side"
+    },
+    {
+      "id": "entry-a6332675-1de4-4ead-b0a5-8e2917d115d7",
+      "exerciseId": "knee-to-chest-stretch",
+      "exerciseName": "Knee-to-chest stretch",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "mat or floor",
+      "completedAt": "2026-10-16T22:19:25.150Z",
+      "value": "30",
+      "unit": "seconds each side"
+    },
+    {
+      "id": "entry-117a8852-03ce-4f16-8c96-14760596c976",
+      "exerciseId": "hip-flexor-stretch",
+      "exerciseName": "Hip flexor stretch",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "mat or floor",
+      "completedAt": "2026-10-16T22:30:05.097Z",
+      "value": "30",
+      "unit": "seconds each side"
+    },
+    {
+      "id": "entry-0989a33a-fe9c-421b-9b26-69abc9e60ccd",
+      "exerciseId": "figure-four-stretch",
+      "exerciseName": "Glute / figure-four stretch",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "mat, floor, or chair",
+      "completedAt": "2026-10-16T23:06:50.920Z",
+      "value": "",
+      "unit": "seconds each side"
+    },
+    {
+      "id": "entry-0ea2313b-b02e-49a5-9bd8-07128ba2057a",
+      "exerciseId": "chair-hamstring-stretch",
+      "exerciseName": "Hamstring stretch on chair",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "chair",
+      "completedAt": "2026-10-16T23:06:56.277Z",
+      "value": "30",
+      "unit": "seconds each side"
+    },
+    {
+      "id": "entry-f0125bd2-83b5-44a7-8cc4-95bbf3164159",
+      "exerciseId": "wall-calf-stretch",
+      "exerciseName": "Calf stretch against wall",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "wall",
+      "completedAt": "2026-10-16T23:07:03.568Z",
+      "value": "30",
+      "unit": "seconds each side"
+    },
+    {
+      "id": "entry-4d0e6d86-4822-4508-bea7-b02422fd0561",
+      "exerciseId": "bent-knee-forward-fold",
+      "exerciseName": "Standing forward fold with bent knees",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "bodyweight",
+      "completedAt": "2026-10-16T23:07:14.147Z",
+      "value": "30",
+      "unit": "seconds"
+    },
+    {
+      "id": "entry-aa1f7246-45b0-40ab-877c-ef0e60d93ce4",
+      "exerciseId": "open-book-thoracic-rotations",
+      "exerciseName": "Open-book thoracic rotations",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "mat or floor",
+      "completedAt": "2026-10-16T23:07:29.813Z",
+      "value": "5",
+      "unit": "reps each side"
+    },
+    {
+      "id": "entry-442e2b3e-f5c4-491b-90be-ab39654991a6",
+      "exerciseId": "bird-dog",
+      "exerciseName": "Bird dog",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "mat or floor",
+      "completedAt": "2026-10-16T23:07:37.012Z",
+      "value": "",
+      "unit": "reps each side"
+    },
+    {
+      "id": "entry-59f0babb-6227-419b-b5fb-955167df51d0",
+      "exerciseId": "glute-bridge",
+      "exerciseName": "Glute bridge",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "mat or floor",
+      "completedAt": "2026-10-16T23:07:40.150Z",
+      "value": "",
+      "unit": "reps"
+    },
+    {
+      "id": "entry-6b9b5751-5c43-45f0-9aa8-091d98cd6f07",
+      "exerciseId": "seated-chest-opener",
+      "exerciseName": "Seated chest opener",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "stable chair without arms or wheels",
+      "completedAt": "2026-10-16T23:07:46.592Z",
+      "value": "",
+      "unit": "seconds"
+    },
+    {
+      "id": "entry-d5e382a6-aab2-4c0f-987b-41f023feaea3",
+      "exerciseId": "cross-body-shoulder-stretch",
+      "exerciseName": "Cross-body shoulder stretch",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "no equipment",
+      "completedAt": "2026-10-16T23:07:48.967Z",
+      "value": "",
+      "unit": "seconds each side"
+    },
+    {
+      "id": "entry-b6a6433e-5e8d-406a-8863-4b01babd115e",
+      "exerciseId": "seated-upper-back-twist",
+      "exerciseName": "Seated upper-back twist",
+      "programId": "flexibility",
+      "programName": "Flexibility",
+      "equipment": "stable chair without arms or wheels",
+      "completedAt": "2026-10-16T23:07:51.234Z",
       "value": "",
       "unit": "reps each side"
     }
