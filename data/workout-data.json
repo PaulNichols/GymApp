@@ -1,6 +1,6 @@
 {
   "appVersion": "0.1.0",
-  "exportedAt": "2026-11-23T06:07:03.235Z",
+  "exportedAt": "2026-11-23T08:28:31.168Z",
   "programs": [
     {
       "id": "program-a",
@@ -3278,6 +3278,138 @@
       "completedAt": "2026-10-16T23:07:51.234Z",
       "value": "",
       "unit": "reps each side"
+    },
+    {
+      "id": "entry-13d92812-c648-42ba-9f33-11114da926e3",
+      "exerciseId": "assisted-chin-up",
+      "exerciseName": "Assisted chin-up",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "assisted chin-up machine",
+      "completedAt": "2026-11-23T08:10:44.683Z",
+      "value": "12",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-2a3e628a-c35e-41d4-b3c7-825596b8a4d2",
+      "exerciseId": "chest-supported-row",
+      "exerciseName": "Chest-supported row",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "seated row machine",
+      "completedAt": "2026-11-23T08:10:45.199Z",
+      "value": "35",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-22439150-50e0-4a61-813b-6e9479f45a85",
+      "exerciseId": "straight-arm-pulldown",
+      "exerciseName": "Straight-arm pulldown",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "cable machine",
+      "completedAt": "2026-11-23T08:10:45.665Z",
+      "value": "19",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-4a820694-8821-47d1-bc3a-4839ecf16da9",
+      "exerciseId": "rear-delt-fly",
+      "exerciseName": "Rear delt fly",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "rear delt / fly machine",
+      "completedAt": "2026-11-23T08:10:46.883Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-65cc2a34-0c46-4250-ae15-d36dc67d64a0",
+      "exerciseId": "leg-press",
+      "exerciseName": "Leg press",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "leg press machine",
+      "completedAt": "2026-11-23T08:10:49.838Z",
+      "value": "45",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-b3307856-b49b-4b38-8470-c31a0ea13641",
+      "exerciseId": "dumbbell-romanian-deadlift",
+      "exerciseName": "Dumbbell Romanian deadlift",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbells",
+      "completedAt": "2026-11-23T08:10:53.304Z",
+      "value": "15",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-2ddf5de3-fea0-4360-a8ae-435f455f7ba9",
+      "exerciseId": "dumbbell-external-rotation",
+      "exerciseName": "Dumbbell external rotation",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbell",
+      "completedAt": "2026-11-23T08:10:56.905Z",
+      "value": "7",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-7dbb1c93-efde-4394-849c-d145522f359a",
+      "exerciseId": "weighted-dead-bug-hollow-hold",
+      "exerciseName": "Weighted dead bug / hollow hold",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbell or bodyweight",
+      "completedAt": "2026-11-23T08:14:35.963Z",
+      "value": "10",
+      "unit": "seconds"
+    },
+    {
+      "id": "entry-cc39babf-e028-419a-b2e2-bbf37b8bf0e4",
+      "exerciseId": "farmers-carry",
+      "exerciseName": "Farmer's carry",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "dumbbells or kettlebells",
+      "completedAt": "2026-11-23T08:14:58.050Z",
+      "value": "20",
+      "unit": "seconds"
+    },
+    {
+      "id": "entry-981db9dc-41b3-43e7-85aa-bb072ccf71e6",
+      "exerciseId": "single-leg-leg-press",
+      "exerciseName": "Single-leg leg press",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "leg press machine",
+      "completedAt": "2026-11-23T08:19:03.620Z",
+      "value": "",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-09468dbe-4813-41f5-977a-137dfeacb68c",
+      "exerciseId": "shoulder-press-machine",
+      "exerciseName": "Shoulder press machine",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "shoulder press machine",
+      "completedAt": "2026-11-23T08:25:24.273Z",
+      "value": "25",
+      "unit": "kg"
+    },
+    {
+      "id": "entry-7df3fbb6-eeaf-4001-a6ae-65653ecc1786",
+      "exerciseId": "rotary-torso-machine",
+      "exerciseName": "Rotary torso machine",
+      "programId": "program-a",
+      "programName": "Program A",
+      "equipment": "rotary torso machine",
+      "completedAt": "2026-11-23T08:28:31.167Z",
+      "value": "",
+      "unit": "kg"
     }
   ]
 }
