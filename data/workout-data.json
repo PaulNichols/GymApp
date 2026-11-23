@@ -162,18 +162,18 @@
           "videoUrl": "https://www.youtube.com/results?search_query=Shoulder%20press%20machine%20shoulder%20press%20machine%20proper%20form"
         },
         {
-          "id": "rotary-torso-machine",
-          "name": "Rotary torso machine",
-          "equipment": "rotary torso machine",
+          "id": "abdominal-crunch-machine",
+          "name": "Abdominal crunch machine",
+          "equipment": "abdominal crunch machine",
           "unit": "kg",
           "category": "core",
-          "swimDescription": "Trains controlled trunk rotation for freestyle and backstroke, helping the hips and ribs connect to the pull without overloading the lower back.",
+          "swimDescription": "Builds abdominal strength to help control your body line in butterfly and underwater dolphin kicks, and tuck for freestyle and backstroke flip turns.",
           "guideCues": [
-            "Use a small controlled range",
-            "Move from ribs and hips together",
-            "Return slowly without bouncing"
+            "Adjust the seat and pads to fit",
+            "Curl your ribs toward your hips without tugging on the handles",
+            "Return slowly through a comfortable range"
           ],
-          "videoUrl": "https://www.youtube.com/results?search_query=Rotary%20torso%20machine%20rotary%20torso%20machine%20proper%20form"
+          "videoUrl": "https://www.youtube.com/results?search_query=Abdominal%20crunch%20machine%20abdominal%20crunch%20machine%20proper%20form"
         }
       ]
     },

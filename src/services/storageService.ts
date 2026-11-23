@@ -1,4 +1,4 @@
-import { defaultPrograms } from '../data/defaultPrograms';
+import { abdominalCrunchMachine, defaultPrograms } from '../data/defaultPrograms';
 import type { ExportData, Program, WorkoutEntry } from '../types';
 import { findLatestRecordedEntry } from './workoutHistory';
 
@@ -73,6 +73,24 @@ const removeReplacedDefaultExercises = (programs: Program[]): Program[] =>
     ...program,
     exercises: program.exercises.filter((exercise) => !REPLACED_DEFAULT_EXERCISE_IDS.has(exercise.id)),
   }));
+
+const replaceRotaryTorsoMachine = (program: Program): Program => {
+  if (program.id !== 'program-a') {
+    return program;
+  }
+
+  const hasAbdominalCrunch = program.exercises.some((exercise) => exercise.id === abdominalCrunchMachine.id);
+  return {
+    ...program,
+    exercises: program.exercises.flatMap((exercise) => {
+      if (exercise.id !== 'rotary-torso-machine') {
+        return [exercise];
+      }
+
+      return hasAbdominalCrunch ? [] : [structuredClone(abdominalCrunchMachine)];
+    }),
+  };
+};
 
 const readJson = <T,>(key: string, fallback: T): T => {
   try {
@@ -153,7 +171,7 @@ export const storageService = {
       return defaults;
     }
 
-    const enriched = appendMissingDefaultPrograms(enrichPrograms(programs));
+    const enriched = appendMissingDefaultPrograms(enrichPrograms(programs.map(replaceRotaryTorsoMachine)));
     const currentMigration = localStorage.getItem(PROGRAM_MIGRATION_KEY);
     let migrated = enriched;
 

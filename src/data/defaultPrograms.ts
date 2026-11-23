@@ -19,6 +19,20 @@ const exercise = (
   videoUrl: `https://www.youtube.com/results?search_query=${encodeURIComponent(`${name} ${equipment} proper form`)}`,
 });
 
+export const abdominalCrunchMachine = exercise(
+  'abdominal-crunch-machine',
+  'Abdominal crunch machine',
+  'abdominal crunch machine',
+  'kg',
+  'core',
+  'Builds abdominal strength to help control your body line in butterfly and underwater dolphin kicks, and tuck for freestyle and backstroke flip turns.',
+  [
+    'Adjust the seat and pads to fit',
+    'Curl your ribs toward your hips without tugging on the handles',
+    'Return slowly through a comfortable range',
+  ],
+);
+
 export const defaultPrograms: Program[] = [
   {
     id: 'program-a',
@@ -75,11 +89,7 @@ export const defaultPrograms: Program[] = [
         'Reach long through arms and legs',
         'Stop before form breaks',
       ]),
-      exercise('rotary-torso-machine', 'Rotary torso machine', 'rotary torso machine', 'kg', 'core', 'Trains controlled trunk rotation for freestyle and backstroke, helping the hips and ribs connect to the pull without overloading the lower back.', [
-        'Use a small controlled range',
-        'Move from ribs and hips together',
-        'Return slowly without bouncing',
-      ]),
+      abdominalCrunchMachine,
       exercise('farmers-carry', "Farmer's carry", 'dumbbells or kettlebells', 'seconds', 'power', 'Builds grip, trunk stiffness, and shoulder packing that carry over to freestyle and backstroke pull stability late in a set.', [
         'Stand tall with shoulders packed',
         'Walk slowly without leaning',
