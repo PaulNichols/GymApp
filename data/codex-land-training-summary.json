@@ -6,8 +6,8 @@
   "timezone": "Australia/Brisbane",
   "window": {
     "days": 31,
-    "startDate": "2026-10-24",
-    "endDate": "2026-11-23"
+    "startDate": "2026-10-25",
+    "endDate": "2026-11-24"
   },
   "totals": {
     "programs": 3,
@@ -527,7 +527,7 @@
       "exerciseId": "rotary-torso-machine",
       "exerciseName": "Rotary torso machine",
       "programName": "Program A",
-      "category": "core",
+      "category": "",
       "completedAt": "2026-11-23T08:28:31.167Z",
       "value": "",
       "numericValue": null,
